@@ -1,0 +1,18 @@
+[book]
+authors = ["System76"]
+language = "en"
+multilingual = true
+src = "docs"
+title = "Pop!_OS Documentation"
+
+[build]
+---create-missing = false
+---use-default-preprocessors = false
+build-dir = "dist"
+
+
+[output.html]
+---theme = "static"
+---additional-css = ["static/docs.css", "static/minimal.common.css"]
+---git-repository-url = "https://github.com/pop-os/docs"
+---git-repository-icon = "fa-github"
