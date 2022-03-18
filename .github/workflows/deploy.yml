@@ -19,7 +19,7 @@ jobs:
           mdbook-version: '0.4.15'
 
       - name: Build Docs
-        run: mdbook build && mdbook test
+        run: mdbook build
 
   Deploy:
     runs-on: ubuntu-latest
