@@ -1,7 +1,7 @@
 [book]
 title = "Pop!_OS Documentation"
 authors = ["System76"]
-description = "The example book covers examples."
+description = "The Pop!_OS documentation website"
 src = "docs"
 language = "en"
 multilingual = true
