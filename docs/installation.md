@@ -25,9 +25,9 @@ The Pop!_OS installer guides the user through setup of basic system settings:
 
 ![Keyboard Layout](images/installation/keyboard-language2.png)
 
-5. Choose the `Clean Install` option for a standard installation. This the best option for new Linux users. 
+5. Choose the `Clean Install` option for a standard installation. This is the best option for new Linux users. 
 
->**Note**: The `Custom (Advanced)` option opens GParted. GParted allows users to choose partition tables, create custom partition, among other options.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. -->
+>**Note**: The `Custom (Advanced)` option opens GParted. GParted allows users to choose partition tables and create custom partitions, among other options.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. -->
 
 ![Clean Install](images/installation/clean-install.png)
 
@@ -35,7 +35,7 @@ The Pop!_OS installer guides the user through setup of basic system settings:
 
 ![Select Drive](images/installation/select-system-drive.png)
 
-7. Enter your first and last name. A suggested username will populate in the User Name field.
+7. Enter your first and last name (or a display name). A suggested username will populate in the User Name field.
 
 >**Tip**: You don't need to type your username when logging into Pop!_OS normally, but it can be handy to remember when logging into a terminal session, logging in remotely via SSH, or performing certain configurations.
 
