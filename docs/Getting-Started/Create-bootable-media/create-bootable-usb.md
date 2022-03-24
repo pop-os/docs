@@ -16,8 +16,6 @@ Creating a bootable Pop!_OS USB drive requires three components:
 
 ## Choose a Pop!_OS Image
 
-### Standard, NVIDIA, & RAS PI 4 ISOs
-
 Pop!_OS offers its ISO image in 3 Varieties: 
 
 - **Intel/AMD** - This option does not include propriety NVIDIA drivers.
