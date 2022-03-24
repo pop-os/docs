@@ -2,6 +2,7 @@
 
 A full version of Pop!_OS can be run from a USB drive (often known as a thumb drive, flash drive, or USB stick) in a live environment. You can use the live USB to install Pop!_OS permenantly on a system, demo Pop!_OS without installing, or use the drive as a system recovery tool.
 
+---
 ## Preparation
 
 Creating a bootable Pop!_OS USB drive requires three components: 
@@ -31,5 +32,5 @@ Pop!_OS offers its ISO image in 3 Varieties:
 This process will vary depending on the host operating system. Refer to the below chapter sections. 
 
 - [Create a Bootable Pop!_OS USB in Linux](bootable-usb-using-linux.md)
-- Create a Bootable Pop!_OS USB in Windows
-- Create a Bootable Pop!_OS USB in MacOS
+<!-- Create a Bootable Pop!_OS USB in Windows
+- Create a Bootable Pop!_OS USB in MacOS -->
