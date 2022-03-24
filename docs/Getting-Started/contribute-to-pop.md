@@ -1,0 +1,2 @@
+- how capable users can contribute to the project (but reports, github pr's)
+- how users can donate (https://pop.system76.com/)
