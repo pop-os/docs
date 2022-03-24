@@ -1,8 +1,16 @@
 # Create a Bootable Pop!_OS USB in Linux
 
+Use this guide to create Pop!_OS bootable USB media from Linux:
+
+- Install ISO flashing software.
+- Download the Pop!_OS.iso file.
+- Verify the ISO.
+- Flash the ISO to your USB storage device.
+
+---
 ## I. Install Popsicle
 
-<!--add image of popsicle icon-->
+![Popsicle Icon](/images/create-bootable-usb-linux/popsicle-icon.png)
 
 Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
 
@@ -48,11 +56,11 @@ Download the appropriate Pop!_OS.iso file for your target system. See the [prepa
 
 ## III. Verify the Pop!_OS.iso File
 
-You should verify that your download matches the checksum before trying to install. This ensures that you've received the full, complete download and that it is not corrupted. Compare the hash values generated using the below commands to the values shown on the Pop!_OS download page.
+You should verify that your download matches the checksum before trying to install. This ensures that you've received the full, complete download and that it is not corrupted. Compare the hash values generated using the below commands to the values shown on the Pop!_OS download page. **Do not use the image below to verify hash values.**
 
 >**Note**: Popsicle also provides a feature for easily checking the SHA256 checksum of an ISO file. Skip this section if you prefer a GUI method.
 
-<!--add image of hash values-->
+![Compare Hash Values](/docs/images/create-bootable-usb-linux/compare-hash-values.png)
 
 When entering the appropriate checksum command below, ensure:
 

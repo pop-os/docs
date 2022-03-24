@@ -1,12 +1,14 @@
 # Installing Pop!_OS
 
-The Pop!_OS installer guides the user through setup of basic system settings:
+The Pop!_OS installer guides the user through setup of basic system settings.
 
-- Locale and keyboard language
-- Hard drive selection and partitioning (advanced)
-- User account creation
-- System disk encryption
+- Verify system and installation requirements.
+- Choose a locale and keyboard language.
+- Perform system hard drive selection and partitioning (advanced).
+- Create a user account.
+- Enable system disk encryptions.
 
+---
 ## Requirements
 
 ### System Specifications
@@ -25,6 +27,7 @@ Systems with Secure Boot enabled must disable this feature before installing Pop
 
 The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!_OS USB.](/Getting-Started/Create-bootable-media/create-bootable-usb.md)
 
+---
 ## Installation
 
 1. Choose a language.
