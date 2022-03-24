@@ -20,7 +20,8 @@ git checkout -b <your-branch>
 
 ```bash
 git add . && git commit -m "chore: did stuff" && git push --set-upstream origin <your-branch>
-in the gh ui, make a PR to master main
 ```
 
-when a merge to main occurs it will automatically build and deploy to https://pop-os.github.io/docs
+via the GitHub ui, make a PR to main branch
+
+when a push/merge to main occurs it will automatically build and deploy to https://pop-os.github.io/docs
