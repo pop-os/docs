@@ -1,0 +1,1 @@
+Users creating installation media from Windows or MacOS can use Rufus. Rufus is an open source startup disk creator capable of writing ISO images to portable storage media.
