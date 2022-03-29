@@ -29,7 +29,7 @@ Pop!_OS offers its ISO image in 3 Varieties:
 
 ## Create the Installation Media
 
-This process will vary depending on the host operating system. Refer to the below chapter sections. 
+This process will vary depending on the host operating system. Refer to the appropriate chapter section for your current operating system. 
 
 - [Create a Bootable Pop!_OS USB in Linux](bootable-usb-using-linux.md)
 <!-- Create a Bootable Pop!_OS USB in Windows
