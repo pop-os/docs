@@ -52,17 +52,16 @@ Download the appropriate Pop!_OS.iso file for your target system. See the [prepa
 
 ## III. Verify the Pop!_OS.iso File
 
-You should verify that your download matches the checksum before trying to install. This ensures that you've received the full, complete download and that it is not corrupted. Compare the hash values generated using the below commands to the values shown on the Pop!_OS download page. **Do not use the image below to verify hash values.**
+You should verify that your download matches the checksum before trying to install. This ensures that you've received the full, complete download and that it is not corrupted. Compare the hash values generated using the below commands to the values shown on the [Pop!_OS download page](https://pop.system76.com/). **Do not use the image below to verify hash values.**
 
->**Note**: Popsicle also provides a feature for easily checking the SHA256 checksum of an ISO file. Skip this section if you prefer a GUI method.
-
-![Compare Hash Values](/docs/images/create-bootable-usb-linux/compare-hash-values.png)
+![Compare Hash Values](/images/create-bootable-usb-linux/compare-hash-values.png)
 
 When entering the appropriate checksum command below, ensure:
 
 - The file name in your command matches the downloaded ISO in your local directory. 
 - The examples below use the ~/Downloads folder. Make sure the appropriate explicit or relative path is used in your command.
 
+>**Note**: Popsicle also provides a feature for easily checking the SHA256 checksum of an ISO file (Step 3). Skip this section if you prefer a GUI method.
 ### Verify the Intel/AMD ISO
 
 ```bash
