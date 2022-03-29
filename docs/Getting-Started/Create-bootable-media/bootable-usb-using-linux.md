@@ -14,12 +14,8 @@ Use this guide to create Pop!_OS bootable USB media from Linux:
 
 Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
 
->**Note**: Intermediate to advanced Linux users may prefer alternative imaging software programs. USB boot media creation for the Pop!_OS.iso requires no special considerations compared to other Linux distros. Skip this section if you are familiar with creating bootable USB media in Linux.
-
-Popsicle's installation process may vary depending on your distribution. If you are already running Pop!_OS, skip to the USB creation steps.
-
+Popsicle's installation process may vary depending on your distribution. Skip to the USB creation steps if you're already running Pop!_OS.
 ### Ubuntu & Ubuntu-based Distributions
-
 #### Apt
 
 1. Add the System76 PPA. 
@@ -123,7 +119,7 @@ Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS ins
 
 Poweroff the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Follow the steps in the [Standard Installation](/Getting-Started/Installation/installation.md) section.
 
->**Note**: If your computer has Secure Boot Enabled; it must be disabled before installing Pop!_OS. See [Microsoft's official documentation](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-10) for this procedure.
+>**Note**: Systems with Secure Boot enabled must disable this feature before installing Pop!_OS. See [Microsoft's official documentation](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-10) for this procedure.
 
 ### Demo Pop!_OS
 
