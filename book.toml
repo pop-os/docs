@@ -14,10 +14,10 @@ build-dir = "dist"
 [output.html]
 --cname = "docs.pop-os.org"
 default-theme = "light"
-preferred-dark-theme = "midnight"
+--preferred-dark-theme = "midnight"
 additional-css = ["theme/css/fonts.css", "theme/css/colors.css"]
 additional-js = ["theme/main.js"]
 git-repository-url = "https://github.com/pop-os/docs"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/pop-os/docs/edit/master/{path}"
+edit-url-template = "https://github.com/pop-os/docs/edit/main/{path}"
 input-404 = "not-found.md"
