@@ -12,37 +12,22 @@ Use this guide to create Pop!_OS bootable USB media from Linux:
 
 ![Popsicle Icon](/images/create-bootable-usb-linux/popsicle-icon.png)
 
-Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
+Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux utility for flashing multiple USB devices in parallel, written in Rust. You can install Popsicle via flatpak or AppImage.
+### AppImage
 
-Popsicle's installation process may vary depending on your distribution. Skip to the USB creation steps if you're already running Pop!_OS.
-### Ubuntu & Ubuntu-based Distributions
-#### Apt
+1. Download the Popsicle AppImage [from this repo.](https://github.com/pop-os/popsicle/releases/tag/1.3.0)
 
-1. Add the System76 PPA. 
+2. Navigate to the downloaded AppImage. Right-click the appimage and select Properties.
 
-```[bash]
-sudo add-apt-repository ppa:system76/pop
-```
+3. Select the `Permissions` tab and check the `Execute` box.
 
-2. Install Popsicle with the below command.
+![AppImage Execute Permission](/images/create-bootable-usb-linux/appimage-execute.png)
 
-```[bash]
-sudo apt install popsicle popsicle-gtk
-```
-
-3. Remove the System76 PPA to prevent messages prompting to upgrade Pop!_OS.
-
-```bash
-sudo add-apt-repository -r ppa:system76/pop
-```
-
-#### Flatpak
+4. Double click the Popsicle AppImage to launch it.
+### Flatpak
 
 Linux users with [Flatpak installed](https://flatpak.org/setup/) in their distribution can simply download and install the [Popsicle flatpak](https://flathub.org/apps/details/com.system76.Popsicle) from Flathub. 
 
-### Other Linux Distributions
-
-Refer to the README.md file in the official [Popsicle github repository.](https://github.com/pop-os/popsicle)
 
 ## II. Download the Pop!_OS.iso File
 
