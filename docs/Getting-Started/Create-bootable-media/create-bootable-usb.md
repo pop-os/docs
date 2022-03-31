@@ -11,15 +11,13 @@ Creating a bootable Pop!_OS USB drive requires three components:
 
 - The Pop!_OS.iso image: [Download Pop!_OS at this link.](https://pop.system76.com/)
 
->**Note**: System76 offers their Pop!_OS.iso in 3 varieties: Intel/AMD, NVIDIA, and RAS PI. See [Choosing a Pop!_OS Image](create-bootable-usb.md#choose-a-pop_os-image).
-
-- A program to write the Pop!_OS.iso image to the flash drive. [Etcher](https://www.balena.io/etcher/) and [Popsicle](https://github.com/pop-os/popsicle) are popular options for Linux users, and [Rufus](https://rufus.ie/en/) is compatible with both Windows and MacOS.
+- A program to write the Pop!_OS.iso image to the flash drive. [Etcher](https://www.balena.io/etcher/) and [Popsicle](https://github.com/pop-os/popsicle) are popular options for Linux users, and [Rufus](https://rufus.ie/en/) is compatible with both Windows and macOS.
 
 ## Choose a Pop!_OS Image
 
-Pop!_OS offers its ISO image in 3 Varieties: 
+Pop!_OS offers its ISO image in 3 varieties:
 
-- **Intel/AMD** - This option does not include propriety NVIDIA drivers.
+- **Intel/AMD** - An ISO that does not include propriety NVIDIA drivers.
 
 >**Note**: If you accidentally install the non-NVIDIA version on a PC with a discrete NVIDIA GPU: Run `sudo apt-get install system76-driver-nvidia` in a Terminal session to obtain the missing drivers.
 
