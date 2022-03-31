@@ -15,7 +15,7 @@ Use this guide to create Pop!_OS bootable USB media from Linux:
 Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux utility for flashing multiple USB devices in parallel, written in Rust. You can install Popsicle via flatpak or AppImage.
 ### AppImage
 
-1. Download the Popsicle AppImage [from this repo.](https://github.com/pop-os/popsicle/releases/tag/1.3.0)
+1. Download the Popsicle AppImage [from this repo.](https://github.com/pop-os/popsicle/releases/latest)
 
 2. Navigate to the downloaded AppImage. Right-click the appimage and select Properties.
 
