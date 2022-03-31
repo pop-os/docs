@@ -19,7 +19,7 @@ Pop!_OS offers its ISO image in 3 varieties:
 
 - **Intel/AMD** - An ISO that does not include propriety NVIDIA drivers.
 
->**Note**: If you accidentally install the non-NVIDIA version on a PC with a discrete NVIDIA GPU: Run `sudo apt-get install system76-driver-nvidia` in a Terminal session to obtain the missing drivers.
+>**Note**: If you accidentally install the non-NVIDIA version on a PC with a discrete NVIDIA GPU, run `sudo apt-get install system76-driver-nvidia` in a Terminal session to obtain the missing drivers.
 
 - **NVIDIA** - An ISO contianing proprietary NVIDIA drivers for systems with discrete NVIDIA GPUs.
 
