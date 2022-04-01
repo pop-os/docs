@@ -9,25 +9,27 @@ The Pop!_OS installer guides the user through setup of basic system settings.
 - Enable system disk encryptions.
 
 ---
+
 ## Requirements
 
 ### System Specifications
 
 | Component | Requirement | Recommended |
 |-----------|-------------|-------------|
-| CPU       | 64-bit x86 architecture |     
+| CPU       | 64-bit x86 architecture |
 | RAM       | 2 GB        | 4 GB        |
-| Drive Storage | 20 GB   |             | 
+| Drive Storage | 20 GB   |             |
 
 ### Secure Boot
 
-Systems with Secure Boot enabled must disable this feature before installing Pop!_OS. See [Microsoft's official documentation](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-10) for this procedure.
+Systems with Secure Boot enabled must disable this feature before installing Pop!_OS. Secure boot can be disabled in the BIOS of most computers; however, the process to disable secure boot will vary by laptop and motherboard model.
 
 ### Installation Media
 
 The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!_OS USB.](/Getting-Started/Create-bootable-media/create-bootable-usb.md)
 
 ---
+
 ## Pop!\_OS Installation
 
 1. Choose a language.
