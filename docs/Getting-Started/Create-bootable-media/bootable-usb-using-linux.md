@@ -1,23 +1,20 @@
 # Create a Bootable Pop!_OS USB in Linux
 
-Use this guide to create Pop!_OS bootable USB media from Linux:
+This section explains the process of creating a bootable Pop!\_OS USB in Linux using Popsicle.
 
-- Install ISO flashing software.
-- Download the Pop!_OS.iso file.
-- Verify the ISO.
-- Flash the ISO to your USB storage device.
+- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#i-install-popsicle)
+- [Download the Pop!_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#ii-download-the-pop_osiso-file)
+- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#iv-create-the-bootable-usb)
 
 ---
-## I. Install Popsicle
+## Install Popsicle
 
-![Popsicle Icon](/images/create-bootable-usb-linux/popsicle-icon.png)
-
-Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux utility for flashing multiple USB devices in parallel, written in Rust. You can install Popsicle via flatpak or AppImage.
+Popsicle is a Linux utility for flashing multiple USB devices at once. You can install Popsicle as a Flatpak or AppImage.
 ### AppImage
 
-1. Download the Popsicle AppImage [from this repo.](https://github.com/pop-os/popsicle/releases/latest)
+1. Download the Popsicle AppImage from this [Popsicle repository.](https://github.com/pop-os/popsicle/releases/latest)
 
-2. Navigate to the downloaded AppImage. Right-click the appimage and select Properties.
+2. Navigate to the downloaded AppImage. Right-click the AppImage and select `Properties`.
 
 3. Select the `Permissions` tab and check the `Execute` box.
 
@@ -26,46 +23,29 @@ Create a bootable USB drive for Pop!_OS using Popsicle. Popsicle is a Linux util
 4. Double click the Popsicle AppImage to launch it.
 ### Flatpak
 
-Linux users with [Flatpak installed](https://flatpak.org/setup/) in their distribution can simply download and install the [Popsicle flatpak](https://flathub.org/apps/details/com.system76.Popsicle) from Flathub. 
+1. Follow the instructions on [Flatpak.org](https://flatpak.org/setup/) if Flatpak is not installed in your Linux distribution.
 
+2. Open a Terminal session and enter this command: 
 
-## II. Download the Pop!_OS.iso File
+```bash
+flatpak install flathub com.system76.Popsicle
+```
+
+3. Enter this command to launch Popsicle: 
+
+```bash 
+flatpak run com.system76.Popsicle
+```
+## Download the Pop!_OS.iso File
 
 ![Linux Download ISO](/images/create-bootable-usb-linux/using-linux-download-iso.png)
 
-Download the appropriate Pop!_OS.iso file for your target system. See the [preparation guide](create-bootable-usb.md#standard-nvidia--ras-pi-4-isos) for information about each version.
+Download the appropriate Pop!_OS.iso file for your target system. See the [preparation guide](/Getting-Started/Create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image) for information about each version. 
 
-## III. Verify the Pop!_OS.iso File
-
-You should verify that your download matches the checksum before trying to install. This ensures that you've received the full, complete download and that it is not corrupted. Compare the hash values generated using the below commands to the values shown on the [Pop!_OS download page](https://pop.system76.com/). **Do not use the image below to verify hash values.**
+Take note of the hash value for your chosen ISO. Use this value to verify the integrity of the ISO file in step four of the installation process.
 
 ![Compare Hash Values](/images/create-bootable-usb-linux/compare-hash-values.png)
-
-When entering the appropriate checksum command below, ensure:
-
-- The file name in your command matches the downloaded ISO in your local directory. 
-- The examples below use the ~/Downloads folder. Make sure the appropriate explicit or relative path is used in your command.
-
->**Note**: Popsicle also provides a feature for easily checking the SHA256 checksum of an ISO file (Step 3). Skip this section if you prefer a GUI method.
-### Verify the Intel/AMD ISO
-
-```bash
-sha256sum Downloads/pop-os_21.10_amd64_intel_7.iso
-```
-
-### Verify the NVIDIA ISO
-
-```bash
-sha256sum Downloads/pop-os_21.10_amd64_nvidia_7.iso
-```
-
-### Verify the RASP PI 4 ISO
-
-```bash
-sha256sum Downloads/pop-os_21.10_arm64_raspi_7.img.xz
-```
-
-## IV. Create the Bootable USB
+## Create the Bootable USB
 
 Flash your USB media with the Pop!_OS.iso image. Note that this process will completely erase all previous data on the USB storage device.
 
@@ -79,9 +59,11 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 3. Navigate to local directory with your Pop!_OS.iso file and select it.
 
->**Note**: You can optionally check the hash of the ISO file in this step before clicking `Next`.
-
 ![Find Image](/images/create-bootable-usb-linux/find-image.png)
+
+4. Click the drop down menu next to `Hash` and choose `SHA256`, then click `Check`. Compare the hash result to the value you saw when selecting your Pop!\_OS.iso file.
+
+![Verify ISO](/images/create-bootable-usb-linux/verify-iso.png)
 
 4. Click `Next`. 
 
@@ -95,7 +77,7 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 7. Click `Done` when the process completes. 
 
-## V. Next Steps
+## Next Steps
 
 Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS installation.
 

@@ -28,7 +28,7 @@ Systems with Secure Boot enabled must disable this feature before installing Pop
 The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!_OS USB.](/Getting-Started/Create-bootable-media/create-bootable-usb.md)
 
 ---
-## Installation
+## Pop!\_OS Installation
 
 1. Choose a language.
 
@@ -46,7 +46,7 @@ The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop
 
 ![Keyboard Layout](/images/installation/keyboard-language2.png)
 
-5. Choose the `Clean Install` option for a standard installation. This is the best option for new Linux users. 
+5. Choose the `Clean Install` option for a standard installation. This is the best option for new Linux users, but be aware that this will erase all contents of the target drive.
 
 >**Note**: The `Custom (Advanced)` option opens GParted. GParted allows users to choose partition tables and create custom partitions, among other options.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. -->
 
