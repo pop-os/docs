@@ -98,6 +98,9 @@ h6:target::before {
 .content a { text-decoration: none; }
 .content a:hover { text-decoration: underline; }
 .content img, .content video { max-width: 100%; }
+.content img {
+    border-radius: 4px;
+}
 .content .header:link,
 .content .header:visited {
     color: var(--fg);
