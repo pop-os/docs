@@ -57,7 +57,7 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 ![Launch Popsicle](/images/create-bootable-usb-linux/choose-image.png)
 
-3. Navigate to local directory with your Pop!_OS.iso file and select it.
+3. Navigate to the local directory with your Pop!_OS.iso file and select it.
 
 ![Find Image](/images/create-bootable-usb-linux/find-image.png)
 
@@ -84,8 +84,6 @@ Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS ins
 ### Install Pop!_OS
 
 Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Follow the steps in the [Standard Installation](/Getting-Started/Installation/installation.md) section.
-
->**Note**: Systems with Secure Boot enabled must disable this feature before installing Pop!_OS. See [Microsoft's official documentation](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-10) for this procedure.
 
 ### Demo Pop!_OS
 
