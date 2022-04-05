@@ -2,9 +2,9 @@
 
 This section explains the process of creating a bootable Pop!\_OS USB in Linux using Popsicle.
 
-- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#i-install-popsicle)
-- [Download the Pop!_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#ii-download-the-pop_osiso-file)
-- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#iv-create-the-bootable-usb)
+- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#install-popsicle)
+- [Download the Pop!_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#download-the-pop_osiso-file)
+- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#create-the-bootable-usb)
 
 ---
 ## Install Popsicle
