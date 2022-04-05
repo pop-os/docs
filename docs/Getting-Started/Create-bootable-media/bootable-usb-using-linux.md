@@ -2,14 +2,14 @@
 
 This section explains the process of creating a bootable Pop!\_OS USB in Linux using Popsicle.
 
-- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#i-install-popsicle)
-- [Download the Pop!_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#ii-download-the-pop_osiso-file)
-- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#iv-create-the-bootable-usb)
+- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#install-popsicle)
+- [Download the Pop!_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#download-the-pop_osiso-file)
+- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#create-the-bootable-usb)
 
 ---
 ## Install Popsicle
 
-Popsicle is a Linux utility for flashing multiple USB devices at once. You can install Popsicle as a Flatpak or AppImage.
+Popsicle is a Linux utility for flashing multiple USB devices at once. You can install Popsicle as an AppImage or a Flatpak.
 ### AppImage
 
 1. Download the Popsicle AppImage from this [Popsicle repository.](https://github.com/pop-os/popsicle/releases/latest)
