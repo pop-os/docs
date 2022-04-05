@@ -9,7 +9,7 @@ This section explains the process of creating a bootable Pop!\_OS USB in Linux u
 ---
 ## Install Popsicle
 
-Popsicle is a Linux utility for flashing multiple USB devices at once. You can install Popsicle as a Flatpak or AppImage.
+Popsicle is a Linux utility for flashing multiple USB devices at once. You can install Popsicle as an AppImage or a Flatpak.
 ### AppImage
 
 1. Download the Popsicle AppImage from this [Popsicle repository.](https://github.com/pop-os/popsicle/releases/latest)
