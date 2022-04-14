@@ -1,0 +1,1 @@
+Users creating installation media from MacOS can use Etcher. Etcher is an open source startup disk creator capable of writing ISO images to portable storage media.
