@@ -1,1 +1,0 @@
-Describe the nature of a Live USB, the benefits of demo-ing Pop! before installation, what actions a user can perform. 
