@@ -2,9 +2,10 @@
 
 This section explains the process of creating a bootable Pop!_OS USB in macOS using balena Etcher.
 
-- Install ISO flashing software.
-- Download the Pop!_OS.iso file.
-- Flash the ISO to your USB storage device.
+- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#install-etcher)
+- [Download the Pop!\_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#download-the-pop_osiso-file)
+- [Verify the Pop!\_OS.iso Hash Value](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#verify-the-hash-value)
+- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#create-the-bootable-usb)
 
 ## Install Etcher
 
