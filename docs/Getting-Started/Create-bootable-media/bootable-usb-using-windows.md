@@ -68,7 +68,7 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 ![Select Target](/images/create-bootable-usb-win10/select-target.png)
 
-4. Click `Flash!`
+4. Click `Flash!`.
 
 ![Click Flash](/images/create-bootable-usb-win10/click-flash.png)
 

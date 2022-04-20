@@ -18,7 +18,7 @@ This section explains the process of creating a bootable Pop!_OS USB in macOS us
 
 3. Drag the Etcher logo into the applications folder.
 
-![Install Etcher](/images/create-bootable-usb-macos/install-techer.png)
+![Install Etcher](/images/create-bootable-usb-macos/install-etcher.png)
 
 ## Download the Pop!_OS.iso File
 
@@ -64,11 +64,15 @@ shasum -a 256 pop-os_21.10_amd64_intel_8.iso
 
 3. Click `Select target` and select your USB drive.
 
-![]
+![Select Target](/images/create-bootable-usb-macos/select-target.png)
 
-4. Click `Flash!`
+4. Click `Flash!`. Enter your password if prompted.
+
+![Click Flash](/images/create-bootable-usb-macos/click-flash.png)
 
 5. Close Etcher once the installation completes.
+
+![Click Finish](/images/create-bootable-usb-macos/click-finish.png)
 
 ## Next Steps
 
