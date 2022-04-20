@@ -7,6 +7,8 @@ This section explains the process of creating a bootable Pop!_OS USB in macOS us
 - [Verify the Pop!\_OS.iso Hash Value](/Getting-Started/Create-bootable-media/bootable-usb-using-macos.html#verify-the-hash-value)
 - [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-macos.html#create-the-bootable-usb)
 
+---
+
 ## Install Etcher
 
 1. Navigate to Etcher's [download page](https://www.balena.io/etcher/) and click `Download for macOS`.
