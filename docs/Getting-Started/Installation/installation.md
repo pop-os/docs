@@ -6,7 +6,7 @@ The Pop!_OS installer guides the user through setup of basic system settings.
 - Choose a locale and keyboard language.
 - Perform system hard drive selection and partitioning (advanced).
 - Create a user account.
-- Enable system disk encryptions.
+- Enable system disk encryption.
 
 ---
 
