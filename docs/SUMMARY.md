@@ -7,8 +7,8 @@
     - [Use Pop!_OS In a Virtual Machine]()
     - [Create a Bootable Pop!_OS USB Device](Getting-Started/Create-bootable-media/create-bootable-usb.md)
         - [Using Linux](Getting-Started/Create-bootable-media/bootable-usb-using-linux.md)
-        - [Using Windows]()
-        - [Using MacOS]()
+        - [Using Windows](Getting-Started/Create-bootable-media/bootable-usb-using-windows.md)
+        - [Using MacOS](Getting-Started/Create-bootable-media/bootable-usb-using-macos.md)
 
     - [Standard Installation](Getting-Started/Installation/installation.md)
         - [Custom (Advanced) Installation]()
