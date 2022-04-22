@@ -1,4 +1,4 @@
-[Introduction](README.md)
+- [Introduction](README.md)
 - [Getting Started](Getting-Started/getting-started.md)
     - [What is Pop!_OS?]()
         - [Pop!_OS Development Roadmap]()
