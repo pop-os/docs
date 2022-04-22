@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 code {
-    font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
+    font-family: "Ubuntu Mono", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
     font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
 }
 

@@ -15,6 +15,7 @@ build-dir = "dist"
 --cname = "docs.pop-os.org"
 default-theme = "light"
 preferred-dark-theme = "dark"
+additional-css = ["theme/css/fonts.css"]
 git-repository-url = "https://github.com/pop-os/docs"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/pop-os/docs/edit/master/{path}"

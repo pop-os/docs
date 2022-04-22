@@ -28,7 +28,8 @@
 
     --links: #20609f;
 
-    --inline-code-color: #301900;
+    --inline-code-color: var(--fg);
+    --inline-code-bg: #E8E8E8;
 
     --theme-popup-bg: #F6F6F6;
     --theme-popup-border: #c9c9c9;
@@ -69,14 +70,15 @@
 
     --links: #20609f;
 
-    --inline-code-color: #301900;
+    --inline-code-color: var(--fg);
+    --inline-code-bg: #4d4d4d;
 
     --theme-popup-bg: #303030;
     --theme-popup-border: hsl(0, 0%, 10%);
     --theme-hover: #444444;
 
-    --quote-bg: hsl(197, 37%, 96%);
-    --quote-border: hsl(197, 37%, 91%);
+    --quote-bg: #303030;
+    --quote-border: hsl(0, 0%, 10%);
 
     --table-border-color: hsl(0, 0%, 10%);
     --table-header-bg: hsl(0, 0%, 80%);
@@ -91,4 +93,3 @@
     --searchresults-li-bg: #e4f2fe;
     --search-mark-bg: #a2cff5;
 }
-
