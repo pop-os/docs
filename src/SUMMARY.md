@@ -16,14 +16,14 @@
             - [Initial Setup Steps]() <!--First-time setup windows-->
             - [Connecting to Wi-Fi]()
             - [Privacy Settings]()
-[Navigate Pop!\_OS](Navigate-Pop/navigate-pop.md)
+- [Navigate Pop!\_OS](Navigate-Pop/navigate-pop.md)
     - [COSMIC & Pop!\_Shell]() <!--Define and describe pop shell and cosmic environment-->
     - [Tiling & Stacking Windows]()
     - [Using Workspaces]()
     - [Launching Applications]() <!--With CLI, Applications menu, alt+f2, Launcher, keyboard shortcuts to switch between running apps-->
         - [Adding Favorites to the Dock]()
     - [Keyboard Shortcuts]()
-[Customize Pop!\_OS]() <!--where to find system settings, what can be customized-->
+- [Customize Pop!\_OS]() <!--where to find system settings, what can be customized-->
     - [Customizing the Desktop]() <!--General settings, background wallpaper, appearance, dock, workspaces-->
     - [Application Notifications]()
     - [Connecting Online Accounts]()
@@ -33,7 +33,7 @@
     - [Configuring Accessibility Settings]()
     - [Choosing Default Applications]()
     - [GNOME Tweaks & Extensions]()
-[Manage Applications]() <!-- Find, Install, Update, Remove software packages --->
+- [Manage Applications]() <!-- Find, Install, Update, Remove software packages --->
     - [Installing Applications]() 
         - [Using the Pop!\_Shop]()
         - [Using the Terminal]()
@@ -41,14 +41,14 @@
     - [Updating Install Applications]() <!--via Pop!_Shop and Terminal-->
     - [Removing Applications]() <!--via terminal and Pop!_Shop-->
     - [Managing Repositories]() <!--adding and removing repos in the Pop!_Shop-->
-[Connect & Configure Devices]() <!-- Printers, webcams, microphones, mouse & touchpad settings, bluetooth devices, displays, removable media -->
+- [Connect & Configure Devices]() <!-- Printers, webcams, microphones, mouse & touchpad settings, bluetooth devices, displays, removable media -->
     - [Audio & Microphone Settings]()
     - [Mouse & Touchpad Settings]()
     - [Configuring Webcams]()
     - [Configuring Displays]()
     - [Connecing Printers]()
     - [Handling Removable Media]()
-[System Management]()
+- [System Management]()
     - [System Power Options]()
     - [Managing System Users]()
         - [Adding & Removing Users]() <!--GUI and CLI-->
@@ -59,11 +59,11 @@
         - [Sharing the Screen]()
     - [Synchronize Date & Time]()
     - [View System Information]()
-[Update, Backup, & Restore Pop!\_OS]() <!--define upgrade vs update, best practice, introduce and describe features-->
+- [Update, Backup, & Restore Pop!\_OS]() <!--define upgrade vs update, best practice, introduce and describe features-->
     - [Updating Pop!\_OS]() <!--applying system updates, using the new scheduling feature-->
     - [Upgrading Pop!\_OS]()
     - [Using Refresh OS]()
     - [Backup and Restore Files]()
     - [File History & Trash]()
-[Keyboard Shortcuts]()
+- [Keyboard Shortcuts]()
 
