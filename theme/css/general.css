@@ -8,9 +8,7 @@
 }
 
 html {
-    /* font-family: "Open Sans", sans-serif; */
-    font-family: Fira Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Nato Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-family: var(--font-family-sans);
+    font-family: "Fira Sans", sans-serif;
     color: var(--fg);
     background-color: var(--bg);
     text-size-adjust: none;
@@ -23,10 +21,12 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab";
+}
+
 code {
-    /* font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important; */
-    font-family: Ubuntu Mono, Ubuntu Monospace, Menlo, Consolas, Roboto Mono, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
-    font-family: var(--font-family-mono);
+    font-family: "Ubuntu Mono", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
     font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
 }
 
@@ -98,6 +98,9 @@ h6:target::before {
 .content a { text-decoration: none; }
 .content a:hover { text-decoration: underline; }
 .content img, .content video { max-width: 100%; }
+.content img {
+    border-radius: 4px;
+}
 .content .header:link,
 .content .header:visited {
     color: var(--fg);
@@ -183,4 +186,8 @@ blockquote {
 
 .result-no-output {
     font-style: italic;
+}
+
+li > p > img {
+    margin-top: 5px;
 }

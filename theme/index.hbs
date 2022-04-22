@@ -122,11 +122,8 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">{{ theme_option "Light" }}</button></li>
-                            {{!-- <li role="none"><button role="menuitem" class="theme" id="rust">{{ theme_option "Rust" }}</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">{{ theme_option "Coal" }}</button></li> --}}
-                            <li role="none"><button role="menuitem" class="theme" id="midnight">{{ theme_option "Midnight" }}</button></li>
-                            {{!-- <li role="none"><button role="menuitem" class="theme" id="ayu">{{ theme_option "Ayu" }}</button></li> --}}
+                            <li role="none"><button role="menuitem" class="theme" id="light">{{ theme_option "Pop! Light" }}</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="dark">{{ theme_option "Pop! Dark" }}</button></li>
                         </ul>
                         {{#if search_enabled}}
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
@@ -219,10 +216,12 @@
 
         </div>
 
-        {{#if livereload}}
+        {{#if live_reload_endpoint}}
         <!-- Livereload script (if served using the cli tool) -->
         <script type="text/javascript">
-            var socket = new WebSocket("{{{livereload}}}");
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "{{{live_reload_endpoint}}}";
+            const socket = new WebSocket(wsAddress);
             socket.onmessage = function (event) {
                 if (event.data === "reload") {
                     socket.close();
