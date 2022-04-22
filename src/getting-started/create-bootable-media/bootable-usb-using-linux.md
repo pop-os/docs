@@ -20,7 +20,7 @@ Popsicle is a Linux utility for flashing multiple USB devices at once. You can i
 
 3. Select the `Permissions` tab and check the `Execute` box.
 
-![AppImage Execute Permission](/images/create-bootable-usb-linux/appimage-execute.png)
+    ![AppImage Execute Permission](/images/create-bootable-usb-linux/appimage-execute.png)
 
 4. Double click the Popsicle AppImage to launch it.
 
@@ -56,29 +56,29 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 1. Launch Popsicle. The app may display as USB Flasher in search results.
 
-![Choose Image](/images/create-bootable-usb-linux/launch-popsicle-app.png)
+    ![Choose Image](/images/create-bootable-usb-linux/launch-popsicle-app.png)
 
 2. Click `Choose Image`.
 
-![Launch Popsicle](/images/create-bootable-usb-linux/choose-image.png)
+    ![Launch Popsicle](/images/create-bootable-usb-linux/choose-image.png)
 
 3. Navigate to the local directory with your Pop!_OS.iso file and select it.
 
-![Find Image](/images/create-bootable-usb-linux/find-image.png)
+    ![Find Image](/images/create-bootable-usb-linux/find-image.png)
 
 4. Click the drop down menu next to `Hash` and choose `SHA256`, then click `Check`. Compare the hash result to the value you saw when selecting your Pop!\_OS.iso file.
 
-![Verify ISO](/images/create-bootable-usb-linux/verify-iso.png)
+    ![Verify ISO](/images/create-bootable-usb-linux/verify-iso.png)
 
 4. Click `Next`. 
 
 5. Select the USB installation media. Click `Next`.
 
-![Select Media](/images/create-bootable-usb-linux/select-media.png)
+    ![Select Media](/images/create-bootable-usb-linux/select-media.png)
 
 6. Enter your system password if prompted, then wait for the installation to complete.
 
-![Flashing Process](/images/create-bootable-usb-linux/flashing-process.png)
+    ![Flashing Process](/images/create-bootable-usb-linux/flashing-process.png)
 
 7. Click `Done` when the process completes. 
 
