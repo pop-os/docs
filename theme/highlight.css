@@ -1,67 +1,3 @@
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #333333;
-  color: #f6f6f6;
-}
-.hljs-comment,
-.hljs-quote {
-  color: #586e75;
-}
-.hljs-addition,
-.hljs-keyword,
-.hljs-selector-tag {
-  color: #73c48f;
-}
-.hljs-doctag,
-.hljs-literal,
-.hljs-meta .hljs-meta-string,
-.hljs-number,
-.hljs-regexp,
-.hljs-string {
-  color: #34e2e2;
-}
-.hljs-name,
-.hljs-section,
-.hljs-selector-class,
-.hljs-selector-id,
-.hljs-title {
-  color: #48b9c7;
-}
-.hljs-attr,
-.hljs-attribute,
-.hljs-class .hljs-title,
-.hljs-template-variable,
-.hljs-type,
-.hljs-variable {
-  color: #b58900;
-}
-.hljs-bullet,
-.hljs-link,
-.hljs-meta,
-.hljs-meta .hljs-keyword,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-subst,
-.hljs-symbol {
-  color: #cb4b16;
-}
-.hljs-built_in,
-.hljs-deletion {
-  color: #dc322f;
-}
-.hljs-formula {
-  background: #073642;
-}
-.hljs-emphasis {
-  font-style: italic;
-}
-.hljs-strong {
-  font-weight: 700;
-}
-
-
 /*
  * An increased contrast highlighting scheme loosely based on the
  * "Base16 Atelier Dune Light" theme by Bram de Haan
@@ -71,13 +7,13 @@
  */
 
 /* Comment */
-/* .hljs-comment,
+.hljs-comment,
 .hljs-quote {
   color: #575757;
-} */
+}
 
 /* Red */
-/* .hljs-variable,
+.hljs-variable,
 .hljs-template-variable,
 .hljs-attribute,
 .hljs-tag,
@@ -88,10 +24,10 @@
 .hljs-selector-id,
 .hljs-selector-class {
   color: #d70025;
-} */
+}
 
 /* Orange */
-/* .hljs-number,
+.hljs-number,
 .hljs-meta,
 .hljs-built_in,
 .hljs-builtin-name,
@@ -99,31 +35,31 @@
 .hljs-type,
 .hljs-params {
   color: #b21e00;
-} */
+}
 
 /* Green */
-/* .hljs-string,
+.hljs-string,
 .hljs-symbol,
 .hljs-bullet {
   color: #008200;
-} */
+}
 
 /* Blue */
-/* .hljs-title,
+.hljs-title,
 .hljs-section {
   color: #0030f2;
-} */
+}
 
 /* Purple */
-/* .hljs-keyword,
+.hljs-keyword,
 .hljs-selector-tag {
   color: #9d00ec;
-} */
+}
 
-/* .hljs {
+.hljs {
   display: block;
   overflow-x: auto;
-  background: #f6f7f6;
+  background: var(--inline-code-bg);
   color: #000;
   padding: 0.5em;
 }
@@ -144,4 +80,4 @@
 .hljs-deletion {
   color: #b31d28;
   background-color: #ffeef0;
-} */
+}
