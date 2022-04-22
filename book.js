@@ -549,6 +549,11 @@ function playground_text(playground) {
         // https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
         activeSection.scrollIntoView({ block: 'center' });
     }
+    
+    // Highlight active section
+    if (activeSection) {
+        activeSection.parentElement.classList.add("active-highlight");
+    }
 })();
 
 (function chapterNavigation() {
