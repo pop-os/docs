@@ -2,7 +2,7 @@
 title = "Pop!_OS Documentation"
 authors = ["System76"]
 description = "The Pop!_OS documentation website"
-src = "docs"
+src = "src"
 language = "en"
 multilingual = true
 
