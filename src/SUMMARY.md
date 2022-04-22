@@ -13,10 +13,10 @@
     - [Install Pop!\_OS](getting-started/installation/installation.md)
         - [Custom (Advanced) Installation]()
         - [First-time Setup]()
-        - [Initial Setup]() <!--First-time setup windows-->
-        - [Connecting to Wi-Fi]()
-        - [Privacy Settings]()
-[Navigate Pop!\_OS]()
+            - [Initial Setup Steps]() <!--First-time setup windows-->
+            - [Connecting to Wi-Fi]()
+            - [Privacy Settings]()
+[Navigate Pop!\_OS](Navigate-Pop/navigate-pop.md)
     - [COSMIC & Pop!\_Shell]() <!--Define and describe pop shell and cosmic environment-->
     - [Tiling & Stacking Windows]()
     - [Using Workspaces]()
