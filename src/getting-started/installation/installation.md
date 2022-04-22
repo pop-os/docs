@@ -26,7 +26,7 @@ Systems with Secure Boot enabled must disable this feature before installing Pop
 
 ### Installation Media
 
-The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!_OS USB.](/Getting-Started/Create-bootable-media/create-bootable-usb.md)
+The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!_OS USB.](/getting-started/create-bootable-media/create-bootable-usb.md)
 
 ---
 
