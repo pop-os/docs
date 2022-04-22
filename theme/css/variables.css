@@ -81,8 +81,8 @@
     --quote-border: hsl(0, 0%, 10%);
 
     --table-border-color: hsl(0, 0%, 10%);
-    --table-header-bg: hsl(0, 0%, 80%);
-    --table-alternate-bg: hsl(0, 0%, 97%);
+    --table-header-bg: var(--inline-code-bg);
+    --table-alternate-bg: var(--sidebar-bg);
 
     --searchbar-border-color: #aaa;
     --searchbar-bg: #fafafa;
