@@ -80,7 +80,7 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
     ![Flashing Process](/images/create-bootable-usb-linux/flashing-process.png)
 
-7. Click `Done` when the process completes. 
+7. Click `Done` when the process completes.
 
 ## Next Steps
 
@@ -88,7 +88,15 @@ Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS ins
 
 ### Install Pop!_OS
 
-Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Follow the steps in the [Standard Installation](/getting-started/installation/installation.md) section.
+Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Refer to the table below for instructions to access the boot menu on your computer. Follow the steps in the [Standard Installation](/Getting-Started/Installation/installation.md) section.
+
+| Firmware               | BIOS key | Boot Menu key                    |
+|:----------------------:|:--------:|:--------------------------------:|
+| Laptop - Open Firmware | ESC      | ESC(select one time boot option) |
+| Laptop - Proprietary   | F2       | F7                               |
+| Older Laptops          | Depends on the system | F1                  |
+| Thelio                 | Del      |  F8 or F12                       |
+| Meerkat                | F2       | F10                              |
 
 ### Demo Pop!_OS
 
