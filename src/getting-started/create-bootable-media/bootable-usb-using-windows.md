@@ -1,11 +1,11 @@
 # Create a Bootable Pop!\_OS USB in Windows 10
 
-This section explains the process of creating a bootable Pop!_OS USB in macOS using balena Etcher.
+This section explains the process of creating a bootable Pop!\_OS USB in macOS using balenaEtcher.
 
-- [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#install-etcher)
-- [Download the Pop!\_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#download-the-pop_osiso-file)
-- [Verify the Pop!\_OS.iso Hash Value](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#verify-the-hash-value)
-- [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-windows.html#create-the-bootable-usb)
+- [Install ISO flashing software.](/getting-started/create-bootable-media/bootable-usb-using-windows.html#install-etcher)
+- [Download the Pop!\_OS.iso file.](/getting-started/create-bootable-media/bootable-usb-using-windows.html#download-the-pop_osiso-file)
+- [Verify the Pop!\_OS.iso hash value.](/getting-started/create-bootable-media/bootable-usb-using-windows.html#verify-the-hash-value)
+- [Flash the ISO to your USB storage device.](/getting-started/create-bootable-media/bootable-usb-using-windows.html#create-the-bootable-usb)
 
 ---
 
@@ -27,11 +27,11 @@ This section explains the process of creating a bootable Pop!_OS USB in macOS us
 
 ![Complete Installation](/images/create-bootable-usb-win10/complete-install.png)
 
-## Download the Pop!_OS.iso File
+## Download the Pop!\_OS.iso File
 
 ![Linux Download ISO](/images/create-bootable-usb-linux/using-linux-download-iso.png)
 
-Download the appropriate Pop!_OS.iso file for your target system. See the [preparation guide](/Getting-Started/Create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image) for information about each version.
+Download the appropriate Pop!\_OS.iso file for your target system. See the [preparation guide](/getting-started/create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image) for information about each version.
 
 Take note of the hash value for your chosen ISO. Use this value to verify the integrity of the ISO file.
 
@@ -43,7 +43,7 @@ Take note of the hash value for your chosen ISO. Use this value to verify the in
 
 ![Launch CMD](/images/create-bootable-usb-win10/launch-cmd.png)
 
-2. Navigate to the folder where the Pop!_OS.iso file is located. The user's Downloads folder is used in the below example. Substitute your username for `USERNAME`.
+2. Navigate to the folder where the Pop!\_OS.iso file is located. The user's Downloads folder is used in the below example. Substitute your username for `USERNAME`.
 
 ```bash
 cd C:\Users\USERNAME\Downloads
@@ -59,7 +59,7 @@ CertUtil -hashfile pop-os_21.10_amd64_intel_8.iso sha256
 
 ## Create the Bootable USB
 
-Flash your USB media with the Pop!_OS.iso image. Note that this process will completely erase all previous data on the USB storage device.
+Flash your USB media with the Pop!\_OS.iso image. Note that this process will completely erase all previous data on the USB storage device.
 
 1. Launch Etcher if it is not already running.
 
@@ -81,21 +81,13 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 ## Next Steps
 
-Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS installation.
+Use your bootable Pop!\_OS USB to demo, install, or recover a current Pop!\_OS installation.
 
-### Install Pop!_OS
+### Install Pop!\_OS
 
-Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Refer to the table below for instructions to access the boot menu on your computer. Follow the steps in the [Standard Installation](/Getting-Started/Installation/installation.md) section.
+Follow the steps in the [Standard Installation](/getting-started/installation/installation.md) section.
 
-| Firmware               | BIOS key | Boot Menu key                    |
-|:----------------------:|:--------:|:--------------------------------:|
-| Laptop - Open Firmware | ESC      | ESC(select one time boot option) |
-| Laptop - Proprietary   | F2       | F7                               |
-| Older Laptops          | Depends on the system | F1                  |
-| Thelio                 | Del      |  F8 or F12                       |
-| Meerkat                | F2       | F10                              |
+### Demo Pop!\_OS
 
-### Demo Pop!_OS
-
-Use the bootable USB to demo Pop!_OS as a live system.
+Use the bootable USB to demo Pop!\_OS as a live system.
 <!--This chapter will be linked when completed-->

@@ -1,6 +1,6 @@
 # Create Pop!\_OS Installation Media
 
-Pop!\_OS can be run from a USB drive in a live environment. You can use the live USB to install Pop!\_OS permenantly on a system, demo Pop!\_OS without installing, or use the drive as a system recovery tool.
+Pop!\_OS can be run from a USB drive in a live environment. You can use the live USB to install Pop!\_OS permanently on a system, demo Pop!\_OS without installing, or use the drive as a system recovery tool.
 
 ---
 ## Preparation
