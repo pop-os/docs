@@ -1,9 +1,9 @@
-# Create a Bootable Pop!_OS USB in Linux
+# Create a Bootable Pop!\_OS USB in Linux
 
 This section explains the process of creating a bootable Pop!\_OS USB in Linux using Popsicle.
 
 - [Install ISO flashing software.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#install-popsicle)
-- [Download the Pop!_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#download-the-pop_osiso-file)
+- [Download the Pop!\_OS.iso file.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#download-the-pop_osiso-file)
 - [Flash the ISO to your USB storage device.](/Getting-Started/Create-bootable-media/bootable-usb-using-linux.html#create-the-bootable-usb)
 
 ---
@@ -40,11 +40,11 @@ flatpak install flathub com.system76.Popsicle
 flatpak run com.system76.Popsicle
 ```
 
-## Download the Pop!_OS.iso File
+## Download the Pop!\_OS.iso File
 
 ![Linux Download ISO](/images/create-bootable-usb-linux/using-linux-download-iso.png)
 
-Download the appropriate Pop!_OS.iso file for your target system. See the [preparation guide](/Getting-Started/Create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image) for information about each version. 
+Download the appropriate Pop!\_OS.iso file for your target system. See the [preparation guide](/Getting-Started/Create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image) for information about each version. 
 
 Take note of the hash value for your chosen ISO. Use this value to verify the integrity of the ISO file in step four of the installation process.
 
@@ -52,7 +52,7 @@ Take note of the hash value for your chosen ISO. Use this value to verify the in
 
 ## Create the Bootable USB
 
-Flash your USB media with the Pop!_OS.iso image. Note that this process will completely erase all previous data on the USB storage device.
+Flash your USB media with the Pop!\_OS.iso image. Note that this process will completely erase all previous data on the USB storage device.
 
 1. Launch Popsicle. The app may display as USB Flasher in search results.
 
@@ -84,21 +84,13 @@ Flash your USB media with the Pop!_OS.iso image. Note that this process will com
 
 ## Next Steps
 
-Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS installation.
+Use your bootable Pop!\_OS USB to demo, install, or recover a current Pop!\_OS installation.
 
-### Install Pop!_OS
+### Install Pop!\_OS
 
-Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Refer to the table below for instructions to access the boot menu on your computer. Follow the steps in the [Standard Installation](/Getting-Started/Installation/installation.md) section.
+Follow the steps in the [Standard Installation](/Getting-Started/Installation/installation.md) section.
 
-| Firmware               | BIOS key | Boot Menu key                    |
-|:----------------------:|:--------:|:--------------------------------:|
-| Laptop - Open Firmware | ESC      | ESC(select one time boot option) |
-| Laptop - Proprietary   | F2       | F7                               |
-| Older Laptops          | Depends on the system | F1                  |
-| Thelio                 | Del      |  F8 or F12                       |
-| Meerkat                | F2       | F10                              |
+### Demo Pop!\_OS
 
-### Demo Pop!_OS
-
-Use the bootable USB to demo Pop!_OS as a live system.
+Use the bootable USB to demo Pop!\_OS as a live system.
 <!--This chapter will be linked when completed-->

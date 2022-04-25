@@ -1,6 +1,6 @@
-# Installing Pop!_OS
+# Installing Pop!\_OS
 
-The Pop!_OS installer guides the user through setup of basic system settings.
+The Pop!\_OS installer guides the user through setup of basic system settings.
 
 - Verify system and installation requirements.
 - Choose a locale and keyboard language.
@@ -22,11 +22,23 @@ The Pop!_OS installer guides the user through setup of basic system settings.
 
 ### Secure Boot
 
-Systems with Secure Boot enabled must disable this feature before installing Pop!_OS. Secure boot can be disabled in the BIOS of most computers; however, the process to disable secure boot will vary by laptop and motherboard model.
+Systems with Secure Boot enabled must disable this feature before installing Pop!\_OS. Secure boot can be disabled in the BIOS of most computers; however, the process to disable secure boot will vary by laptop and motherboard model.
 
 ### Installation Media
 
-The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!_OS USB.](/Getting-Started/Create-bootable-media/create-bootable-usb.md)
+The Pop!\_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop!\_OS USB.](/Getting-Started/Create-bootable-media/create-bootable-usb.md)
+
+### Installation Media Selected as Boot Device
+
+Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. The table below lists lists several common methods for System76 laptops and desktops. Consult your computer manufacturer's documentation to access this menu on third-party computers.
+
+| Firmware               | BIOS key | Boot Menu key                    |
+|:----------------------:|:--------:|:--------------------------------:|
+| Laptop - Open Firmware | ESC      | ESC (select one time boot option) |
+| Laptop - Proprietary   | F2       | F7                               |
+| Older Laptops          | Depends on the system | F1                  |
+| Thelio                 | Del      |  F8 or F12                       |
+| Meerkat                | F2       | F10                              |
 
 ---
 
@@ -50,7 +62,7 @@ The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop
 
 5. Choose the `Clean Install` option for a standard installation. This is the best option for new Linux users, but be aware that this will erase all contents of the target drive.
 
->**Note**: The `Custom (Advanced)` option opens GParted. GParted allows users to choose partition tables and create custom partitions, among other options.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. -->
+>**Note**: The `Custom (Advanced)` option opens GParted. GParted allows users to choose partition tables and create custom partitions.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. -->
 
 ![Clean Install](/images/installation/clean-install.png)
 
@@ -60,7 +72,7 @@ The Pop!_OS.iso can be easily flashed to a USB drive. See [Create a Bootable Pop
 
 7. Enter your first and last name (or a display name). A suggested username will populate in the User Name field.
 
->**Tip**: You don't need to type your username when logging into Pop!_OS normally, but it can be handy to remember when logging into a terminal session, logging in remotely via SSH, or performing certain configurations.
+>**Tip**: You don't need to type your username when logging into Pop!\_OS normally, but it can be handy to remember when logging into a terminal session, logging in remotely via SSH, or performing certain configurations.
 
 ![Enter Username](/images/installation/enter-username.png)
 
