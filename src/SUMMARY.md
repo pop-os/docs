@@ -1,4 +1,4 @@
-- [Introduction](README.md)
+[Introduction](README.md)
 - [Getting Started](getting-started/getting-started.md)
     - [What is Pop!_OS?]()
         - [Pop!_OS Development Roadmap]()
@@ -9,10 +9,9 @@
         - [Using Linux](getting-started/create-bootable-media/bootable-usb-using-linux.md)
         - [Using Windows](getting-started/create-bootable-media/bootable-usb-using-windows.md)
         - [Using MacOS](getting-started/create-bootable-media/bootable-usb-using-macos.md)
-
     - [Standard Installation](getting-started/installation/installation.md)
         - [Custom (Advanced) Installation]()
-    
-- [Navigate Pop!_OS]()
+- [Navigate Pop!_OS](navigate-pop/navigate-pop.md)
+    - [Tiling & Stacking Windows](navigate-pop/tiling-stacking-windows.md)
 - [Customize Pop!_OS]()
 
