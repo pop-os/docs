@@ -15,7 +15,7 @@ Enable Auto Tiling by clicking on the tile icon in the upper right corner and to
 ![Enable Autotiling](/images/tiling-stacking-windows/enable-autotiling.png)
 
 | Option                 | Function |
-|:----------------------:|:--------:|
+|----------------------|--------|
 | Tile Windows| Toggles the Window Tiling Feature On or Off  |
 | Floating Window Exception  | Allows adding exceptions to the tiling feature allowing free positioning of specified windows |
 | Toggle Tiling          | Enable/Disable Window Tiling with a keyboard shortcut |
