@@ -4,7 +4,12 @@ Sunrise Master Training guide (Google Doc)
 
 # Navigate Files and Folders
 
-Pop!\_OS uses a file browser called Nautilus to graphically browse files and folders stored on the system and in connected cloud storage accounts. In Linux, a user's data is stored in their Home directory by default.
+Pop!\_OS uses a file manager called Nautilus to graphically browse files and folders stored on the system and in connected cloud storage accounts. In Linux, a user's data is stored in their Home directory by default.
+
+- [Launch Nautilus and navigate through local directories.](/navigate-pop/navigate-files-folders.md#using-nautilus-to-find-your-files)
+- [Use search to locate files and filter results by file type.](/navigate-pop/navigate-files-folders.md#using-search)
+- [Change how files are visually represented, and sort displayed files by specific properties.](/navigate-pop/viewing-sorting-options.md)
+- [Tag frequently used files and folders for quick access using Starred items and Bookmarks.](/navigate-pop/bookmarks-starred-items.md)
 
 ---
 
@@ -23,68 +28,38 @@ In Linux, each user account is provisioned with their own `/home` folder. This i
 
 ## Using Nautilus to Find Your Files
 
-Click Files from the Dock to launch the file browser.
+Pop!\_OS uses the Nautilus file manager to provide a graphical interface for navigating folders (also called directories).
 
-![]
+Click the file icon on the Dock to launch the Nautilus file manager.
 
-Nautilus displays default directories and connected storage devices on the left.
+![Launch Nautilus](/images/navigate-files-folders/launch-nautilus.png)
 
-![]
+Nautilus displays default folders and connected USB storage devices on the left.
 
-Connected USB devices will also display on the left.
+![View Directories](/images/navigate-files-folders/view-directories.png)
 
-![]
+Additional drives are made visible by clicking `+ Other Locations`.
 
-Double-click sub-folders to navigate into them.
+![Other Locations](/images/navigate-files-folders/other-locations.png)
 
-![]
+Double-click folders and sub-folders to navigate into them.
 
-Navigate the directory with the back and forth arrows, or by clicking folder names at the top.
+![Navigate Folders](/images/navigate-files-folders/navigate-folders.png)
 
-![]
+Navigate between folders with the back and forth arrows, or by clicking folder names at the top.
 
-### Use Search
+![Navigate with Arrows](/images/navigate-files-folders/navigate-with-arrows.png)
+
+## Using Search
 
 Click the magnifying glass icon to search within the current directory, and any sub-folders below the current directory.
 
-![]
+![Magnifying Glass](/images/navigate-files-folders/magnifying-glass.png)
 
 Enter a search term; matched items will automatically populate below the search bar.
 
-![]
+![Enter Search Term](/images/navigate-files-folders/enter-search-term.png)
 
 Click the down arrow next to the magnifying glass and select an item under `What`. This will limit the search to that specific file type.
 
-![]
-
-### Viewing Options in Nautilus
-
-Users can change file icon size and sort files alphabetically, by modification date, file size and type.
-
-Toggle between List and Grid view using the icon in the upper right corner.
-
-![]
-
-Click the down arrow to sort files by alphabetical order, modification date, size, and type.
-
-![]
-
-The `+` and `-` buttons change the file and folder icon sizes.
-
-![]
-
-### Adding Bookmarks
-
-Adding a bookmark pins a folder below the locations listed on the left. These folders can be quickly accessed without navigating through directories.
-
-1. Navigate into the folder that you want to pin as a bookmark.
-
-![]
-
-2. Right-click the blank space within the folder and select `Add to Bookmarks`.
-
-![]
-
-3. Remove a bookmark by right-clicking it and select `Remove`.
-
-![]
+![Select File Type](/images/navigate-files-folders/select-file-type.png)
