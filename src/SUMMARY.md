@@ -15,7 +15,8 @@
 - [Navigate Pop!_OS](navigate-pop/navigate-pop.md)
     - [Tiling & Stacking Windows](navigate-pop/tiling-stacking-windows.md)
     - [Using Workspaces](navigate-pop/using-workspaces.md)
-    - [Locate & Launch Applications](navigate-pop/launching-applications.md) <!--With CLI, Applications menu, alt+f2, Launcher, keyboard shortcuts to switch between running apps-->
-        - [Adding Favorites to the Dock]()
-    - [Keyboard Shortcuts]()
+    - [Locate & Launch Applications](navigate-pop/launching-applications.md)
+    - [Navigate Files & Folders](navigate-pop/navigate-files-folders.md)
+        - [Viewing & Sorting Options](navigate-pop/viewing-sorting-options.md)
+        - [Bookmarks & Starred Items](navigate-pop/bookmarks-starred-items.md)
 - [Customize Pop!_OS]()

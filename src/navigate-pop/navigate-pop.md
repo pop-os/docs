@@ -11,5 +11,5 @@ The Pop!\_OS Desktop environment is based on the GNOME shell and layered with ot
 
 - [Manipulate windows using Tiling and Stacking.](tiling-stacking-windows.md)
 - [Use Workspaces to organize running applications.](using-workspaces.md)
-- Use the Nautilus file browser to locate your files and folders.
+- [Use the Nautilus file browser to locate your files and folders.](navigate-files-folders.md)
 - [Use Desktop menus to locate, launch, and organize installed applications.](launching-applications.md)

@@ -17,7 +17,7 @@ Click and drag applications between Workspaces as needed.
 Pop!\_OS includes these default key binds allowing users to quickly navigate between windows and workspaces.
 
 | Shortcut              | Action |
-|:----------------------:|:--------:|
+|----------------------|--------|
 | SUPER + Ctrl + ↑/↓ | Navigate between Workspaces |
 | SUPER + Home/End  | Navigate to the first/last Workspace |
 | SUPER + Shift + Direction keys | Move an active window between Workspaces or displays |
