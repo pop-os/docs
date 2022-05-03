@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../../getting-started/getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> What is Pop!_OS?</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Pop!_OS Development Roadmap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Contribute to Pop!_OS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Demo Pop!_OS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Use Pop!_OS In a Virtual Machine</div></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/create-bootable-usb.html"><strong aria-hidden="true">4.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html" class="active"><strong aria-hidden="true">4.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.2.</strong> Using Windows</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Using MacOS</div></li></ol></li><li class="chapter-item expanded "><a href="../../getting-started/installation/installation.html"><strong aria-hidden="true">5.</strong> Standard Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../../getting-started/getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> What is Pop!_OS?</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Pop!_OS Development Roadmap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Contribute to Pop!_OS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Demo Pop!_OS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Use Pop!_OS In a Virtual Machine</div></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/create-bootable-usb.html"><strong aria-hidden="true">4.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html" class="active"><strong aria-hidden="true">4.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html"><strong aria-hidden="true">4.2.</strong> Using Windows</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-macos.html"><strong aria-hidden="true">4.3.</strong> Using macOS</a></li></ol></li><li class="chapter-item expanded "><a href="../../getting-started/installation/installation.html"><strong aria-hidden="true">5.</strong> Standard Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -169,19 +169,19 @@
 <p>Follow the instructions on <a href="https://flatpak.org/setup/">Flatpak.org</a> if Flatpak is not installed in your Linux distribution.</p>
 </li>
 <li>
-<p>Open a Terminal session and enter this command: </p>
-</li>
-</ol>
+<p>Open a Terminal session and enter this command:</p>
 <pre><code class="language-bash">flatpak install flathub com.system76.Popsicle
 </code></pre>
-<ol start="3">
-<li>Enter this command to launch Popsicle: </li>
-</ol>
+</li>
+<li>
+<p>Enter this command to launch Popsicle:</p>
 <pre><code class="language-bash">flatpak run com.system76.Popsicle
 </code></pre>
+</li>
+</ol>
 <h2 id="download-the-pop_osiso-file"><a class="header" href="#download-the-pop_osiso-file">Download the Pop!_OS.iso File</a></h2>
 <p><img src="/images/create-bootable-usb-linux/using-linux-download-iso.png" alt="Linux Download ISO" /></p>
-<p>Download the appropriate Pop!_OS.iso file for your target system. See the <a href="/getting-started/create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image">preparation guide</a> for information about each version. </p>
+<p>Download the appropriate Pop!_OS.iso file for your target system. See the <a href="/getting-started/create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image">preparation guide</a> for information about each version.</p>
 <p>Take note of the hash value for your chosen ISO. Use this value to verify the integrity of the ISO file in step four of the installation process.</p>
 <p><img src="/images/create-bootable-usb-linux/compare-hash-values.png" alt="Compare Hash Values" /></p>
 <h2 id="create-the-bootable-usb"><a class="header" href="#create-the-bootable-usb">Create the Bootable USB</a></h2>
@@ -215,13 +215,13 @@
 <p><img src="/images/create-bootable-usb-linux/flashing-process.png" alt="Flashing Process" /></p>
 </li>
 <li>
-<p>Click <code>Done</code> when the process completes. </p>
+<p>Click <code>Done</code> when the process completes.</p>
 </li>
 </ol>
 <h2 id="next-steps"><a class="header" href="#next-steps">Next Steps</a></h2>
 <p>Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS installation.</p>
 <h3 id="install-pop_os"><a class="header" href="#install-pop_os">Install Pop!_OS</a></h3>
-<p>Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. Follow the steps in the <a href="/getting-started/installation/installation.html">Standard Installation</a> section.</p>
+<p>Follow the steps in the <a href="/getting-started/installation/installation.html">Standard Installation</a> section.</p>
 <h3 id="demo-pop_os"><a class="header" href="#demo-pop_os">Demo Pop!_OS</a></h3>
 <p>Use the bootable USB to demo Pop!_OS as a live system.</p>
 <!--This chapter will be linked when completed-->
@@ -233,7 +233,7 @@
                             <a rel="prev" href="../../getting-started/create-bootable-media/create-bootable-usb.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../../getting-started/installation/installation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -245,7 +245,7 @@
                     <a rel="prev" href="../../getting-started/create-bootable-media/create-bootable-usb.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../../getting-started/installation/installation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

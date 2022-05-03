@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Create a Bootable Pop!_OS USB Device - Pop!_OS Documentation</title>
+        <title>Using macOS - Pop!_OS Documentation</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="The Pop!_OS documentation website">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../../getting-started/getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> What is Pop!_OS?</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Pop!_OS Development Roadmap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Contribute to Pop!_OS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Demo Pop!_OS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Use Pop!_OS In a Virtual Machine</div></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/create-bootable-usb.html" class="active"><strong aria-hidden="true">4.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html"><strong aria-hidden="true">4.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html"><strong aria-hidden="true">4.2.</strong> Using Windows</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-macos.html"><strong aria-hidden="true">4.3.</strong> Using macOS</a></li></ol></li><li class="chapter-item expanded "><a href="../../getting-started/installation/installation.html"><strong aria-hidden="true">5.</strong> Standard Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../../getting-started/getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> What is Pop!_OS?</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Pop!_OS Development Roadmap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Contribute to Pop!_OS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Demo Pop!_OS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Use Pop!_OS In a Virtual Machine</div></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/create-bootable-usb.html"><strong aria-hidden="true">4.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html"><strong aria-hidden="true">4.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html"><strong aria-hidden="true">4.2.</strong> Using Windows</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-macos.html" class="active"><strong aria-hidden="true">4.3.</strong> Using macOS</a></li></ol></li><li class="chapter-item expanded "><a href="../../getting-started/installation/installation.html"><strong aria-hidden="true">5.</strong> Standard Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -110,7 +110,7 @@
                         <a href="https://github.com/pop-os/docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/pop-os/docs/edit/master/src/getting-started/create-bootable-media/create-bootable-usb.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/pop-os/docs/edit/master/src/getting-started/create-bootable-media/bootable-usb-using-macos.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
                     </div>
@@ -137,59 +137,103 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="create-pop_os-installation-media"><a class="header" href="#create-pop_os-installation-media">Create Pop!_OS Installation Media</a></h1>
-<p>Pop!_OS can be run from a USB drive in a live environment. You can use the live USB to install Pop!_OS permanently on a system, demo Pop!_OS without installing, or use the drive as a system recovery tool.</p>
+                        <h1 id="create-a-bootable-pop_os-usb-in-macos"><a class="header" href="#create-a-bootable-pop_os-usb-in-macos">Create a Bootable Pop!_OS USB in macOS</a></h1>
+<p>This section explains the process of creating a bootable Pop!_OS USB in macOS using balenaEtcher.</p>
+<ul>
+<li><a href="/getting-started/create-bootable-media/bootable-usb-using-macos.html#install-etcher">Install ISO flashing software.</a></li>
+<li><a href="/getting-started/create-bootable-media/bootable-usb-using-macos.html#download-the-pop_osiso-file">Download the Pop!_OS.iso file.</a></li>
+<li><a href="/getting-started/create-bootable-media/bootable-usb-using-macos.html#verify-the-hash-value">Verify the Pop!_OS.iso hash value.</a></li>
+<li><a href="/getting-started/create-bootable-media/bootable-usb-using-macos.html#create-the-bootable-usb">Flash the ISO to your USB storage device.</a></li>
+</ul>
 <hr />
-<h2 id="preparation"><a class="header" href="#preparation">Preparation</a></h2>
-<p>Creating a bootable Pop!_OS USB drive requires three components:</p>
-<ul>
+<h2 id="install-etcher"><a class="header" href="#install-etcher">Install Etcher</a></h2>
+<ol>
 <li>
-<p>A USB flash drive. The flash drive must have at least 8 GB of free space. All data on the flash drive will be lost during the creation process.</p>
+<p>Navigate to Etcher's <a href="https://www.balena.io/etcher/">download page</a> and click <code>Download for macOS</code>.</p>
+<p><img src="/images/create-bootable-usb-macos/download-etcher.png" alt="Download Etcher" /></p>
 </li>
 <li>
-<p>The Pop!_OS.iso image: <a href="https://pop.system76.com/">Download Pop!_OS at this link.</a></p>
+<p>Click the Downloads folder from the Dock and select the Etcher .dmg file.</p>
+<p><img src="/images/create-bootable-usb-macos/run-etcher-dmg.png" alt="Run Etcher dmg" /></p>
 </li>
 <li>
-<p>A program to write the Pop!_OS.iso image to the flash drive. Reference the table below for popular image flashing software.</p>
+<p>Drag the Etcher logo into the applications folder.</p>
+<p><img src="/images/create-bootable-usb-macos/install-etcher.png" alt="Install Etcher" /></p>
 </li>
-</ul>
-<table><thead><tr><th>Program</th><th>OS Compatibility</th></tr></thead><tbody>
-<tr><td><a href="https://www.balena.io/etcher/">balenaEtcher</a></td><td>Windows, macOS, Linux</td></tr>
-<tr><td><a href="https://github.com/pop-os/popsicle">Popsicle</a></td><td>Linux</td></tr>
-<tr><td><a href="https://rufus.ie/en/">Rufus</a></td><td>Windows</td></tr>
-</tbody></table>
-<h2 id="choose-a-pop_os-image"><a class="header" href="#choose-a-pop_os-image">Choose a Pop!_OS Image</a></h2>
-<p>Pop!_OS offers its ISO image in 3 varieties:</p>
-<ul>
-<li><strong>Intel/AMD</strong> - An ISO that does not include propriety NVIDIA drivers.</li>
-</ul>
-<blockquote>
-<p><strong>Note</strong>: If you accidentally install the non-NVIDIA version on a PC with a discrete NVIDIA GPU, run <code>sudo apt install system76-driver-nvidia</code> in a Terminal session to obtain the missing drivers.</p>
-</blockquote>
-<ul>
+</ol>
+<h2 id="download-the-pop_osiso-file"><a class="header" href="#download-the-pop_osiso-file">Download the Pop!_OS.iso File</a></h2>
+<p><img src="/images/create-bootable-usb-linux/using-linux-download-iso.png" alt="Linux Download ISO" /></p>
+<ol>
 <li>
-<p><strong>NVIDIA</strong> - An ISO containing proprietary NVIDIA drivers for systems with discrete NVIDIA GPUs.</p>
+<p>Download the appropriate Pop!_OS.iso file for your target system. See the <a href="/getting-started/create-bootable-media/create-bootable-usb.html#choose-a-pop_os-image">preparation guide</a> for information about each version.</p>
 </li>
 <li>
-<p><strong>RAS PI 4</strong> - An ISO image compatible with the ARM64 processor in a Raspberry Pi 4.</p>
+<p>Take note of the hash value for your chosen ISO. Use this value to verify the integrity of the ISO file.</p>
+<p><img src="/images/create-bootable-usb-linux/compare-hash-values.png" alt="Compare Hash Values" /></p>
 </li>
-</ul>
-<h2 id="create-the-installation-media"><a class="header" href="#create-the-installation-media">Create the Installation Media</a></h2>
-<p>This process will vary depending on the host operating system. Refer to the appropriate page for your current operating system. </p>
-<ul>
-<li><a href="bootable-usb-using-linux.html">Create a Bootable Pop!_OS USB in Linux</a></li>
-<li><a href="bootable-usb-using-windows.html">Create a Bootable Pop!_OS USB in Windows</a></li>
-<li><a href="bootable-usb-using-macos.html">Create a Bootable Pop!_OS USB in MacOS</a></li>
-</ul>
+<li>
+<p>If prompted, confirm you want to allow downloads from pop.system76.com.</p>
+</li>
+</ol>
+<h2 id="verify-the-hash-value"><a class="header" href="#verify-the-hash-value">Verify the Hash Value</a></h2>
+<ol>
+<li>
+<p>Click the Launchpad icon, then search for <code>terminal</code>. Click the <code>Terminal</code> icon to launch it.</p>
+<p><img src="/images/create-bootable-usb-macos/launch-terminal.png" alt="Launch Terminal" /></p>
+</li>
+<li>
+<p>Change directory to the folder containing your Pop!_OS ISO file. In this example, the ISO is in the Downloads folder.</p>
+<pre><code class="language-bash">cd Downloads
+</code></pre>
+</li>
+<li>
+<p>Use the <code>shasum</code> command to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename varies depending on the ISO version you chose.</p>
+<pre><code class="language-bash">shasum -a 256 pop-os_21.10_amd64_intel_8.iso
+</code></pre>
+</li>
+<li>
+<p>This command will output a long string of characters. Compare the output to the appropriate hash value on the Pop!_OS download site.</p>
+</li>
+</ol>
+<h2 id="create-the-bootable-usb"><a class="header" href="#create-the-bootable-usb">Create the Bootable USB</a></h2>
+<ol>
+<li>
+<p>After installation, click the Launchpad icon on the Dock. Select the <code>balenaEtcher</code> icon to launch the app. If prompted, confirm you want to open the app.</p>
+<p><img src="/images/create-bootable-usb-macos/launch-etcher.png" alt="Launch Etcher" /></p>
+</li>
+<li>
+<p>Select <code>Flash from file</code>, then navigate to and select your Pop!_OS.iso file.</p>
+<p><img src="/images/create-bootable-usb-macos/flash-from-file.png" alt="Flash From File" /></p>
+</li>
+<li>
+<p>Click <code>Select target</code> and select your USB drive.</p>
+<p><img src="/images/create-bootable-usb-macos/select-target.png" alt="Select Target" /></p>
+</li>
+<li>
+<p>Click <code>Flash!</code>. Enter your password if prompted.</p>
+<p><img src="/images/create-bootable-usb-macos/click-flash.png" alt="Click Flash" /></p>
+</li>
+<li>
+<p>Close Etcher once the installation completes.</p>
+<p><img src="/images/create-bootable-usb-macos/click-finish.png" alt="Click Finish" /></p>
+</li>
+</ol>
+<h2 id="next-steps"><a class="header" href="#next-steps">Next Steps</a></h2>
+<p>Use your bootable Pop!_OS USB to demo, install, or recover a current Pop!_OS installation.</p>
+<h3 id="install-pop_os"><a class="header" href="#install-pop_os">Install Pop!_OS</a></h3>
+<p>Follow the steps in the <a href="/getting-started/installation/installation.html">Standard Installation</a> section.</p>
+<h3 id="demo-pop_os"><a class="header" href="#demo-pop_os">Demo Pop!_OS</a></h3>
+<p>Use the bootable USB to demo Pop!_OS as a live system.</p>
+<!--This chapter will be linked when completed-->
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../getting-started/getting-started.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../../getting-started/installation/installation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -198,10 +242,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../getting-started/getting-started.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../../getting-started/installation/installation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

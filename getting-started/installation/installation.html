@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../../getting-started/getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> What is Pop!_OS?</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Pop!_OS Development Roadmap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Contribute to Pop!_OS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Demo Pop!_OS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Use Pop!_OS In a Virtual Machine</div></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/create-bootable-usb.html"><strong aria-hidden="true">4.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html"><strong aria-hidden="true">4.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.2.</strong> Using Windows</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Using MacOS</div></li></ol></li><li class="chapter-item expanded "><a href="../../getting-started/installation/installation.html" class="active"><strong aria-hidden="true">5.</strong> Standard Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../../getting-started/getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> What is Pop!_OS?</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Pop!_OS Development Roadmap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Contribute to Pop!_OS</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Demo Pop!_OS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Use Pop!_OS In a Virtual Machine</div></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/create-bootable-usb.html"><strong aria-hidden="true">4.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html"><strong aria-hidden="true">4.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-windows.html"><strong aria-hidden="true">4.2.</strong> Using Windows</a></li><li class="chapter-item expanded "><a href="../../getting-started/create-bootable-media/bootable-usb-using-macos.html"><strong aria-hidden="true">4.3.</strong> Using macOS</a></li></ol></li><li class="chapter-item expanded "><a href="../../getting-started/installation/installation.html" class="active"><strong aria-hidden="true">5.</strong> Standard Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">5.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -144,7 +144,7 @@
 <li>Choose a locale and keyboard language.</li>
 <li>Perform system hard drive selection and partitioning (advanced).</li>
 <li>Create a user account.</li>
-<li>Enable system disk encryptions.</li>
+<li>Enable system disk encryption.</li>
 </ul>
 <hr />
 <h2 id="requirements"><a class="header" href="#requirements">Requirements</a></h2>
@@ -158,65 +158,72 @@
 <p>Systems with Secure Boot enabled must disable this feature before installing Pop!_OS. Secure boot can be disabled in the BIOS of most computers; however, the process to disable secure boot will vary by laptop and motherboard model.</p>
 <h3 id="installation-media"><a class="header" href="#installation-media">Installation Media</a></h3>
 <p>The Pop!_OS.iso can be easily flashed to a USB drive. See <a href="/getting-started/create-bootable-media/create-bootable-usb.html">Create a Bootable Pop!_OS USB.</a></p>
+<h3 id="installation-media-selected-as-boot-device"><a class="header" href="#installation-media-selected-as-boot-device">Installation Media Selected as Boot Device</a></h3>
+<p>Power off the target computer and insert the bootable USB. Power on the computer and enter the boot device menu selection for your BIOS or UEFI system. The table below lists lists several common methods for System76 laptops and desktops. Consult your computer manufacturer's documentation to access this menu on third-party computers.</p>
+<table><thead><tr><th style="text-align: center">Firmware</th><th style="text-align: center">BIOS key</th><th style="text-align: center">Boot Menu key</th></tr></thead><tbody>
+<tr><td style="text-align: center">Laptop - Open Firmware</td><td style="text-align: center">ESC</td><td style="text-align: center">ESC (select one time boot option)</td></tr>
+<tr><td style="text-align: center">Laptop - Proprietary</td><td style="text-align: center">F2</td><td style="text-align: center">F7</td></tr>
+<tr><td style="text-align: center">Older Laptops</td><td style="text-align: center">Depends on the system</td><td style="text-align: center">F1</td></tr>
+<tr><td style="text-align: center">Thelio</td><td style="text-align: center">Del</td><td style="text-align: center">F8 or F12</td></tr>
+<tr><td style="text-align: center">Meerkat</td><td style="text-align: center">F2</td><td style="text-align: center">F10</td></tr>
+</tbody></table>
 <hr />
 <h2 id="pop_os-installation"><a class="header" href="#pop_os-installation">Pop!_OS Installation</a></h2>
 <ol>
-<li>
-<p>Choose a language.</p>
+<li>Choose a language.</li>
+</ol>
 <p><img src="/images/installation/choose-language.png" alt="Choose Language" /></p>
-</li>
-<li>
-<p>Select a locale.</p>
+<ol start="2">
+<li>Select a locale.</li>
+</ol>
 <p><img src="/images/installation/language-region.png" alt="Language Region" /></p>
-</li>
-<li>
-<p>Select a keyboard input language.</p>
+<ol start="3">
+<li>Select a keyboard input language.</li>
+</ol>
 <p><img src="/images/installation/keyboard-language.png" alt="Keyboard Language" /></p>
-</li>
-<li>
-<p>Select a keyboard layout.</p>
+<ol start="4">
+<li>Select a keyboard layout.</li>
+</ol>
 <p><img src="/images/installation/keyboard-language2.png" alt="Keyboard Layout" /></p>
-</li>
-<li>
-<p>Choose the <code>Clean Install</code> option for a standard installation. This is the best option for new Linux users, but be aware that this will erase all contents of the target drive.</p>
+<ol start="5">
+<li>Choose the <code>Clean Install</code> option for a standard installation. This is the best option for new Linux users, but be aware that this will erase all contents of the target drive.</li>
+</ol>
 <blockquote>
-<p><strong>Note</strong>: The <code>Custom (Advanced)</code> option opens GParted. GParted allows users to choose partition tables and create custom partitions, among other options.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. --></p>
+<p><strong>Note</strong>: The <code>Custom (Advanced)</code> option opens GParted. GParted allows users to choose partition tables and create custom partitions.  <!-- See Using [GParted Custom (Advanced)](advanced-installation.md) for more information. --></p>
 </blockquote>
 <p><img src="/images/installation/clean-install.png" alt="Clean Install" /></p>
-</li>
-<li>
-<p>Choose the target drive for the OS installation. Click <code>Erase and Install</code>.</p>
+<ol start="6">
+<li>Choose the target drive for the OS installation. Click <code>Erase and Install</code>.</li>
+</ol>
 <p><img src="/images/installation/select-system-drive.png" alt="Select Drive" /></p>
-</li>
-<li>
-<p>Enter your first and last name (or a display name). A suggested username will populate in the User Name field.</p>
+<ol start="7">
+<li>Enter your first and last name (or a display name). A suggested username will populate in the User Name field.</li>
+</ol>
 <blockquote>
 <p><strong>Tip</strong>: You don't need to type your username when logging into Pop!_OS normally, but it can be handy to remember when logging into a terminal session, logging in remotely via SSH, or performing certain configurations.</p>
 </blockquote>
 <p><img src="/images/installation/enter-username.png" alt="Enter Username" /></p>
-</li>
-<li>
-<p>Enter the account password.</p>
+<ol start="8">
+<li>Enter the account password.</li>
+</ol>
 <p><img src="/images/installation/enter-password.png" alt="Enter Password" /></p>
-</li>
-<li>
-<p>Choose to encrypt the drive, and optionally create a separate encryption password.</p>
+<ol start="9">
+<li>Choose to encrypt the drive, and optionally create a separate encryption password.</li>
+</ol>
 <blockquote>
 <p><strong>Note</strong>: Encrypting the system disk ensures user data is secure in the event that someone gains unauthorized physical access to the device. </p>
 </blockquote>
 <p><img src="/images/installation/encrypt-drive.png" alt="Encrypt Drive" /></p>
-</li>
-<li>
-<p>Wait for the installation to complete. Click <code>Restart Device</code> when prompted.</p>
-<p><img src="/images/installation/restart-system.png" alt="Restart System" /></p>
-</li>
+<ol start="10">
+<li>Wait for the installation to complete. Click <code>Restart Device</code> when prompted.</li>
 </ol>
+<p><img src="/images/installation/restart-system.png" alt="Restart System" /></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../getting-started/create-bootable-media/bootable-usb-using-macos.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -225,7 +232,7 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../getting-started/create-bootable-media/bootable-usb-using-linux.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../getting-started/create-bootable-media/bootable-usb-using-macos.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
             </nav>
