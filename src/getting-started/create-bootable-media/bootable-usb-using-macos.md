@@ -47,7 +47,7 @@ This section explains the process of creating a bootable Pop!\_OS USB in macOS u
     cd Downloads
     ```
 
-3. Use the `shasum` command to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename varies depending on the ISO version you choose.
+3. Use the `shasum` command to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename varies depending on the ISO version you chose.
 
     ```bash
     shasum -a 256 pop-os_21.10_amd64_intel_8.iso

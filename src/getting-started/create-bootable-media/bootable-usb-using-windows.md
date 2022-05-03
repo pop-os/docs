@@ -49,7 +49,7 @@ Take note of the hash value for your chosen ISO. Use this value to verify the in
     cd C:\Users\USERNAME\Downloads
     ```
 
-3. Use the `CertUtil` program to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename changes depending on the ISO version you chose.
+3. Use the `CertUtil` program to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename varies depending on the ISO version you chose.
 
     ```bash
     CertUtil -hashfile pop-os_21.10_amd64_intel_8.iso sha256
