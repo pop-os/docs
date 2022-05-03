@@ -21,3 +21,4 @@
         - [Bookmarks & Starred Items](navigate-pop/bookmarks-starred-items.md)
 - [Customize Pop!\_OS](customize-pop/customize-pop.md)
     - [Customizing the Desktop](customize-pop/customize-desktop.md)
+    - [Configure Application Settings](customize-pop/application-settings.md)
