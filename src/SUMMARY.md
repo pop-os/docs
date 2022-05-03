@@ -19,4 +19,5 @@
     - [Navigate Files & Folders](navigate-pop/navigate-files-folders.md)
         - [Viewing & Sorting Options](navigate-pop/viewing-sorting-options.md)
         - [Bookmarks & Starred Items](navigate-pop/bookmarks-starred-items.md)
-- [Customize Pop!_OS]()
+- [Customize Pop!\_OS](customize-pop/customize-pop.md)
+    - [Customizing the Desktop](customize-pop/customize-desktop.md)
