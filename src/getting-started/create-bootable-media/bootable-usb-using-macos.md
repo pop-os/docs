@@ -13,15 +13,15 @@ This section explains the process of creating a bootable Pop!\_OS USB in macOS u
 
 1. Navigate to Etcher's [download page](https://www.balena.io/etcher/) and click `Download for macOS`.
 
-![Download Etcher](/images/create-bootable-usb-macos/download-etcher.png)
+    ![Download Etcher](/images/create-bootable-usb-macos/download-etcher.png)
 
 2. Click the Downloads folder from the Dock and select the Etcher .dmg file.
 
-![Run Etcher dmg](/images/create-bootable-usb-macos/run-etcher-dmg.png)
+    ![Run Etcher dmg](/images/create-bootable-usb-macos/run-etcher-dmg.png)
 
 3. Drag the Etcher logo into the applications folder.
 
-![Install Etcher](/images/create-bootable-usb-macos/install-etcher.png)
+    ![Install Etcher](/images/create-bootable-usb-macos/install-etcher.png)
 
 ## Download the Pop!\_OS.iso File
 
@@ -31,7 +31,7 @@ This section explains the process of creating a bootable Pop!\_OS USB in macOS u
 
 2. Take note of the hash value for your chosen ISO. Use this value to verify the integrity of the ISO file.
 
-![Compare Hash Values](/images/create-bootable-usb-linux/compare-hash-values.png)
+    ![Compare Hash Values](/images/create-bootable-usb-linux/compare-hash-values.png)
 
 3. If prompted, confirm you want to allow downloads from pop.system76.com.
 
@@ -39,19 +39,19 @@ This section explains the process of creating a bootable Pop!\_OS USB in macOS u
 
 1. Click the Launchpad icon, then search for `terminal`. Click the `Terminal` icon to launch it.
 
-![Launch Terminal](/images/create-bootable-usb-macos/launch-terminal.png)
+    ![Launch Terminal](/images/create-bootable-usb-macos/launch-terminal.png)
 
 2. Change directory to the folder containing your Pop!\_OS ISO file. In this example, the ISO is in the Downloads folder.
 
-```bash
-cd Downloads
-```
+    ```bash
+    cd Downloads
+    ```
 
-3. Use the `shasum` command to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename varies depending on the ISO version you choose.
+3. Use the `shasum` command to verify your ISO file. Make sure the name of the ISO matches exactly what is in your folder. The filename varies depending on the ISO version you chose.
 
-```bash
-shasum -a 256 pop-os_21.10_amd64_intel_8.iso
-```
+    ```bash
+    shasum -a 256 pop-os_21.10_amd64_intel_8.iso
+    ```
 
 4. This command will output a long string of characters. Compare the output to the appropriate hash value on the Pop!\_OS download site.
 
@@ -59,23 +59,23 @@ shasum -a 256 pop-os_21.10_amd64_intel_8.iso
 
 1. After installation, click the Launchpad icon on the Dock. Select the `balenaEtcher` icon to launch the app. If prompted, confirm you want to open the app.
 
-![Launch Etcher](/images/create-bootable-usb-macos/launch-etcher.png)
+    ![Launch Etcher](/images/create-bootable-usb-macos/launch-etcher.png)
 
 2. Select `Flash from file`, then navigate to and select your Pop!\_OS.iso file.
 
-![Flash From File](/images/create-bootable-usb-macos/flash-from-file.png)
+    ![Flash From File](/images/create-bootable-usb-macos/flash-from-file.png)
 
 3. Click `Select target` and select your USB drive.
 
-![Select Target](/images/create-bootable-usb-macos/select-target.png)
+    ![Select Target](/images/create-bootable-usb-macos/select-target.png)
 
 4. Click `Flash!`. Enter your password if prompted.
 
-![Click Flash](/images/create-bootable-usb-macos/click-flash.png)
+    ![Click Flash](/images/create-bootable-usb-macos/click-flash.png)
 
 5. Close Etcher once the installation completes.
 
-![Click Finish](/images/create-bootable-usb-macos/click-finish.png)
+    ![Click Finish](/images/create-bootable-usb-macos/click-finish.png)
 
 ## Next Steps
 
