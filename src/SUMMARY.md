@@ -8,7 +8,7 @@
     - [Create a Bootable Pop!_OS USB Device](getting-started/create-bootable-media/create-bootable-usb.md)
         - [Using Linux](getting-started/create-bootable-media/bootable-usb-using-linux.md)
         - [Using Windows](getting-started/create-bootable-media/bootable-usb-using-windows.md)
-        - [Using MacOS](getting-started/create-bootable-media/bootable-usb-using-macos.md)
+        - [Using macOS](getting-started/create-bootable-media/bootable-usb-using-macos.md)
     - [Demo Pop!_OS Before Installing]()
     - [Install Pop!\_OS](getting-started/installation/installation.md)
         - [Custom (Advanced) Installation]()
