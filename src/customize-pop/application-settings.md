@@ -1,4 +1,4 @@
-# Customize Application Settings
+# Application Settings
 
 Installed applications can be customized to open specific file types, display notifications, and access specific system services or resources.
 

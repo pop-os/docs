@@ -19,6 +19,10 @@ Users can assign languages in order of preference, install, or remove languages.
 
 ## Date, Time, Units and Number Formats
 
-Open the Formats menu by clicking Formats. This screen lists common Date, Time, Number, and Units of Measure settings organized by language.
+Open the Formats menu by clicking Formats. 
+
+![]
+
+This screen lists common Date, Time, Number, and Units of Measure settings organized by language. To change a format, select it and a check mark will appear.
 
 ![]

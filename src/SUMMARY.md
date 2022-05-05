@@ -25,3 +25,6 @@
     - [Manage Keyboard Languages, Layouts, & Shortcuts](customize-pop/keyboard-settings.md)
     - [Connect an Online Account](customize-pop/online-accounts.md)
     - [Choosing Color Profiles](customize-pop/color-profiles.md)
+    - [Region & Language](customize-pop/region-language.md)
+    - [Accessibility Settings](customize-pop/accessibility-settings.md)
+    - [GNOME Tweaks & Extensions](customize-pop/gnome-tweaks-extensions.md)
