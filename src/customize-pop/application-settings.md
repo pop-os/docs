@@ -1,6 +1,6 @@
 # Application Settings
 
-Installed applications can be customized to open specific file types, display notifications, and access specific system services or resources.
+Installed applications can be customized to open specific file types, have unique notification behavior, and to access specific system services or resources.
 
 - [The `Applications` tab](/customize-pop/application-settings.md#applications) provides settings to manage application permissions, system integration features, default handlers, and disk space usage. The availability of these settings depends on the functions and access required by the application.
 - [The `Notifications`](/customize-pop/application-settings.md#default-applications) tab provides more fine-tuning of application-specific notification behavior by providing additional control over which applications display notifications, what notifications are displayed, and where they are displayed.
@@ -8,9 +8,9 @@ Installed applications can be customized to open specific file types, display no
 
 ## Applications
 
-Specify system feature integration and default handlers Settings -> Applications.
+Specify system feature integration and default handlers Settings ➞ Applications.
 
-![]
+![Application Settings]()
 
 `Permissions & Access`: These settings display data and system services the app has requested or requires. These can include access to system devices, using the system's network connection, reading and writing to the file system, and the ability to change settings. Many applications will include built-in permissions that cannot be modified by the user. You can view permission granted to an application by clicking the `Built-in Permissions` button.
 

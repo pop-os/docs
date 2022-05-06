@@ -4,7 +4,7 @@ GNOME Tweaks and GNOME Shell Extensions provide additional customization beyond 
 
 ## GNOME Tweaks
 
-GNOME Tweaks is an optional software package allowing users to further customize the appearance and behavior of Pop!\_OS. GNOME Tweaks features include, changing power settings, managing startup applications, enabling desktop icons, and changing fonts.
+GNOME Tweaks is an optional software package allowing users to further customize the appearance and behavior of Pop!\_OS. GNOME Tweaks features include changing power settings, managing startup applications, enabling desktop icons, and changing fonts.
 
 ### Install GNOME Tweaks
 
@@ -19,3 +19,10 @@ A web browser plugin is needed to interact with the site, and it will prompt for
 
 ![]
 
+
+
+<!--Show:
+- how to change theme
+- how to change font
+-  
+-->
