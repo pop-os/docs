@@ -57,6 +57,5 @@ Designate an application as the default by selecting it from the dropdown menu. 
 
 ![Select Default](/images/application-settings/select-default.png)
 
-### Default Applications vs. Default Handlers
-
-Many applications can be configured as default handlers for a single file type, but this menu allows you to specify which application should always launch when handling a specific media type.
+> **Default Applications vs. Default Handlers**:
+> Multiple applications can be designated as default handlers for file types. The `Default Applications` menu allows you to specify which application should **always** launch when handling a specific media type, even if other appropriate applications are installed on the system.
