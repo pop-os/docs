@@ -1,58 +1,58 @@
 # Accessibility Settings
 
-Configure accessibility settings in Settings ➞ Accessibility. Accessibility features provide sensory assistance to users performing input or observing visual and audible output. This section briefly describes the purpose of each setting, but more information can be found on [GNOME's help page](https://help.gnome.org/users/gnome-help/stable/a11y.html).
+Configure accessibility settings in Settings ➞ Accessibility. Accessibility features provide sensory enhancement to users performing input or observing visual and audible output. This section briefly describes the purpose of each setting, but more information can be found on [GNOME's help page](https://help.gnome.org/users/gnome-help/stable/a11y.html).
 
-![]
+![Accessibility Settings](/images/accessibility-settings/accessibility-settings.png)
 
-When `Always Show Accessbility Menu` is enabled, accessibility options can be toggled using a gear icon in the upper right corner.
+When `Always Show Accessibility Menu` is enabled, accessibility options can be toggled using an icon in the upper right corner.
 
-![]
+![Always Show Menu](/images/accessibility-settings/always-show-menu.png)
 
 ## Seeing
 
-Seeing settings provide visual enhancements to help visually impaired users navigate the operating system's UI.
+`Seeing` settings provide visual enhancements to help visually impaired users navigate the operating system's UI.
 
 ### High Contrast
 
 Enabling `High Contrast` causes system windows and applications to display the high contrast color scheme.
 
-![]
+![High Contrast](/images/accessibility-settings/high-contrast.png)
 
 ### Large Text
 
 Enabling `Large Text` increases the text size of system windows and applications.
 
-![]
+![Large Text](/images/accessibility-settings/large-text.gif)
 
 ### Cursor Size
 
 Enabling `Cursor Size` allows users to choose between five cursor sizes.
 
-![]
+![Cursor Size](/images/accessibility-settings/cursor-size.png)
 
 ### Zoom
 
-The `Zoom` setting designates a portion of the screen to display magnified content. Magnified content tracks with the movement of the mouse.
+The `Zoom` setting designates all or a part of the screen to display magnified content. The magnified area tracks with the movement of the mouse.
 
-![]
+![Zoom](/images/accessibility-settings/zoom.png)
 
 ### Screen Reader
 
-The Screen Reader converts displayed text of a focused window to audible speech.
+The Screen Reader option enables a feature that converts the displayed text of a focused window to audible speech.
 
-![]
+![Screen Reader](/images/accessibility-settings/screen-reader.png)
 
 ### Sound Keys
 
 When `Sound Keys` is enabled, users will hear in audible beep whenever Num Lock or Caps Lock are turned on or off.
 
-![]
+![Sound Keys](/images/accessibility-settings/sound-keys.png)
 
 ## Hearing
 
 When the `Visual Alerts` setting is enabled, alert sounds will be accompanied by a visual flickering of the entire screen or window.
 
-![]
+![Visual Alerts](/images/accessibility-settings/anim.gif)
 
 ## Typing
 
@@ -62,25 +62,24 @@ Typing accessibility features enhance keyboard input behavior.
 
 Enabling `Screen Keyboard` will display an interactive keyboard wherever text entry is possible.
 
-![]
-
+![Screen Keyboard](/images/accessibility-settings/screen-keyboard.gif)
 ### Repeat Keys
 
 Enabling `Repeat Keys` cause key entry to repeat when a key is held down. Users can configure the delay before this actions occurs, and the repeat speed once the action occurs.
 
-![]
+![Repeat Keys](/images/accessibility-settings/repeat-keys.gif)
 
 ### Cursor Blinking
 
 When `Cursor Blinking` is enabled, the cursor will blink when a text field is selected. Users can also adjust the blink speed.
 
-![]<!--see if we can get a motion graphic for this one-->
+![Cursor Blinking](/images/accessibility-settings/cursor-blinking.gif)<
 
 ### Typing Assist
 
 `Typing Assist` settings modify the way a keyboard accepts input from the user.
 
-![]
+![Typing Assist](/images/accessibility-settings/typing-assist.png)
 
 | Option | Function |
 |--------|--------|
@@ -96,4 +95,3 @@ When `Cursor Blinking` is enabled, the cursor will blink when a text field is se
 | Locate Pointer | An animation occurs on the cursor whenever the `Ctrl` key is pressed. |
 | Click Assist | Trigger a simulated double-click when holding down the primary mouse button. A click can also be triggered simply by hovering the mouse over an item on the screen. |
 | Double Click Delay | Set the amount of time required to register a double click. |
-
