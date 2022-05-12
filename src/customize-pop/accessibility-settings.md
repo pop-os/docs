@@ -89,6 +89,10 @@ When `Cursor Blinking` is enabled, the cursor will blink when a text field is se
 
 ## Pointing & Clicking
 
+`Pointing & Clicking` settings expand input capabilities for controlling the mouse.
+
+![Pointing & Clicking](/images/accessibility-settings/pointing-clicking.png)
+
 | Option | Function |
 |--------|----------|
 | Mouse Keys | The mouse cursor can be controlled using the num keypad. |
