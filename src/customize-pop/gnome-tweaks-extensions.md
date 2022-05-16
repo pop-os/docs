@@ -2,6 +2,8 @@
 
 GNOME Tweaks and GNOME Shell Extensions provide additional customization beyond the Settings menu.
 
+---
+
 ## GNOME Tweaks
 
 GNOME Tweaks is an optional software package allowing users to further customize the appearance and behavior of Pop!\_OS. GNOME Tweaks features include changing power settings, managing startup applications, enabling desktop icons, and changing fonts.
@@ -90,7 +92,7 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 | Pointer Location | Pressing the `Ctrl` key creates a visual notification at the mouse pointer location. |
 | Middle Click Paste | Clicking the middle mouse button pastes content from the clipboard. |
 | (Touchpad) Disable While Typing | The touchpad is disabled when using the keyboard. |
-| (Touchpad) Mouse Click Emulation | Select touchpad input that will be interpreted as input from a standard mouse: <ul><li>Fingers: Click with two fingers on the touch pad to input right-click, and three fingers input a middle-click.</li><li>Area: Click the bottom right of the touch pad to input right-click, and the bottom middle for a middle-click.</li><li>Disablsed: The touch pad input will not be interpreted as right, middle, or left-click actions. |
+| (Touchpad) Mouse Click Emulation | Select touchpad input that will be interpreted as input from a standard mouse: <ul><li>Fingers: Click with two fingers on the touch pad to input right-click, and three fingers input a middle-click.</li><li>Area: Click the bottom right of the touch pad to input right-click, and the bottom middle for a middle-click.</li><li>Disabled: The touch pad input will not be interpreted as right, middle, or left-click actions. |
 
 ### Startup Applications
 
@@ -153,4 +155,3 @@ Extensions are available from [extensions.gnome.org](https://extensions.gnome.or
 To add an extension from extensions.gnome.org, navigate to the extension's page and toggle the switch to `On`.
 
 ![Toggle Extension](/images/gnome-tweaks-extensions/toggle-extension.png)
-

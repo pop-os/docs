@@ -8,6 +8,8 @@ When `Always Show Accessibility Menu` is enabled, accessibility options can be t
 
 ![Always Show Menu](/images/accessibility-settings/always-show-menu.png)
 
+---
+
 ## Seeing
 
 `Seeing` settings provide visual enhancements to help visually impaired users navigate the operating system's UI.
@@ -63,6 +65,7 @@ Typing accessibility features enhance keyboard input behavior.
 Enabling `Screen Keyboard` will display an interactive keyboard wherever text entry is possible.
 
 ![Screen Keyboard](/images/accessibility-settings/screen-keyboard.gif)
+
 ### Repeat Keys
 
 Enabling `Repeat Keys` cause key entry to repeat when a key is held down. Users can configure the delay before this actions occurs, and the repeat speed once the action occurs.

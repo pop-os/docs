@@ -15,11 +15,11 @@ Set Input Sources, Input Source Switching, Special Character entry options, and 
 
 1. Click the `+` to display available input sources. Select an input source from the list, or click the three vertical dots to perform a keyword search.
 
-![Display Sources](/images/keyboard-settings/display-sources.png)
+    ![Display Sources](/images/keyboard-settings/display-sources.png)
 
 2. Select a language from the list.
 
-![Select Source](/images/keyboard-settings/select-source.png)
+    ![Select Source](/images/keyboard-settings/select-source.png)
 
 3. Select a keyboard layout and click `Add`.
 
@@ -39,26 +39,26 @@ Pop!\_OS includes default shortcuts to provide intuitive and efficient navigatio
 
 1. Click `Customize Shortcuts` to view all keyboard shortcuts.
 
-![Customize Shortcuts](/images/keyboard-settings/customize-shortcuts.png)
+    ![Customize Shortcuts](/images/keyboard-settings/customize-shortcuts.png)
 
 2. To add an additional key combination to an existing shortcut, click the three dots to the left and choose `Add another shortcut`.
 
-![Add Shortcut](/images/keyboard-settings/add-shortcut.png)
+    ![Add Shortcut](/images/keyboard-settings/add-shortcut.png)
 
 3. Enter a key combination when prompted.
 
-![Enter Shortcut](/images/keyboard-settings/enter-shortcut.png)
+    ![Enter Shortcut](/images/keyboard-settings/enter-shortcut.png)
 
 ### Add a Custom Shortcut
 
 1. Click `Custom Shortcuts` to add an additional shortcut.
 
-![Custom Shortcuts](/images/keyboard-settings/custom-shortcuts.png)
+    ![Custom Shortcuts](/images/keyboard-settings/custom-shortcuts.png)
 
 2. Click `Add Shortcut`; then enter a name and command.
 
-![Enter Command](/images/keyboard-settings/enter-command.png)
+    ![Enter Command](/images/keyboard-settings/enter-command.png)
 
 3. Click `Set Shortcut` and enter a key combination.
 
-![Set Custom Shortcut](/images/keyboard-settings/set-custom-shortcut.png)
+    ![Set Custom Shortcut](/images/keyboard-settings/set-custom-shortcut.png)

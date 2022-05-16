@@ -7,6 +7,8 @@ Set the system language, manage installed languages, and configure numeric and c
 
 ![Region and Language Settings](/images/region-language-settings/region-lang-settings.png)
 
+---
+
 ## Manage Installed Languages
 
 Clicking `Manage Installed Languages` opens the Language Support menu. Users can assign languages in order of preference, install, or remove languages. Clicking `Apply System-Wide` uses the same language choices for the startup and login screens.
@@ -15,7 +17,7 @@ Clicking `Manage Installed Languages` opens the Language Support menu. Users can
 
 ## Date, Time, Units and Number Formats
 
-Clicking `Formats` opens the Formats menu. This screen lists common Date, Time, Number, and Units of Measure settings organized by language. 
+Clicking `Formats` opens the Formats menu. This screen lists common Date, Time, Number, and Units of Measure settings organized by language.
 
 ![Formats Menu](/images/region-language-settings/formats-menu.png)
 

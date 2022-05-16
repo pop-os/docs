@@ -4,7 +4,9 @@ Installed applications can be customized to open specific file types, have uniqu
 
 - [The `Applications` tab](/customize-pop/application-settings.md#applications) provides settings to manage application permissions, system integration features, default handlers, and disk space usage. The availability of these settings depends on the functions and access required by the application.
 - [The `Notifications`](/customize-pop/application-settings.md#default-applications) tab provides more fine-tuning of application-specific notification behavior by providing additional control over which applications display notifications, what notifications are displayed, and where they are displayed.
-- [The `Default Applications`](/customize-pop/application-settings.md#default-applications) tab provides a simplified menu for specifying a specific app that should always open a certain media type.
+- [The `Default Applications`](/customize-pop/application-settings.md#default-applications) tab provides a simplified menu for specifying an app that should always open a certain file type.
+
+---
 
 ## Applications
 
@@ -49,7 +51,7 @@ Select one of the applications listed on the left to configure its notification 
 
 ## Default Applications
 
-Choose default applications for Web browsing, Email, Calendars, Music, Videos, and Photos in Settings ➞ Default Applications. 
+Choose default applications for Web browsing, Email, Calendars, Music, Videos, and Photos in Settings ➞ Default Applications.
 
 ![Default Applications](/images/application-settings/default-applications.png)
 
