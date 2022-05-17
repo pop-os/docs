@@ -1,4 +1,4 @@
-[Introduction](README.md)
+- [Introduction](README.md)
 - [What is Pop!_OS?]()
     - [Introduction to COSMIC & the Pop!\_Shell]()
     - [Pop!_OS Development Roadmap]()
