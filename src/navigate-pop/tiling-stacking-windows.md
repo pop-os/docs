@@ -1,0 +1,86 @@
+# Manipulating Windows
+
+This section describes the Auto Tiling, Stacking, and window adjustment features in Pop!\_OS.
+
+---
+## Window Adjustment Mode
+
+Adjustment mode allows users to easily manipulate the placement of windows using keyboard shortcuts.
+
+Place a window into Management mode by positioning your cursor over the window, and then pressing `SUPER` + `Enter`. The window will be highlighted in yellow. You can now manipulate the window with `🠐` `🠑` `🠒` `🠓` keys in combination with other keys.
+
+![Adjustment Mode Manipulation](/images/tiling-stacking-windows/adjustment-mode-manipulation.gif)
+
+All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows.
+
+## Auto Tiling Windows
+
+Pop!\_OS optimizes workflows using a smart window management system called Auto Tiling. Auto Tiling automatically positions and sizes windows.
+
+![Auto Tiling](/images/tiling-stacking-windows/auto-tiling.png)
+
+Enable Auto Tiling by clicking on the tile icon in the upper right corner and toggling the button. Tiling settings include options for window titles, active window hint, active window color, and gaps.
+
+![Enable Autotiling](/images/tiling-stacking-windows/enable-autotiling.png)
+
+| Option                 | Function |
+|----------------------|--------|
+| Tile Windows| Toggles the Auto Tiling feature on or off  |
+| Floating Window Exception  | Allows adding exceptions to the Auto Tiling feature allowing free positioning of specified windows.|
+| Toggle Tiling          | Enable/Disable the Auto Tiling feature with a keyboard shortcut. |
+| Show Active Hint       | Highlights the selected window with a colored border. |
+| Gaps                | Sets gap spacing between tiled windows. |
+
+All keyboard shortcuts for Auto Tiling mode can be found in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Tiling.
+
+### Add a Floating Window Exception
+
+Floating Window Exceptions exclude individual windows from Auto Tiling. Pop!\_OS applies default exceptions to some applications based on user feedback.
+
+1. Run the application that needs to be exempted from Auto Tiling. Click the tile menu, then click `Floating Window Exceptions`.
+
+    ![Floating Window Exceptions](/images/tiling-stacking-windows/floating-window-exceptions.png)
+
+2. Click `Select` to add an exception.
+
+    ![Click Select](/images/tiling-stacking-windows/click-select.png)
+
+3. Select the running application that should be exempted from Auto Tiling.
+
+    ![Select Exempted App](/images/tiling-stacking-windows/select-exempted-app.png)
+
+4. Choose to create an exception for all windows belonging to an application, or only the currently selected window. In this example, only the current Terminal window will be selected for exemption.
+
+    ![Current Window Only](/images/tiling-stacking-windows/current-window-only.png)
+
+5. The Terminal window can now be dragged around freely.
+
+    ![Drag Shell Freely](/images/tiling-stacking-windows/drag-shell-freely.png)
+
+## Stacking Windows
+
+Stacking is an additional Auto Tiling feature enabling multiple windows to occupy the same screen space.
+
+1. While Auto Tiling is enabled, select a window and press `SUPER` + `S` to create a stack. Stacks have a yellow list of windows at the top.
+
+    ![Enable Stacking](/images/tiling-stacking-windows/enable-stacking.gif)
+
+2. Select a separate window and press `SUPER` + `Enter` to enter adjustment mode. The window to be merged is designated by a yellow highlight across the entire window.
+
+    ![Highlight for Stacking](/images/tiling-stacking-windows/highlight-for-stacking.gif)
+
+3. Use the `🠐` `🠑` `🠒` `🠓` keys to move the window into the stack.
+
+    ![Move into Stack](/images/tiling-stacking-windows/move-into-stack.gif)
+
+4. Launching additional applications while a window within a stack is selected will automatically add that application to the same stack.
+
+    ![Launch Additional App](/images/tiling-stacking-windows/launch-additional-app.gif)
+
+5. Use `SUPER` + `🠐` `🠑` `🠒` `🠓` keys to navigate between windows in the stack.
+
+    ![Navigate Stacked Windows](/images/tiling-stacking-windows/navigate-stacked-windows.gif)
+
+6. To remove a window from a stack, press `SUPER` + `Enter` and use `🠐` `🠑` `🠒` `🠓` keys to move the window outside of the stack.
+
+    ![Remove from Stack](/images/tiling-stacking-windows/remove-from-stack.gif)
