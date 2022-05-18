@@ -7,27 +7,29 @@ This section describes the Auto Tiling, Stacking, and window adjustment features
 
 Adjustment mode allows users to easily manipulate the placement of windows using keyboard shortcuts.
 
-Place a window into Management mode by positioning your cursor over the window, and then pressing `SUPER` + `Enter`. The window will be highlighted in yellow. You can now manipulate the window with `🠐` `🠑` `🠒` `🠓` keys in combination with other keys.
+Place a window into adjustment mode by bringing the window into focus, and then pressing `SUPER` + `Enter`. The window will be highlighted in yellow. You can now manipulate the window with the `🠐` `🠑` `🠒` `🠓` keys in combination with other keys.
 
 ![Adjustment Mode Manipulation](/images/tiling-stacking-windows/adjustment-mode-manipulation.gif)
 
-All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows.
+All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows. Some windows will have keyboard shortcuts accessible from the top-right drop-down menu.
+
+![Drop Down Shortcuts](/images/tiling-stacking-windows/top-right-dropdown-shortcuts.png)
 
 ## Auto Tiling Windows
 
-Pop!\_OS optimizes workflows using a smart window management system called Auto Tiling. Auto Tiling automatically positions and sizes windows.
+Pop!\_OS optimizes workflows using a smart window management system called Auto Tiling. Auto Tiling automatically positions and sizes windows to minimize wasted screen space.
 
 ![Auto Tiling](/images/tiling-stacking-windows/auto-tiling.png)
 
-Enable Auto Tiling by clicking on the tile icon in the upper right corner and toggling the button. Tiling settings include options for window titles, active window hint, active window color, and gaps.
+Enable Auto Tiling by clicking on the tile icon in the upper right corner and enabling the toggle, or by pressing `SUPER` + `Y`. Tiling settings include options for window titles, active window hint, active window color, and gaps.
 
 ![Enable Autotiling](/images/tiling-stacking-windows/enable-autotiling.png)
 
 | Option                 | Function |
 |----------------------|--------|
-| Tile Windows| Toggles the Auto Tiling feature on or off  |
-| Floating Window Exception  | Allows adding exceptions to the Auto Tiling feature allowing free positioning of specified windows.|
-| Toggle Tiling          | Enable/Disable the Auto Tiling feature with a keyboard shortcut. |
+| Tile Windows| Toggles the Auto Tiling feature on or off.  |
+| Floating Window Exceptions  | Allows adding exceptions to the Auto Tiling feature allowing free positioning of specified windows.|
+| Toggle Tiling          | Enables or disables the Auto Tiling feature with a keyboard shortcut. |
 | Show Active Hint       | Highlights the selected window with a colored border. |
 | Gaps                | Sets gap spacing between tiled windows. |
 
@@ -49,9 +51,14 @@ Floating Window Exceptions exclude individual windows from Auto Tiling. Pop!\_OS
 
     ![Select Exempted App](/images/tiling-stacking-windows/select-exempted-app.png)
 
-4. Choose to create an exception for all windows belonging to an application, or only the currently selected window. In this example, only the current Terminal window will be selected for exemption.
+4. Choose to create an exception for all windows belonging to an application, or only the currently selected window.
 
-    ![Current Window Only](/images/tiling-stacking-windows/current-window-only.png)
+- **Current Window Only**: This option uses the window's title to apply the exception in addition to its application, so any windows with the same title (now or in the future) will all have the exception applied.
+- **This App's Window**: This option will apply the exception to all windows launched by a specified application.
+
+In this example, only the current Terminal window will be selected for exemption.
+
+![Current Window Only](/images/tiling-stacking-windows/current-window-only.png)
 
 5. The Terminal window can now be dragged around freely.
 
@@ -77,7 +84,7 @@ Stacking is an additional Auto Tiling feature enabling multiple windows to occup
 
     ![Launch Additional App](/images/tiling-stacking-windows/launch-additional-app.gif)
 
-5. Use `SUPER` + `🠐` `🠑` `🠒` `🠓` keys to navigate between windows in the stack.
+5. Use `SUPER` + `🠐` `🠒` keys to navigate between windows in the stack.
 
     ![Navigate Stacked Windows](/images/tiling-stacking-windows/navigate-stacked-windows.gif)
 

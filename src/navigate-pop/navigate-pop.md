@@ -7,7 +7,7 @@ ubuntu vs. pop: https://support.system76.com/articles/difference-between-pop-ubu
 
 # Navigate Pop!\_OS
 
-The Pop!\_OS Desktop environment is based on the GNOME shell and layered with other components called Pop!\_Shell and COSMIC. (Computer Operating System Main Interface Components).
+The Pop!\_OS desktop environment is based on the GNOME shell and layered with other components called Pop!\_Shell and COSMIC (Computer Operating System Main Interface Components).
 
 - [Position and Manipulate Windows](tiling-stacking-windows.md) - Manipulate windows using Auto Tiling and Stacking.
 - [Organize Your Work](using-workspaces.md) - Use Workspaces to organize running applications.

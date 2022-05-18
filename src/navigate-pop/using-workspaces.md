@@ -1,6 +1,6 @@
 # Workspaces
 
-Manage multiple workflows and projects with Workspaces. Show and access Workspaces by clicking on the icon with multiple windows in the dock, clicking `Workspaces` in the top left corner of your screen, or by pressing SUPER + D.
+Manage multiple workflows and projects with Workspaces. Show and access Workspaces by clicking on the icon with multiple windows in the dock, clicking `Workspaces` in the top left corner of your screen, or by pressing `SUPER` + `D`.
 
 ![Show Workspaces](/images/workspaces/show-workspaces.png)
 

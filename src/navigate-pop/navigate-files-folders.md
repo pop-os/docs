@@ -46,7 +46,7 @@ Double-click folders and sub-folders to navigate into them.
 
 ![Navigate Folders](/images/navigate-files-folders/navigate-folders.png)
 
-Navigate between folders with the back and forth arrows, or by clicking folder names at the top.
+Navigate between folders with the arrow buttons, or by clicking folder names at the top.
 
 ![Navigate with Arrows](/images/navigate-files-folders/navigate-with-arrows.png)
 

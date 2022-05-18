@@ -12,7 +12,11 @@ Navigate into the folder that you want to pin as a bookmark. Right-click the bla
 
 ![Add to Bookmarks](/images/navigate-files-folders/add-to-bookmarks.png)
 
-The a shortcut to the folder is now available in the left panel.
+You can also left-lick and drag the folder over to the left panel.
+
+![Add to Bookmarks 2](/images/navigate-files-folders/add-to-bookmarks2.png)
+
+A shortcut to the folder is now available in the left panel.
 
 ![View Shortcut](/images/navigate-files-folders/view-shortcut.png)
 
