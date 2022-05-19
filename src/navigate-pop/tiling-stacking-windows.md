@@ -55,12 +55,12 @@ Floating Window Exceptions exclude individual windows from Auto Tiling. Pop!\_OS
 
 4. Choose to create an exception for all windows belonging to an application, or only the currently selected window.
 
-- **Current Window Only**: This option uses the window's title to apply the exception in addition to its application, so any windows with the same title (now or in the future) will all have the exception applied.
-- **This App's Window**: This option will apply the exception to all windows launched by a specified application.
+    - **Current Window Only**: This option uses the window's title to apply the exception in addition to its application, so any windows with the same title (now or in the future) will all have the exception applied.
+    - **This App's Window**: This option will apply the exception to all windows launched by a specified application.
 
-In this example, only the current Terminal window will be selected for exemption.
+    In this example, only the current Terminal window will be selected for exemption.
 
-![Current Window Only](/images/tiling-stacking-windows/current-window-only.png)
+    ![Current Window Only](/images/tiling-stacking-windows/current-window-only.png)
 
 5. The Terminal window can now be dragged around freely.
 
