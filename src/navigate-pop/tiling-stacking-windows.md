@@ -1,4 +1,4 @@
-# Manipulating Windows
+# Manipulating Windows with Tiling & Stacking
 
 This section describes the Auto Tiling, Stacking, and window adjustment features in Pop!\_OS.
 
@@ -9,7 +9,9 @@ Adjustment mode allows users to easily manipulate the placement of windows using
 
 Place a window into adjustment mode by bringing the window into focus, and then pressing `SUPER` + `Enter`. The window will be highlighted in yellow. You can now manipulate the window with the `🠐` `🠑` `🠒` `🠓` keys in combination with other keys.
 
-![Adjustment Mode Manipulation](/images/tiling-stacking-windows/adjustment-mode-manipulation.gif)
+<video autoplay loop>
+    <source src="/images/tiling-stacking-windows/adjustment-mode-manipulation.webm" />
+</video>
 
 All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows. Some windows will have keyboard shortcuts accessible from the top-right drop-down menu.
 
@@ -70,24 +72,36 @@ Stacking is an additional Auto Tiling feature enabling multiple windows to occup
 
 1. While Auto Tiling is enabled, select a window and press `SUPER` + `S` to create a stack. Stacks have a yellow list of windows at the top.
 
-    ![Enable Stacking](/images/tiling-stacking-windows/enable-stacking.gif)
+    <video autoplay loop>
+        <source src="/images/tiling-stacking-windows/enable-stacking.webm" />
+    </video>
 
 2. Select a separate window and press `SUPER` + `Enter` to enter adjustment mode. The window to be merged is designated by a yellow highlight across the entire window.
 
-    ![Highlight for Stacking](/images/tiling-stacking-windows/highlight-for-stacking.gif)
+    <video autoplay loop>
+        <source src="/images/tiling-stacking-windows/highlight-for-stacking.webm" />
+    </video>
 
 3. Use the `🠐` `🠑` `🠒` `🠓` keys to move the window into the stack.
 
-    ![Move into Stack](/images/tiling-stacking-windows/move-into-stack.gif)
+    <video autoplay loop>
+        <source src="/images/tiling-stacking-windows/move-into-stack.webm" />
+    </video>
 
 4. Launching additional applications while a window within a stack is selected will automatically add that application to the same stack.
 
-    ![Launch Additional App](/images/tiling-stacking-windows/launch-additional-app.gif)
+    <video autoplay loop>
+        <source src="/images/tiling-stacking-windows/launch-additional-app.webm" />
+    </video>
 
 5. Use `SUPER` + `🠐` `🠒` keys to navigate between windows in the stack.
 
-    ![Navigate Stacked Windows](/images/tiling-stacking-windows/navigate-stacked-windows.gif)
+    <video autoplay loop>
+        <source src="/images/tiling-stacking-windows/navigate-stacked-windows.webm" />
+    </video>
 
 6. To remove a window from a stack, press `SUPER` + `Enter` and use `🠐` `🠑` `🠒` `🠓` keys to move the window outside of the stack.
 
-    ![Remove from Stack](/images/tiling-stacking-windows/remove-from-stack.gif)
+    <video autoplay loop>
+        <source src="/images/tiling-stacking-windows/remove-from-stack.webm" />
+    </video>
