@@ -7,13 +7,13 @@ https://support.system76.com/articles/pop-basics/
 
 ---
 
-## Finding Installed Applications
+## Browsing Installed Applications
 
 Installed applications can be viewed in the Applications menu and the Pop!\_Shop Installed screen.
 
 ### The Applications Menu
 
-The Application menu can be accessed from the Dock or by clicking `Applications` in the upper left corner of the screen.
+The Applications menu can be accessed from the Dock or by clicking `Applications` in the upper left corner of the screen.
 
 ![Launch Applications Menu](/images/locate-launch-applications/launch-applications-menus.png)
 
@@ -23,33 +23,41 @@ Applications can be grouped into folders. Click `Create Folder` and give the fol
 
 Click and drag an application icon to add it to your folder.
 
-![Drag Application](/images/locate-launch-applications/drag-application.png)
+<video autoplay loop>
+    <source src="/images/locate-launch-applications/drag-application.webm" />
+</video>
 
 ### The Pop!\_Shop
 
-Launch the Pop!\_Shop; then click the `Installed` button.
+Launch the Pop!\_Shop, then click the `Installed` button.
 
 ![Pop Shop Installed Apps](/images/locate-launch-applications/pop-shop-installed-apps.png)
 
 ## Launching Applications
 
-Applications can be launched from the Dock, using the Launcher, or from the Terminal.
+Applications can be launched from the Dock, using the Launcher, the Applications menu, and from the Terminal.
 
-### The Launcher
+### Using the Launcher
 
-Press the `SUPER` key or the Dock Launcher icon to bring up the Launcher.
+Press the `SUPER` key or the Show Launcher icon to bring up the Launcher.
 
 ![Show Launcher](/images/locate-launch-applications/show-launcher.png)
 
-Search for the name of the application.
+Search for the name of the application, then hit `Enter`.
 
 ![Search App Name](/images/locate-launch-applications/search-app.png)
 
-Press `Alt` + `F2` to bring up a command entry window. Enter the name of the application and press `Enter`.
+### Using the Applications Menu
 
-![Command Launcher](/images/locate-launch-applications/command-launcher.png)
+Click the Applications menu icon located in the Dock.
 
-### The Dock
+![Click Applications Dock](/images/locate-launch-applications/click-applications-dock.png)
+
+Click the application's icon to launch it.
+
+![Click App Icon](/images/locate-launch-applications/click-app-icon.png)
+
+### Using the Dock
 
 Click the application's icon pinned to the Dock.
 
@@ -63,9 +71,15 @@ Remove applications from the Dock by right-clicking the application and selectin
 
 ![Remove from Favorites](/images/locate-launch-applications/remove-from-favorites.png)
 
-### The Terminal
+### Using Alt + F2
 
-Launch the Terminal from the dock; then type the name of the application hit `Enter`.
+Press `Alt` + `F2` to bring up a command entry window. Enter the name of the application and press `Enter`.
+
+![Command Launcher](/images/locate-launch-applications/command-launcher.png)
+
+### Using the Terminal
+
+Launch the Terminal from the dock; then type the name of the application hit `Enter`. You can also launch the Terminal by pressing `SUPER` + `T`.
 
 ![Launch From Terminal](/images/locate-launch-applications/launch-from-terminal.png)
 

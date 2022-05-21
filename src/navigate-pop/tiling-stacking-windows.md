@@ -13,7 +13,7 @@ Place a window into adjustment mode by bringing the window into focus, and then 
     <source src="/images/tiling-stacking-windows/adjustment-mode-manipulation.webm" />
 </video>
 
-All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows. Some windows will have keyboard shortcuts accessible from the top-right drop-down menu.
+All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows. You can also view all tiling shortcuts by clicking the tiling button in the upper right corner, and then clicking `View All`.
 
 ![Drop Down Shortcuts](/images/tiling-stacking-windows/top-right-dropdown-shortcuts.png)
 
