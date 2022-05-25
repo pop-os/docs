@@ -1,30 +1,48 @@
 # Workspaces
 
-Manage multiple workflows and projects with Workspaces. Show and access Workspaces by clicking on the icon with multiple windows in the dock, clicking `Workspaces` in the top left corner of your screen, or by pressing `SUPER` + `D`.
+Workspaces serve to reduce window clutter, especially on smaller displays. 
 
-![Show Workspaces](/images/workspaces/show-workspaces.png)
+---
 
-The open windows for a given Workspace will fan across the screen when that workspace is selected.
+## Using Workspaces
 
-![Show Windows & Workspaces](/images/workspaces/show-windows-workspaces.png)
+Show and access workspaces by clicking on the workspaces icon in the dock, clicking `Workspaces` in the top left corner of your screen, or by pressing `SUPER` + `D`.
 
-Click and drag applications between Workspaces as needed.
+The open windows for a given workspace will display when that workspace is selected.
 
-![Drag Window to Workspace](/images/workspaces/drag-window-workspace.png)
+<video autoplay loop>
+        <source src="/images/workspaces/show-workspaces.webm" />
+</video>
 
-## Navigate Workspaces with Keyboard Shortcuts
+Click and drag applications between workspaces as needed.
 
-Pop!\_OS includes these default key binds allowing users to quickly navigate between windows and workspaces.
+<video autoplay loop>
+        <source src="/images/workspaces/drag-window.webm" />
+</video>
+
+Selecting a window and pressing `SUPER` + `Shift` + the `🠑` or `🠓` keys will move a window to a different workspace.
+
+<video autoplay loop>
+        <source src="/images/workspaces/move-new-workspace.webm" />
+</video>
+
+Press the `SUPER` + `Ctrl` + the `🠑` or `🠓` to move between workspaces.
+
+<video autoplay loop>
+        <source src="/images/workspaces/switch-workspaces.webm" />
+</video>
+
+## Keyboard Shortcuts
 
 | Shortcut              | Action |
 |----------------------|--------|
-| SUPER + Ctrl + ↑/↓ | Navigate between Workspaces |
-| SUPER + Home/End  | Navigate to the first/last Workspace |
-| SUPER + Shift + Direction keys | Move an active window between Workspaces or displays |
-| SUPER + D | View all Workspaces and running applications |
+| SUPER + Ctrl + ↑/↓ | Navigate between workspaces |
+| SUPER + Home/End  | Navigate to the first/last workspace |
+| SUPER + Shift + Direction keys | Move the active window between workspaces or displays |
+| SUPER + D | View all workspaces and running applications |
 
 <!--
-## Configure Workspaces
+## Configure workspaces
 
 Access Workspaces Settings in Settings -> Desktop -> Workspaces. link to appropriate section in Configure Pop chapter when completed
 -->

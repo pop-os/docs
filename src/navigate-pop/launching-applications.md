@@ -35,17 +35,21 @@ Launch the Pop!\_Shop, then click the `Installed` button.
 
 ## Launching Applications
 
-Applications can be launched from the Dock, using the Launcher, the Applications menu, and from the Terminal.
+Applications can be launched from the Dock, the Launcher, the Applications menu, and the Terminal.
 
 ### Using the Launcher
 
-Press the `SUPER` key or the Show Launcher icon to bring up the Launcher.
+Press the `SUPER` key or the Show Launcher icon to bring up the Launcher. <!--TODO: link to dedicated Launcher section-->
 
 ![Show Launcher](/images/locate-launch-applications/show-launcher.png)
 
-Search for the name of the application, then hit `Enter`.
+Search for the name of the application. The Launcher will display currently running instances of that application first. Select the top result to focus the currently running instance of the application.
 
 ![Search App Name](/images/locate-launch-applications/search-app.png)
+
+To run a new instance of a currently running application, use the the `🠑` `🠓` keys or mouse left-click to select the application.
+
+![New Instance](/images/locate-launch-applications/new-instance.png)
 
 ### Using the Applications Menu
 
@@ -71,15 +75,19 @@ Remove applications from the Dock by right-clicking the application and selectin
 
 ![Remove from Favorites](/images/locate-launch-applications/remove-from-favorites.png)
 
-### Using Alt + F2
+### Alt + F2 & the Terminal
 
-Press `Alt` + `F2` to bring up a command entry window. Enter the name of the application and press `Enter`.
+If you know the application's executable name, you can launch the application with a single command using `Alt` + `F2` or by typing it into a Terminal window. Note that an application's executable name is not always the application name in lower-case as shown below. Unlike the Launcher, these options will not accept the name of the app in any form besides the executable name.
+
+#### Using Alt + F2
+
+Press `Alt` + `F2` to bring up a command entry window. Enter the name of the application's executable and press `Enter`.
 
 ![Command Launcher](/images/locate-launch-applications/command-launcher.png)
 
-### Using the Terminal
+#### Using the Terminal
 
-Launch the Terminal from the dock; then type the name of the application hit `Enter`. You can also launch the Terminal by pressing `SUPER` + `T`.
+Launch the Terminal from the Dock or by pressing `SUPER` + `T`, then type the name of the application's executable and hit `Enter`.
 
 ![Launch From Terminal](/images/locate-launch-applications/launch-from-terminal.png)
 

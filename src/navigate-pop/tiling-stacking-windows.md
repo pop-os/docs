@@ -1,4 +1,4 @@
-# Manipulating Windows with Tiling & Stacking
+# Manipulating Windows with Tiling, Stacking & Stacking
 
 This section describes the Auto Tiling, Stacking, and window adjustment features in Pop!\_OS.
 
@@ -10,10 +10,16 @@ Adjustment mode allows users to easily manipulate the placement of windows using
 Place a window into adjustment mode by bringing the window into focus, and then pressing `SUPER` + `Enter`. The window will be highlighted in yellow. You can now manipulate the window with the `🠐` `🠑` `🠒` `🠓` keys in combination with other keys.
 
 <video autoplay loop>
-    <source src="/images/tiling-stacking-windows/adjustment-mode-manipulation.webm" />
+    <source src="/images/tiling-stacking-windows/adjustment-mode.webm" />
 </video>
 
-All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows. You can also view all tiling shortcuts by clicking the tiling button in the upper right corner, and then clicking `View All`.
+Press and hold `SUPER` + `Shift` and use the `🠐` `🠑` `🠒` `🠓` keys to resize the window. Hit `Enter` to apply sizing.
+
+<video autoplay loop>
+    <source src="/images/tiling-stacking-windows/adjustment-mode-resize.webm" />
+</video>
+
+All keyboard shortcuts available in adjustment mode can be viewed and modified in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Move, resize, and swap windows. You can also view all tiling shortcuts by clicking the tiling button in the upper right corner of the screen, and then clicking `View All`.
 
 ![Drop Down Shortcuts](/images/tiling-stacking-windows/top-right-dropdown-shortcuts.png)
 
