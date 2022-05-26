@@ -21,7 +21,7 @@ Tick boxes next to the additional fields you want to add for List view.
 
 ![Tick Boxes](/images/navigate-files-folders/tick-boxes.png)
 
-While in Grid view, click the down arrow to sort files by alphabetical order, modification date, size, and type.
+While in Grid view, click the down arrow to sort files by alphabetical order, modification date, size, or type.
 
 ![Sort by Property](/images/navigate-files-folders/sort-by-property.png)
 
