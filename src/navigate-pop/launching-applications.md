@@ -53,13 +53,9 @@ To run a new instance of a currently running application, use the the `ðŸ ‘` `ðŸ
 
 ### Using the Applications Menu
 
-Click the Applications menu icon located in the Dock.
+Click `Applications` in the upper right corner, or click the Applications menu icon located in the Dock. Click an application's icon to launch it.
 
 ![Click Applications Dock](/images/locate-launch-applications/click-applications-dock.png)
-
-Click the application's icon to launch it.
-
-![Click App Icon](/images/locate-launch-applications/click-app-icon.png)
 
 ### Using the Dock
 
@@ -67,7 +63,7 @@ Click the application's icon pinned to the Dock.
 
 ![Dock Icon](/images/locate-launch-applications/dock-icon.png)
 
-You can pin additional applications to the Dock by right-clicking the application's icon in the Application menu and selecting `Add to Favorites`.
+You can pin additional applications to the Dock by right-clicking the application's icon in the Applications menu and selecting `Pin to Dash`.
 
 ![Add to Favorites](/images/locate-launch-applications/add-to-favorites.png)
 

@@ -1,4 +1,4 @@
-# Manipulating Windows with Tiling, Stacking & Stacking
+# Manipulating Windows with Tiling, Stacking & Resizing
 
 This section describes the Auto Tiling, Stacking, and window adjustment features in Pop!\_OS.
 
@@ -13,7 +13,7 @@ Place a window into adjustment mode by bringing the window into focus, and then 
     <source src="/images/tiling-stacking-windows/adjustment-mode.webm" />
 </video>
 
-Press and hold `SUPER` + `Shift` and use the `🠐` `🠑` `🠒` `🠓` keys to resize the window. Hit `Enter` to apply sizing.
+While in adjustment mode, press and hold `Shift` and use the `🠐` `🠑` `🠒` `🠓` keys to resize the window. Hit `Enter` to apply sizing.
 
 <video autoplay loop>
     <source src="/images/tiling-stacking-windows/adjustment-mode-resize.webm" />

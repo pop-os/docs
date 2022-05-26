@@ -14,11 +14,9 @@ Navigate into the folder that you want to pin as a bookmark. Right-click the bla
 
 You can also left-lick and drag the folder over to the left panel.
 
-![Add to Bookmarks 2](/images/navigate-files-folders/add-to-bookmarks2.png)
-
-A shortcut to the folder is now available in the left panel.
-
-![View Shortcut](/images/navigate-files-folders/view-shortcut.png)
+<video autoplay loop>
+    <source src="/images/navigate-files-folders/drag-to-bookmark.webm" />
+</video>
 
 Remove a bookmark by right-clicking it and select `Remove`.
 

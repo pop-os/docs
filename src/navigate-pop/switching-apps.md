@@ -6,9 +6,25 @@ Pop!\_OS uses the GNOME desktop environment, which includes keyboard shortcuts f
 
 ## Using the Dock
 
-The Dock will will designate a running application with a small white dot. Click the application to bring it's window into focus.
+The Dock will will designate a running application with a small white dot. Click the application to bring its window into focus. This behavior can be further customized in Settings ➞ Desktop ➞ Dock.
 
-![Dock Apps](/images/switching-apps/dock-apps.png)
+**Launch or Cycle Windows**: A running application will be focused when its icon is clicked. Additional clicks will cycle through instances of that application.
+
+<video autoplay loop>
+    <source src="/images/switching-apps/launch-or-cycle.webm" />
+</video>
+
+**Launch or Minimize Windows**: A running application will be focused or minimized when its icon is clicked.
+
+<video autoplay loop>
+    <source src="/images/switching-apps/launch-or-min.webm" />
+</video>
+
+**Launch, Minimize, or Preview Windows**: When clicked, a running application will be minimized, focused, or the user can preview multiple windows (only if the application has multiple windows open).
+
+<video autoplay loop>
+    <source src="/images/switching-apps/launch-min-preview.webm" />
+</video>
 
 <!--
 View all windows in the current workspace by pressing `SUPER` + `D`. For more information about Workspaces, see [Using Workspaces](using-workspaces.md).
@@ -24,21 +40,23 @@ Switch back to the previously selected window by pressing `Alt` + `Esc`.
 
 ## Using the Launcher
 
-Pressing `SUPER` will display the Launcher. All currently running applications will be listed below the search bar. Select a running application with the `🠑` `🠓` keys, and hit `Enter` to bring the window into focus.
+Pressing `SUPER` will display the Launcher. All currently running applications will be listed below the search bar. Select a running application with the `🠑` `🠓` keys, then hit `Enter` to bring the window into focus.
 
 ![Launcher Running Apps](/images/switching-apps/launcher-running-apps.png)
 
 ## Using Keyboard Shortcuts
 
-Pressing `SUPER` + `Tab` or `Alt` + `Tab` will display a list of running application icons across the screen. Continue holding `SUPER` or `Alt` and pressing `Tab` to toggle between applications. You can also navigate between applications with the `🠐` `🠒`  keys.
+Pressing `SUPER` + `Tab` will display a list of running application icons across the screen. Continue holding `SUPER` and pressing `Tab` to toggle between applications. You can also navigate between applications with the `🠐` `🠒`  keys.
+
+>**Note**: For many of these commands, the `Alt` key will perform the some function when used in window-manipulation keyboard shortcuts.
 
 ![Toggle Apps](/images/switching-apps/toggle-apps.png)
 
-Mouse over or release `Tab` on highlighted application icons to display multiple open windows for that application. Continue holding `SUPER` or `Alt` and press ` to toggle between the multiple windows.
+Mouse over or release `Tab` on highlighted application icons to display multiple open windows for that application. Continue holding `SUPER` and press `~` to toggle between the multiple windows. The `🠓` key can also be used while the app is selected as an alternative to the `~` key. This brings the selection down to the window list where the `🠐` `🠒` keys can be used to select a window.
 
 ![Toggle App Windows](/images/switching-apps/toggle-app-windows.png)
 
-Release `SUPER` and `Tab` to navigate to the highlighted application.
+Release `SUPER` + `Tab` to navigate to the highlighted application.
 
 ![Toggle Select Application](/images/switching-apps/toggle-select-application.png)
 

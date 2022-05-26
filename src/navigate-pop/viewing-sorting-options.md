@@ -1,9 +1,9 @@
 # Viewing & Sorting Options in Nautilus
 
-Users can change file icon size and sort files alphabetically, by modification date, file size, and type.
+Users can change file icon size and sort files alphabetically, by modification date, by file size, or by type.
 
-- List view: Orders files and folders into columns and rows with sortable headers.
-- Grid view: Orders files and folders into an array of icons.
+- **List view**: Orders files and folders into columns and rows with sortable headers.
+- **Grid view**: Orders files and folders into an array of icons.
 
 Toggle between List and Grid view using the icon in the upper right corner.
 
