@@ -3,13 +3,13 @@ Pop Training Guide (Google doc)
 https://support.system76.com/articles/pop-basics/
 
 -->
-# Locate, Launch, and Navigate Between Applications
+# Locate & Launch Applications
 
 Applications can be launched from the Dock, the Launcher, the Applications menu, and the Terminal.
 
 ---
 
-## Browsing & Launch Installed Applications
+## Browsing & Launching Installed Applications
 
 Installed applications can be viewed in the Applications menu and the Pop!\_Shop Installed screen.
 
