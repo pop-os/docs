@@ -33,6 +33,8 @@ Enable Auto Tiling by clicking on the tile icon in the upper right corner and en
 
 ![Enable Autotiling](/images/tiling-stacking-windows/enable-autotiling.png)
 
+All keyboard shortcuts for Auto Tiling mode can be found in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Tiling.
+
 | Option                 | Function |
 |----------------------|--------|
 | Tile Windows| Toggles the Auto Tiling feature on or off.  |
@@ -40,8 +42,6 @@ Enable Auto Tiling by clicking on the tile icon in the upper right corner and en
 | Toggle Tiling          | Enables or disables the Auto Tiling feature with a keyboard shortcut. |
 | Show Active Hint       | Highlights the selected window with a colored border. |
 | Gaps                | Sets gap spacing between tiled windows. |
-
-All keyboard shortcuts for Auto Tiling mode can be found in Settings ➞ Keyboard ➞ View and Customize Shortcuts ➞ Tiling.
 
 ### Add a Floating Window Exception
 
@@ -106,7 +106,7 @@ Stacking is an additional Auto Tiling feature enabling multiple windows to occup
         <source src="/images/tiling-stacking-windows/navigate-stacked-windows.webm" />
     </video>
 
-6. To remove a window from a stack, press `SUPER` + `Enter` and use `🠐` `🠑` `🠒` `🠓` keys to move the window outside of the stack.
+6. Remove a window from the stack by pressing `SUPER` + `Enter` to activate adjustment mode, and then use `🠐` `🠑` `🠒` `🠓` keys to move the window outside of the stack.
 
     <video autoplay loop>
         <source src="/images/tiling-stacking-windows/remove-from-stack.webm" />

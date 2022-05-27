@@ -1,6 +1,6 @@
 # Navigate Between Application Windows
 
-Pop!\_OS uses the GNOME desktop environment, which includes keyboard shortcuts for quickly switching between system and application windows.
+Pop!\_OS includes keyboard shortcuts for quickly switching between system and application windows.
 
 ---
 
@@ -48,7 +48,7 @@ Pressing `SUPER` will display the Launcher. All currently running applications w
 
 Pressing `SUPER` + `Tab` will display a list of running application icons across the screen. Continue holding `SUPER` and pressing `Tab` to toggle between applications. You can also navigate between applications with the `🠐` `🠒`  keys.
 
->**Note**: For many of these commands, the `Alt` key will perform the some function when used in window-manipulation keyboard shortcuts.
+>**Note**: For many of these commands, the `Alt` key will perform the some function as `SUPER` when used in window-manipulation keyboard shortcuts.
 
 ![Toggle Apps](/images/switching-apps/toggle-apps.png)
 

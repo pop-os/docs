@@ -5,9 +5,11 @@ https://support.system76.com/articles/pop-basics/
 -->
 # Locate, Launch, and Navigate Between Applications
 
+Applications can be launched from the Dock, the Launcher, the Applications menu, and the Terminal.
+
 ---
 
-## Browsing Installed Applications
+## Browsing & Launch Installed Applications
 
 Installed applications can be viewed in the Applications menu and the Pop!\_Shop Installed screen.
 
@@ -27,15 +29,25 @@ Click and drag an application icon to add it to your folder.
     <source src="/images/locate-launch-applications/drag-application.webm" />
 </video>
 
+#### Launching Applications from the Applications Menu
+
+Click an application's icon to launch it.
+
+<video autoplay loop>
+    <source src="/images/locate-launch-applications/click-app-to-launch.webm" />
+</video>
+
 ### The Pop!\_Shop
 
-Launch the Pop!\_Shop, then click the `Installed` button.
+Launch the Pop!\_Shop, then click the `Installed` button to display a list of installed applications.
 
 ![Pop Shop Installed Apps](/images/locate-launch-applications/pop-shop-installed-apps.png)
 
-## Launching Applications
+#### Launching Applications from the Pop!\_Shop
 
-Applications can be launched from the Dock, the Launcher, the Applications menu, and the Terminal.
+Select an installed application, then click `Open`.
+
+![Pop Shop Launch App](/images/locate-launch-applications/pop-shop-launch-app.png)
 
 ### Using the Launcher
 
@@ -47,15 +59,11 @@ Search for the name of the application. The Launcher will display currently runn
 
 ![Search App Name](/images/locate-launch-applications/search-app.png)
 
+#### Launching Applications from the Launcher
+
 To run a new instance of a currently running application, use the the `🠑` `🠓` keys or mouse left-click to select the application.
 
 ![New Instance](/images/locate-launch-applications/new-instance.png)
-
-### Using the Applications Menu
-
-Click `Applications` in the upper right corner, or click the Applications menu icon located in the Dock. Click an application's icon to launch it.
-
-![Click Applications Dock](/images/locate-launch-applications/click-applications-dock.png)
 
 ### Using the Dock
 
