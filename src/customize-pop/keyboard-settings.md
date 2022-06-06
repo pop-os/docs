@@ -8,7 +8,7 @@ Set Input Sources, Input Source Switching, Special Character entry options, and 
 |--------|----------|
 | Input Sources | Choose multiple input languages and layouts for a single keyboard. Sources can be moved up or down to determine priority. |
 | Input Source Switching | Set a keyboard shortcut for switching between your chosen sources. |
-| Type Special Characters | Choose a key combination that allows entering special characters. |
+| Special Character Key | Designate keys that enable entry of special characters. |
 | Keyboard Shortcuts | View, edit, and add keyboard shortcuts. |
 
 ## Adding an Input Source
@@ -33,7 +33,7 @@ Display keyboard layouts by clicking the three vertical dots on the right and cl
 
 ## Customizing Keyboard Shortcuts
 
-Pop!\_OS includes default shortcuts to provide intuitive and efficient navigation throughout the system. See [Navigate Pop!\_OS](/navigate-pop/navigate-pop.md) for more information. These keyboard shortcuts can be customized, and additional keyboard shortcuts can be added.
+Pop!\_OS includes default shortcuts to provide intuitive and efficient navigation throughout the system. See [Navigate Pop!\_OS](/navigate-pop/navigate-pop.md) to learn about default window manipulation and navigation shortcuts in Pop!\_OS. The Keyboard Shortcuts section allows customization of existing shortcuts and adding new shortcuts.
 
 ### Customize an Existing Shortcut
 
@@ -49,7 +49,7 @@ Pop!\_OS includes default shortcuts to provide intuitive and efficient navigatio
 
     ![Enter Shortcut](/images/keyboard-settings/enter-shortcut.png)
 
-### Add a Custom Shortcut
+### Add a New Custom Shortcut
 
 1. Click `Custom Shortcuts` to add an additional shortcut.
 
