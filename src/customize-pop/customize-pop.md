@@ -18,16 +18,16 @@ Users can customize the look and feel of Pop!\_OS in the `Settings` menu. The GN
 
 ## Accessing System Settings
 
-You can open the `Settings` menu using these three methods:
+The `Settings` menu can be accessed from several locations.
 
-1. Press the `SUPER` key and type “settings” to access System Settings.
+Press the `SUPER` key and type “settings” to access System Settings.
 
-    ![Launcher Settings](/images/customize-pop/launch-settings.png)
+![Launcher Settings](/images/customize-pop/launch-settings.png)
 
-2. Click the gear icon located on the Dock.
+Click the gear icon located on the Dock.
 
-    ![Settings Gear](/images/customize-pop/settings-gear.png)
+![Settings Gear](/images/customize-pop/settings-gear.png)
 
-3. Click the icons in the upper right corner and select `Settings`.
+Click the icons in the upper right corner and select `Settings`.
 
-    ![Top Bar Settings](/images/customize-pop/top-bar-settings.png)
+![Top Bar Settings](/images/customize-pop/top-bar-settings.png)

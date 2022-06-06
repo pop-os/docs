@@ -25,7 +25,7 @@ Customize basic desktop elements in the `Desktop Options` tab.
 
 ## Background
 
-Choose a pre-installed desktop background or assign a custom image in the `Background` tab.
+Choose a pre-installed desktop background or assign a custom image in the `Background` tab. You can also right-click anywhere on the desktop and select `Change Background...`.
 
 ![Background Tab](/images/customize-desktop/background-tab.png)
 
@@ -55,20 +55,28 @@ You can also right-click the image and choose `Set as Wallpaper` from within the
 
 ## Appearance
 
-Choose Light or Dark mode in the `Appearance` tab. Additional theme customizations can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
+Pop!\_OS includes two default themes: Light and Dark. These themes apply to all system and application windows across the operating system. Selecting a theme will also assign a default desktop background.
+
+Light Theme
+![Light Theme](/images/customize-desktop/light-theme.png)
+
+Dark Theme
+![Dark Theme](/images/customize-desktop/dark-theme.png)
+
+Enable the Light or Dark theme in the `Appearance` tab. Additional theme customizations can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
 
 ![Change Theme](/images/customize-desktop/change-theme.png)
 
 ## Dock
 
-Assign visual and visibility behavior settings for the dock in the Dock tab. Users can enable or disable the dock, control dock visibility behavior, visible icons, dock size, and dock positioning. Pin additional application icons to the dock by [adding them as favorites](/navigate-pop/launching-applications.md#the-dock).
+The `Dock` tab contains settings for modifying visibility behavior and the appearance of system and application icons.
 
 ![Modify Dock](/images/customize-desktop/customize-dock.png)
 
 | Setting | Function |
 |----------|----------|
 | Enable Dock | Disabling this option causes the Dock to disappear entirely. |
-| Dock Options | Display utility icons and mounted drives in the Dock, make the Dock appear as a "bar" that extends to the screen edges, and specify what happens when an application icon is clicked: <ul><li>Launch or Cycle Windows: A running application will display when its icon is clicked.</li><li>Launch or Minimize Windows: A running application will be maximized or minimized when its icon is clicked.</li><li>Launch, Minimize, or Preview Windows: When clicked, a running application will be minimized, maximized, or the user can preview multiple windows (only if the application has multiple windows open).  |
+| Dock Options | Display utility icons and mounted drives in the Dock, make the Dock appear as a bar that extends to the screen edges, and specify what happens when an application icon is clicked. See examples of Icon Click Action behavior in [Navigate Between Running Applications](/navigate-pop/switching-apps.md#using-the-dock). <ul><li>Launch or Cycle Windows: A running application will be focused when its icon is clicked. Additional clicks will cycle through instances of that application.</li><li>Launch or Minimize Windows: A running application will be focused or minimized when its icon is clicked.</li><li>Launch, Minimize, or Preview Windows: When clicked, a running application will be minimized, focused, or the user can preview multiple windows (only if the application has multiple windows open).  |
 | Dock Visibility | <ul><li>Always Visible: The Dock remains static with no hiding behavior</li><li>Always hide: The Dock always hides unless actively being revealed by the mouse</li><li>Intelligently hide: The Dock hides when any window covers the dock area.</li><li>Show Dock on Display: Choose to display the dock on all displays or only the primary display.|
 | Dock Size | Choose between Small (36px), Medium (48px), Large (60px), or specify a custom size.|
 | Position on the Desktop | Choose to display the Dock horizontally along the bottom, or vertically on the left or right sides of the screen. |
