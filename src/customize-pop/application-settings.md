@@ -10,17 +10,16 @@ The Applications Settings tab includes options to designate specific application
 
 ## Applications
 
-Control application access to system features and resources in Settings ➞ Applications.
+Control application access to system features and resources in `Settings` ➞ `Applications`.
 
 ![Application Settings](/images/application-settings/application-settings.png)
 
-- `Permissions & Access` settings display data and system services the app has requested or requires. These can include access to system devices, using the system's network connection, reading and writing to the file system, and the ability to change settings. Many applications will include built-in permissions that cannot be modified by the user. You can view permission granted to an application by clicking the `Built-in Permissions` button.
-
-- `Integration` settings refer to system-wide features used by an application. These features include the ability to appear in search, display notification, and running in the background.
-
-- `Default handlers` settings determine which file types are associated with an application. Click an entry to display more information about the file types assigned to the application. Multiple programs can be associated with the same file types. See the [Default Applications](/customize-pop/application-settings.md#default-applications) to specify an application that should always open a certain media type.
-
-- `Usage` displays the disk usage used by the application. Click on the `Storage` button to view space used by the application itself, data created by the application, and temporary data cached by the application. You can clear cache data by clicking `Clear Cache`.
+| Setting | Description |
+|---------|----------|
+| Permissions & Access | These settings display the data and system services requested or required by an application. Permissions can include access to system devices, using the system's network connection, reading and writing to the file system, and the ability to change settings. Many applications will include built-in permissions that cannot be modified by the user. You can view permission granted to an application by clicking the `Built-in Permissions` button. |
+| Integration | These settings list system-wide features used by an application. These features include the ability to appear in search, display notification, and running in the background. |
+| Default Handlers | This determines which file types are associated with an application. Click an entry to display more information about the file types assigned to the application. Multiple programs can be associated with the same file types. See the [Default Applications](/customize-pop/application-settings.md#default-applications) to specify an application that should always open a certain media type. |
+| Usage | The `Usage` section displays the disk usage used by the application. Click on the `Storage` button to view space used by the application itself, data created by the application, and temporary data cached by the application. You can clear cache data by clicking `Clear Cache`.
 
 ## Notifications
 
@@ -28,12 +27,14 @@ Application notifications appear in the upper center of the screen. Click the da
 
 ![Recent Notifications](/images/application-settings/recent-notifications.png)
 
-Control application notification behavior in Settings ➞ Notifications. App-specific notifications are configured in this menu.
-
-- `Do Not Disturb` applies globally and disables all application notifications.
-- `Lock Screen Notifications` applies globally and allows toggling `Lock Screen Notifications` and `Show Message Content on Lock Screen` for an individual application.
+Control application notification behavior in `Settings` ➞ `Notifications`. App-specific notifications are configured in this menu.
 
 ![Notifications Settings](/images/application-settings/notifications-settings.png)
+
+| Option | Function |
+|--------|----------|
+| Do Not Disturb | This setting applies globally and disables all application notifications. |
+| Lock Screen Notifications | This setting applies globally and allows toggling `Lock Screen Notifications` and `Show Message Content on Lock Screen` for an individual application. |
 
 ### Configure Notification Behavior for a Single Application
 
@@ -52,7 +53,7 @@ Select an applications from the list to configure its notification behavior.
 
 ## Default Applications
 
-Choose default applications for Web browsing, Email, Calendars, Music, Videos, and Photos in Settings ➞ Default Applications.
+Choose default applications for Web browsing, Email, Calendars, Music, Videos, and Photos in `Settings` ➞ `Default Applications`.
 
 ![Default Applications](/images/application-settings/default-applications.png)
 

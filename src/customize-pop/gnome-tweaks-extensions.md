@@ -22,8 +22,8 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 
 | Option | Function |
 |--------|----------|
-| Suspend when laptop lid is closed | The system automatically goes into a suspended state when the laptop lid is closed. |
-| Over-Amplification | Users can raise the volume above 100%. This may affect audio quality. |
+| Suspend when laptop lid is closed | Place the system into a suspended state when the laptop lid is closed. |
+| Over-Amplification | Allow the volume to be increased above 100%. |
 
 ### Appearance
 
@@ -67,9 +67,9 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 | Document Text | Choose the font used when creating a new text document. Applications like Libreoffice may override this selection. |
 | Monospace Text | Choose the font used in a Terminal session. This may also include coding applications and basic text editors. |
 | Legacy Window Titles | Choose the font used to display information in the top bar of running application windows. This is usually the name of the application. |
-| Hinting | Text hinting improves text readability for low-resolution displays. |
-| Antialiasing | Antialiasing improves text visibility when high-resolution text is displayed on a low-resolution screen. |
-| Scaling Factor | Text scaling increases font size for HiDPI displays while retaining text sharpness. |
+| Hinting | Enable text hinting, which improves text readability for low-resolution displays. |
+| Antialiasing | Enable antialiasing, which improves text visibility when high-resolution text is displayed on a low-resolution screen. |
+| Scaling Factor | Enable text scaling, which increases font size for HiDPI displays while retaining text sharpness. |
 
 ### Keyboard & Mouse
 
@@ -81,8 +81,8 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 
 | Option | Function |
 |--------|----------|
-| Show Extended Input Sources | This option displays additional number of input sources found in the Settings application. |
-| Emacs Input | Use Emacs keybindings throughout the operating system. |
+| Show Extended Input Sources | Display additional number of input sources found in the Settings application. |
+| Emacs Input | Apply Emacs keybindings throughout the operating system. |
 | Overview Shortcut | Choose whether left or right `SUPER` keys start the Launcher. |
 
 #### Mouse

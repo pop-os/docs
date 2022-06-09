@@ -1,13 +1,11 @@
 # Region & Language
 
-Set the system language, manage installed languages, and configure numeric and currency localization in Settings ➞ Region & Language.
+Set the system language, manage installed languages, and configure numeric and currency localization in `Settings` ➞ `Region & Language`.
 
 - **Language**: The language used for text in windows and web pages in Pop!\_OS.
 - **Formats**: The format used for numbers, dates, and currencies in Pop!\_OS.
 
 ![Region and Language Settings](/images/region-language-settings/region-lang-settings.png)
-
----
 
 ## Manage Installed Languages
 

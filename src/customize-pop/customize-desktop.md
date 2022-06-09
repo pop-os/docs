@@ -2,7 +2,7 @@
 
 Change the function of the `SUPER` key, desktop backgrounds, workspace features, and placement and visibility of desktop components in `Settings` ➞ `Desktop`.
 
-- [`Desktop Options`](/customize-pop/customize-desktop.md#desktop-options) provides options to modify the `SUPER` key's function, enable Hot Corner, and add or position top bar elements.
+- [`Desktop Options`](/customize-pop/customize-desktop.md#desktop-options) provides options to modify the `SUPER` key's function, enabling Hot Corner, and adding or positioning top bar elements.
 - [`Background` settings](/customize-pop/customize-desktop.md#background) allows users to set pre-installed wallpaper or user images as the background image.
 - [`Appearance` settings](/customize-pop/customize-desktop.md#appearance) provides the option to choose a dark or light theme that applies across the entire desktop environment.
 - [`Dock` settings](/customize-pop/customize-desktop.md#dock) provides option to modify Dock visibility, placement, size, and displayed icons.
@@ -59,10 +59,12 @@ You can also right-click the image and choose `Set as Wallpaper` from within the
 
 Pop!\_OS includes two default themes: Light and Dark. These themes apply to all system and application windows across the operating system. Selecting a theme will also assign a default desktop background.
 
-Light Theme
+**Light Theme**
+
 ![Light Theme](/images/customize-desktop/light-theme.png)
 
-Dark Theme
+**Dark Theme**
+
 ![Dark Theme](/images/customize-desktop/dark-theme.png)
 
 Enable the Light or Dark theme in the `Appearance` tab. Additional theme customizations can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
@@ -71,7 +73,7 @@ Enable the Light or Dark theme in the `Appearance` tab. Additional theme customi
 
 ## Dock
 
-The `Dock` tab contains settings for modifying visibility behavior and the appearance of system and application icons.
+The `Dock` tab contains settings for modifying Dock visibility behavior and the appearance of system and application icons.
 
 ![Modify Dock](/images/customize-desktop/customize-dock.png)
 
@@ -79,7 +81,7 @@ The `Dock` tab contains settings for modifying visibility behavior and the appea
 |----------|----------|
 | Enable Dock | Disabling this option causes the Dock to disappear entirely. |
 | Dock Options | Display utility icons and mounted drives in the Dock, make the Dock appear as a bar that extends to the screen edges, and specify what happens when an application icon is clicked. See examples of Icon Click Action behavior in [Navigate Between Running Applications](/navigate-pop/switching-apps.md#using-the-dock). <ul><li>Launch or Cycle Windows: A running application will be focused when its icon is clicked. Additional clicks will cycle through instances of that application.</li><li>Launch or Minimize Windows: A running application will be focused or minimized when its icon is clicked.</li><li>Launch, Minimize, or Preview Windows: When clicked, a running application will be minimized, focused, or the user can preview multiple windows (only if the application has multiple windows open).  |
-| Dock Visibility | <ul><li>Always Visible: The Dock remains static with no hiding behavior</li><li>Always hide: The Dock always hides unless actively being revealed by the mouse</li><li>Intelligently hide: The Dock hides when any window covers the dock area.</li><li>Show Dock on Display: Choose to display the dock on all displays or only the primary display.|
+| Dock Visibility | <ul><li>Always Visible: The Dock remains static with no hiding behavior.</li><li>Always hide: The Dock always hides unless actively being revealed by the mouse.</li><li>Intelligently hide: The Dock hides when any window covers the dock area.</li><li>Show Dock on Display: Choose to display the dock on all displays or only the primary display.|
 | Dock Size | Choose between Small (36px), Medium (48px), Large (60px), or specify a custom size.|
 | Position on the Desktop | Choose to display the Dock horizontally along the bottom, or vertically on the left or right sides of the screen. |
 

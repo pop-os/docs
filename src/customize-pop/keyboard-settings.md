@@ -1,10 +1,10 @@
 # Keyboard Settings
 
-Set Input Sources, Input Source Switching, Special Character entry options, and Keyboard Shortcuts in Settings ➞ Keyboard.
+Set Input Sources, Input Source Switching, Special Character entry options, and Keyboard Shortcuts in `Settings` ➞ `Keyboard`.
 
 ![Keyboard Settings](/images/keyboard-settings/keyboard-settings.png)
 
-| Option | Function |
+| Setting | Description |
 |--------|----------|
 | Input Sources | Choose multiple input languages and layouts for a single keyboard. Sources can be moved up or down to determine priority. |
 | Input Source Switching | Set a keyboard shortcut for switching between your chosen sources. |

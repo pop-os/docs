@@ -1,10 +1,8 @@
 # Accessibility Settings
 
-Configure accessibility settings in Settings ➞ Accessibility. Accessibility features provide sensory enhancement to users performing input or observing visual and audible output. This section briefly describes each setting, but more information can be found on [GNOME's help page](https://help.gnome.org/users/gnome-help/stable/a11y.html).
+Configure accessibility settings in `Settings` ➞ `Accessibility`. Accessibility features provide sensory enhancement to users performing input or observing visual and audible output. This section briefly describes each setting, but more information can be found on [GNOME's help page](https://help.gnome.org/users/gnome-help/stable/a11y.html).
 
 ![Accessibility Settings](/images/accessibility-settings/accessibility-settings.png)
-
----
 
 ## Always Show Accessibility Menu
 

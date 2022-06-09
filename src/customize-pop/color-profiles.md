@@ -4,8 +4,6 @@ Set color profiles for displays in `Settings` ➞ `Color`. Color profile presets
 
 ![Color Settings](/images/color-profiles/color-settings.png)
 
----
-
 ## Adding Color Profiles to Displays
 
 Select a display, then click `Add Profile` to see a list of available color profiles.
