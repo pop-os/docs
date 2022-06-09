@@ -27,6 +27,8 @@ Customize basic desktop elements in the `Desktop Options` tab.
 
 Choose a pre-installed desktop background or assign a custom image in the `Background` tab. You can also right-click anywhere on the desktop and select `Change Background...`.
 
+>**Note**: Background adjustments such as centered, scaled, spanned, stretched, and zoom can be applied using the GNOME Tweaks application: [GNOME Tweaks Appearance Settings](gnome-tweaks-extensions.md#appearance)
+
 ![Background Tab](/images/customize-desktop/background-tab.png)
 
 ### Set Pre-installed Images as Wallpaper

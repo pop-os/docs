@@ -14,15 +14,16 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 
 ![Install Tweaks](/images/gnome-tweaks-extensions/install-tweaks.png)
 
+## GNOME Tweaks Settings
+
 ### General
 
 ![General Settings](/images/gnome-tweaks-extensions/general-settings.png)
 
 | Option | Function |
 |--------|----------|
-| Animations | Enable or disable UI animations to save resources on low-end computers. |
 | Suspend when laptop lid is closed | The system automatically goes into a suspended state when the laptop lid is closed. |
-| Over Amplification | Users can raise the volume above 100%. This may affect audio quality. |
+| Over-Amplification | Users can raise the volume above 100%. This may affect audio quality. |
 
 ### Appearance
 
@@ -37,7 +38,7 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 | Applications | Select the theme that will be applied to application windows. |
 | Cursor | Select a cursor design. |
 | Icons | Choose an icon set that displays custom icons for system tools and applications. |
-| Shell | Select or upload a shell theme. |
+| Shell | Select or upload a shell theme. Using this option requires enabling `User Themes` in GNOME Extensions. |
 | Sound | Modify system feedback and notification sounds. |
 
 #### Background Options
@@ -64,7 +65,7 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 |--------|----------|
 | Interface Text | Choose the font used for displayed text inside of a running application. |
 | Document Text | Choose the font used when creating a new text document. Applications like Libreoffice may override this selection. |
-| Monospace | Choose the font used in a Terminal session. This may also include coding applications and basic text editors. |
+| Monospace Text | Choose the font used in a Terminal session. This may also include coding applications and basic text editors. |
 | Legacy Window Titles | Choose the font used to display information in the top bar of running application windows. This is usually the name of the application. |
 | Hinting | Text hinting improves text readability for low-resolution displays. |
 | Antialiasing | Antialiasing improves text visibility when high-resolution text is displayed on a low-resolution screen. |
@@ -82,7 +83,7 @@ Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Instal
 |--------|----------|
 | Show Extended Input Sources | This option displays additional number of input sources found in the Settings application. |
 | Emacs Input | Use Emacs keybindings throughout the operating system. |
-| Overview Shortcut | Choose whether left or right `Super` keys start the Launcher. |
+| Overview Shortcut | Choose whether left or right `SUPER` keys start the Launcher. |
 
 #### Mouse
 
@@ -116,9 +117,21 @@ You can also choose to display week numbers in the system calendar application.
 
 ### Window Titlebars
 
-Configure settings that allow you to interact with windows using mouse clicks. Chose available titlebar buttons and their placement.
+Configure settings that allow you to interact with windows using mouse clicks. You can also choose available titlebar buttons and their placement. Right, middle, and left-click buttons can each be configured to perform one of the following actions when clicking a window's titlebar:
 
 ![Titlebar Tweaks](/images/gnome-tweaks-extensions/titlebar-tweaks.png)
+
+| Option | Function |
+|--------|----------|
+| Lower | A "send to back" action occurs. |
+| Menu | A window manipulation menu is displayed. |
+| Minimize | A window is minimized.|
+| Toggle Maximize | A window is maximized, the window returns to its previous size on second click. |
+| Toggle Maximize Horizontally* | A window is extended to the left and right sides of the screen without modifying vertical dimensions. |
+| Toggle Maximize Vertically* | A window is expanded to the top and bottom of the screen without modifying horizontal dimensions. |
+| Toggle Shade* | A window is collapsed into or expanded from its titlebar when the window's titlebar. |
+
+\* This feature is not supported by all application windows.
 
 ### Windows
 
@@ -128,30 +141,62 @@ The `Windows` menu offers additional features for interacting with system and ap
 
 | Option | Function |
 |--------|----------|
-| Attach Model Dialogs | Modal dialogs (such as windows that spawn when performing a "Save as...") stay in a fixed position within their parent window. |
+| Attach Modal Dialogs | Modal dialogs (such as windows that spawn when performing a "Save as...") stay in a fixed position within their parent window. |
 | Center New Windows | New windows launch perfectly centered on the screen. |
 | Resize with Secondary-Click | A window can be maximized or returned to previous size by double-clicking the primary mouse button. |
-| Window Action Key | Windows can be dragged freely by holding this key and clicking and dragging with the mouse. |
+| Window Action Key | Windows can be dragged freely by holding this key, left-clicking anywhere in the window, and dragging with the mouse. Windows can be resized by holding this key, right-clicking anywhere in a window, and dragging the mouse. |
 | Window Focus | Set the action that brings a window into focus: <ul><li>Click to Focus: Clicking a window brings it into focus.</li><li>Focus on Hover: Hovering the cursor over a window brings it into focus. Focus is maintained if the cursor is moved to the desktop.</li><li>Secondary-Click: Hovering the cursor over a window brings it into focus. Focus is not maintained if the cursor is moved to the desktop.</li><li>Raise Windows When Focused: The focused window is brought to the front. This option can be enabled when either `Focus on Hover` or `Secondary-Click` is chosen. |
 
 ## GNOME Shell Extensions
 
-GNOME shell extensions are features written by third party developers that build upon the GNOME Shell. Extensions are similar to Chrome Extensions or Firefox Addons.
+GNOME shell extensions are features written by third party developers that build upon the GNOME Shell. Extensions are similar to Chrome Extensions or Firefox Addons. GNOME Extensions is an application that provides settings to manage extensions. Extension Manager is a utility for browsing and installing extensions. Both applications provide menus for configuring, disabling, or removing installed extensions.
 
-![GNOME Extensions](/images/gnome-tweaks-extensions/gnome-extensions.png)
+### Installing the GNOME Extensions & Extension Manager Apps
 
-### Installing the Extensions App
-
-Launch the Pop!\_Shop and type `extensions`. Click `Install`.
+Launch the Pop!\_Shop and type `extensions` then click `Install` for each application.
 
 ![Install Extensions App](/images/gnome-tweaks-extensions/install-extensions-app.png)
 
-### Installing GNOME Extensions
+### Built-In Extensions
 
-Extensions are available from [extensions.gnome.org](https://extensions.gnome.org). A web browser plugin is needed to interact with the site.
+Components packaged in Pop!\_OS are listed in the `Built-In` section. Toggle the switches to enable or disable an extension.
+
+| Extension | Description |
+|-----------|-------------|
+| [Cosmic Dock](https://github.com/pop-os/cosmic-dock) | A modified version of Dash to Dock with different defaults. |
+| [Cosmic Workspaces](https://github.com/pop-os/cosmic-workspaces) | Pop!\_OS's workspaces feature with vertical stacking. |
+| [Pop COSMIC](https://github.com/pop-os/cosmic) | The collection of unique components that comprise the Pop!\_OS experience: Customized Dash-to-Dock, vertical workspaces, and additional configuration options in Settings. |
+| [Pop Shell](https://github.com/pop-os/shell) | a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. |
+| [System76 Power](https://github.com/pop-os/gnome-shell-extension-system76-power) | A GNOME Shell extension that adds graphical integration to the system76-power daemon. |
+
+![Built-in Ext](/images/gnome-tweaks-extensions/built-in.png)
+
+### Installing Additional Extensions
+
+Launch the Extension Manager application. Select `Browse` at the top of the window. Use the search bar to find an extension. Click `Install` to install the extension.
+
+![Select Browse](/images/gnome-tweaks-extensions/click-browse.png)
+
+### Extension Settings
+
+Extensions can be managed from the `User-Installed Extensions` list.
+
+![User Installed](/images/gnome-tweaks-extensions/user-installed-extensions.png)
+
+Toggle the switch next to the listed extension to enable or disable it. Click the gear icon to view specific settings for an extension.
+
+![Gear Icon](/images/gnome-tweaks-extensions/gear-icon.png)
+
+### Removing Extensions
+
+Select the chevron to the right of the extension's listing. This will expand a menu. Click the `Remove` button to uninstall the extension.
+
+![Remove Extension](/images/gnome-tweaks-extensions/remove-extension.png)
+
+<!--Extensions are available from [extensions.gnome.org](https://extensions.gnome.org). A web browser plugin is needed to interact with the site.
 
 ![Extensions Plugin](/images/gnome-tweaks-extensions/extensions-plugin.png)
 
 To add an extension from extensions.gnome.org, navigate to the extension's page and toggle the switch to `On`.
 
-![Toggle Extension](/images/gnome-tweaks-extensions/toggle-extension.png)
+![Toggle Extension](/images/gnome-tweaks-extensions/toggle-extension.png)-->
