@@ -2,11 +2,11 @@
 
 Change the function of the `SUPER` key, desktop backgrounds, workspace features, and placement and visibility of desktop components in `Settings` ➞ `Desktop`.
 
-- [`Desktop Options`](/customize-pop/customize-desktop.md#desktop-options) provides options to modify the `SUPER` key's function, enabling Hot Corner, and adding or positioning top bar elements.
+- [`Desktop Options`](/customize-pop/customize-desktop.md#desktop-options) provides options to modify the `SUPER` key's function, enabling the Hot Corner, and adding or positioning top bar elements.
 - [`Background` settings](/customize-pop/customize-desktop.md#background) allows users to set pre-installed wallpaper or user images as the background image.
 - [`Appearance` settings](/customize-pop/customize-desktop.md#appearance) provides the option to choose a dark or light theme that applies across the entire desktop environment.
-- [`Dock` settings](/customize-pop/customize-desktop.md#dock) provides option to modify Dock visibility, placement, size, and displayed icons.
-- [`Workspaces` settings](/customize-pop/customize-desktop.md#workspaces) includes options configure workspace positioning and behavior.
+- [The `Dock`'s settings](/customize-pop/customize-desktop.md#dock) provides options to modify the Dock's visibility, placement, size, and displayed icons.
+- [`Workspaces` settings](/customize-pop/customize-desktop.md#workspaces) includes options to configure workspace positioning and behavior.
 
 ---
 
@@ -19,15 +19,15 @@ Customize basic desktop elements in the `Desktop Options` tab.
 | Setting | Function |
 |----------|----------|
 | Super Key Action | Assigns the `SUPER` key to start the Launcher, display Workspace navigation, or view installed applications. |
-| Hot Corner | Displays workspace navigation when the user moves the mouse cursor to the upper left corner of the screen. |
-| Top Bar | Display or hide items along the top bar of the main home screen. |
-| Window Controls | Enable or disable the minimize and maximize buttons in system and application windows. |
+| Hot Corner | Displays Workspace navigation when the user moves the mouse cursor to the upper left corner of the screen. |
+| Top Bar | Display or hide items along the top bar. |
+| Window Controls | Enable or disable the minimize and maximize buttons in windows. |
 
 ## Background
 
-Choose a pre-installed desktop background or assign a custom image in the `Background` tab. You can also right-click anywhere on the desktop and select `Change Background...`.
+Choose a pre-installed desktop background or assign a custom image in the `Background` tab. Alternatively, right-click anywhere on the desktop and select `Change Background...`.
 
->**Note**: Background adjustments such as centered, scaled, spanned, stretched, and zoom can be applied using the GNOME Tweaks application: [GNOME Tweaks Appearance Settings](gnome-tweaks-extensions.md#appearance)
+>**Note**: Background adjustments such as centered, scaled, spanned, stretched, and zoom are set using the GNOME Tweaks application: [GNOME Tweaks Appearance Settings](gnome-tweaks-extensions.md#appearance)
 
 ![Background Tab](/images/customize-desktop/background-tab.png)
 
@@ -51,13 +51,13 @@ Select an image from the list. There is no “apply” button; the desktop backg
 
     ![Select Added Image](/images/customize-desktop/select-added-image.png)
 
-You can also right-click the image and choose `Set as Wallpaper` from within the file browser.
+Alternatively, right-click the image and choose `Set as Wallpaper` from within the file browser.
 
 ![Set as Wallpaper](/images/customize-desktop/set-as-wallpaper.png)
 
 ## Appearance
 
-Pop!\_OS includes two default themes: Light and Dark. These themes apply to all system and application windows across the operating system. Selecting a theme will also assign a default desktop background.
+Pop!\_OS includes two default themes: Light and Dark. These themes apply to all system and application windows across the operating system. Selecting a theme also assigns a default desktop background.
 
 **Light Theme**
 
@@ -67,7 +67,9 @@ Pop!\_OS includes two default themes: Light and Dark. These themes apply to all 
 
 ![Dark Theme](/images/customize-desktop/dark-theme.png)
 
-Enable the Light or Dark theme in the `Appearance` tab. Additional theme customizations can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
+Enable the Light or Dark theme in the `Appearance` tab.
+
+>**Note**: Custom themes may case graphical glitches, but they can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
 
 ![Change Theme](/images/customize-desktop/change-theme.png)
 
@@ -80,10 +82,10 @@ The `Dock` tab contains settings for modifying Dock visibility behavior and the 
 | Setting | Function |
 |----------|----------|
 | Enable Dock | Disabling this option causes the Dock to disappear entirely. |
-| Dock Options | Display utility icons and mounted drives in the Dock, make the Dock appear as a bar that extends to the screen edges, and specify what happens when an application icon is clicked. See examples of Icon Click Action behavior in [Navigate Between Running Applications](/navigate-pop/switching-apps.md#using-the-dock). <ul><li>Launch or Cycle Windows: A running application will be focused when its icon is clicked. Additional clicks will cycle through instances of that application.</li><li>Launch or Minimize Windows: A running application will be focused or minimized when its icon is clicked.</li><li>Launch, Minimize, or Preview Windows: When clicked, a running application will be minimized, focused, or the user can preview multiple windows (only if the application has multiple windows open).  |
-| Dock Visibility | <ul><li>Always Visible: The Dock remains static with no hiding behavior.</li><li>Always hide: The Dock always hides unless actively being revealed by the mouse.</li><li>Intelligently hide: The Dock hides when any window covers the dock area.</li><li>Show Dock on Display: Choose to display the dock on all displays or only the primary display.|
+| Dock Options | Display utility icons and mounted drives in the Dock, make the Dock appear as a panel that extends to the screen edges, and specify what happens when an application icon is clicked. See examples of Icon Click Action behavior in [Navigate Between Running Applications](/navigate-pop/switching-apps.md#using-the-dock). <ul><li>Launch or Cycle Windows: A running application is focused when its icon is clicked. Additional clicks cycle through instances of that application.</li><li>Launch or Minimize Windows: A running application is focused or minimized when its icon is clicked.</li><li>Launch, Minimize, or Preview Windows: When clicked, if a running application has multiple windows open, a menu displays wih a preview of each window and focus applied to the selected winodw. Otherwise, a running application is focused or minimized. |
+| Dock Visibility | **Visibility options**<ul><li>Always visible: The Dock remains static with no hiding behavior.</li><li>Always hide: The Dock always hides unless actively being revealed by the mouse.</li><li>Intelligently hide: The Dock hides when any window covers the dock area.</ul> **Additional settings**<ul><li>Show Dock on Display: Choose to display the dock on all displays or only the primary display.|
 | Dock Size | Choose between Small (36px), Medium (48px), Large (60px), or specify a custom size.|
-| Position on the Desktop | Choose to display the Dock horizontally along the bottom, or vertically on the left or right sides of the screen. |
+| Position on the Desktop | Choose to display the Dock horizontally along the bottom of the screen, or vertically on the left or right sides of the screen. |
 
 ## Workspaces
 
@@ -93,7 +95,7 @@ The `Workspaces` tab provides settings to control Workspace placement and behavi
 
 | Setting | Function |
 |---------|----------|
-| Dynamic Workspaces | This setting will automatically remove empty workspaces. |
-| Fixed Number of Workspaces | This setting allows the user to specify a static number of workspaces. |
-| Multi-monitor Behavior | Workspaces can be set to include all displays or only the primary display. |
-| Placement of the Workspace Picker | Specify wether the workspace picker should appear along the left or right side. |
+| Dynamic Workspaces | Automatically remove empty workspaces. |
+| Fixed Number of Workspaces | Specify a static number of workspaces. |
+| Multi-monitor Behavior | <ul><li>Worskpaces Span Displays: Workspace areas inlude all connected displays. </li><li>Workspaces on Primary Display Only: Workspace areas apply only to the primary display. |
+| Placement of the Workspace Picker | Specify whether the workspace picker appears along the left or right side. |
