@@ -1,6 +1,6 @@
 # Accessibility Settings
 
-Configure accessibility settings in `Settings` ➞ `Accessibility`. Accessibility features provide sensory enhancement to users performing input or observing visual and audible output. This section briefly describes each setting, but more information can be found on [GNOME's help page](https://help.gnome.org/users/gnome-help/stable/a11y.html).
+Options to configure accessibility settings are located in `Settings` ➞ `Accessibility`. Accessibility features provide sensory enhancement to users performing input or observing visual and audible output. This section briefly describes each setting, but more information can be found on [GNOME's help page](https://help.gnome.org/users/gnome-help/stable/a11y.html).
 
 ![Accessibility Settings](/images/accessibility-settings/accessibility-settings.png)
 
@@ -16,13 +16,13 @@ When `Always Show Accessibility Menu` is enabled, accessibility options can be t
 
 ### High Contrast
 
-Enabling `High Contrast` applies a high contrast theme to system windows, application windows, and their icons.
+Enabling `High Contrast` to applies a high contrast theme to windows and icons.
 
 ![High Contrast](/images/accessibility-settings/high-contrast.png)
 
 ### Large Text
 
-Enabling `Large Text` increases the text size of system windows and applications.
+Enabling `Large Text` increases the size of displayed text throughout the system.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/large-text.webm" />
@@ -30,7 +30,7 @@ Enabling `Large Text` increases the text size of system windows and applications
 
 ### Enable or Disable Animations
 
-Users can enable or disable window animations. Disabling animations can potentially improve performance on system's with low video resources.
+Animations appear when minimizing and maximizing windows. Disabling animations may improve performance on systems with low video resources.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/disable-animations.webm" />
@@ -58,7 +58,7 @@ The Screen Reader option enables a feature that converts the displayed text of a
 
 ### Sound Keys
 
-When `Sound Keys` is enabled, users will hear in audible beep whenever `Num Lock` or `Caps Lock` are turned on or off.
+When `Sound Keys` is enabled, users will hear a beep whenever `Num Lock` or `Caps Lock` are turned on or off.
 
 ![Sound Keys](/images/accessibility-settings/sound-keys.png)
 
@@ -84,7 +84,7 @@ Enabling `Screen Keyboard` will display an interactive keyboard wherever text en
 
 ### Repeat Keys
 
-Enabling `Repeat Keys` cause key entry to repeat when a key is held down. Users can configure the delay before this actions occurs, and the repeat speed once the action occurs.
+Enabling `Repeat Keys` causes key entry to repeat when a key is held down. Users can configure the delay before this actions occurs, and the repeat speed once the action occurs.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/repeat-keys.webm" />
@@ -107,7 +107,7 @@ When `Cursor Blinking` is enabled, the cursor will blink when a text field is se
 
 | Option | Function |
 |--------|--------|
-| Sticky Keys | Instead of holding down multiple keys simultaneously, keyboard shortcuts can be performed by typing each key individually. |
+| Sticky Keys | Perform multi-key shortcuts by pressing keys individually instead of holding down multiple keys simultaneously. |
 | Slow Keys | Increase the delay between the time a key is pressed and when it appears on the screen. |
 | Bounce Keys | Ignore subsequent key presses if they occur too quickly on the same key. |
 
@@ -119,7 +119,7 @@ When `Cursor Blinking` is enabled, the cursor will blink when a text field is se
 
 | Option | Function |
 |--------|----------|
-| Mouse Keys | The mouse cursor can be controlled using the num keypad. |
-| Locate Pointer | An animation occurs on the cursor whenever the `Ctrl` key is pressed. |
+| Mouse Keys | Control the mouse cursor using the num keypad. |
+| Locate Pointer | The cursor performs an animation whenever the `Ctrl` key is pressed. |
 | Click Assist | Trigger a simulated double-click when holding down the primary mouse button. A click can also be triggered simply by hovering the mouse over an item on the screen. |
 | Double Click Delay | Set the amount of time required to register a double click. |

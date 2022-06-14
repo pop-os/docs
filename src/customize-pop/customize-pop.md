@@ -5,7 +5,7 @@ https://support.system76.com/articles/customize-gnome
 
 # Customize Pop!\_OS
 
-Users can customize the look and feel of Pop!\_OS in the `Settings` application. The GNOME Tweaks and Extensions applications provide customization beyond the `Settings` menu.
+Customize the look and feel of Pop!\_OS in the `Settings` application. The GNOME Tweaks and Extensions applications provide customization beyond the `Settings` menu.
 
 - [Customize the Desktop](/customize-pop/customize-desktop.md) - Choose background wallpaper, set a dark or light theme, modify Dock appearance, and modify workspace behavior.
 - [Configure Application Settings](/customize-pop/application-settings.md) - Specify which applications are allowed to display on-screen messages, and designate applications to handle specific file types.
@@ -18,7 +18,7 @@ Users can customize the look and feel of Pop!\_OS in the `Settings` application.
 
 ## Accessing System Settings
 
-The `Settings` application can be accessed from several locations.
+The `Settings` application is accessed from several locations.
 
 Press the `SUPER` key and type “settings” to launch the `Settings` application.
 

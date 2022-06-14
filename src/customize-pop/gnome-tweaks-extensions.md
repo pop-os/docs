@@ -1,6 +1,6 @@
 # GNOME Tweaks & Extensions
 
-GNOME Tweaks and GNOME Shell Extensions provide additional customization beyond the Settings menu.
+GNOME Tweaks and GNOME Shell Extensions provide additional customization beyond the `Settings` menu.
 
 ---
 
@@ -10,7 +10,7 @@ GNOME Tweaks is an optional software package allowing users to further customize
 
 ### Install GNOME Tweaks
 
-Launch the Pop!\_Shop from the Dock and search “gnome tweaks”. Click `Install`.
+Launch the Pop!\_Shop from the Dock and search “gnome tweaks”, click `Install`.
 
 ![Install Tweaks](/images/gnome-tweaks-extensions/install-tweaks.png)
 
@@ -107,7 +107,7 @@ Add an application by clicking the `+`, selecting an application from the list, 
 
 ### Top Bar
 
-Configure the clock to display additional information.
+`Top Bar` settings allow you to configure the clock to display additional information.
 
 ![Top Bar Tweaks](/images/gnome-tweaks-extensions/top-bar-tweaks.png)
 
@@ -117,19 +117,19 @@ You can also choose to display week numbers in the system calendar application.
 
 ### Window Titlebars
 
-Configure settings that allow you to interact with windows using mouse clicks. You can also choose available titlebar buttons and their placement. Right, middle, and left-click buttons can each be configured to perform one of the following actions when clicking a window's titlebar:
+These settings allow you to interact with windows using mouse clicks. You can also choose available titlebar buttons and their placement. Right, middle, and left-click buttons can each be configured to perform one of the following actions when clicking a window's titlebar:
 
 ![Titlebar Tweaks](/images/gnome-tweaks-extensions/titlebar-tweaks.png)
 
 | Option | Function |
 |--------|----------|
 | Lower | A "send to back" action occurs. |
-| Menu | A window manipulation menu is displayed. |
-| Minimize | A window is minimized.|
-| Toggle Maximize | A window is maximized, the window returns to its previous size on second click. |
-| Toggle Maximize Horizontally* | A window is extended to the left and right sides of the screen without modifying vertical dimensions. |
-| Toggle Maximize Vertically* | A window is expanded to the top and bottom of the screen without modifying horizontal dimensions. |
-| Toggle Shade* | A window is collapsed into or expanded from its titlebar when the window's titlebar. |
+| Menu | Display a window manipulation menu. |
+| Minimize | Minimize a window.|
+| Toggle Maximize | Maximize a window, the window returns to its previous size on second click. |
+| Toggle Maximize Horizontally* | Extend a window to the left and right sides of the screen without modifying vertical dimensions. |
+| Toggle Maximize Vertically* | Expand a window to the top and bottom of the screen without modifying horizontal dimensions. |
+| Toggle Shade* | Collapse or expand a window from its titlebar when the window's titlebar is clicked. |
 
 \* This feature is not supported by all application windows.
 
@@ -143,9 +143,9 @@ The `Windows` menu offers additional features for interacting with system and ap
 |--------|----------|
 | Attach Modal Dialogs | Modal dialogs (such as windows that spawn when performing a "Save as...") stay in a fixed position within their parent window. |
 | Center New Windows | New windows launch perfectly centered on the screen. |
-| Resize with Secondary-Click | A window can be maximized or returned to previous size by double-clicking the primary mouse button. |
-| Window Action Key | Windows can be dragged freely by holding this key, left-clicking anywhere in the window, and dragging with the mouse. Windows can be resized by holding this key, right-clicking anywhere in a window, and dragging the mouse. |
-| Window Focus | Set the action that brings a window into focus: <ul><li>Click to Focus: Clicking a window brings it into focus.</li><li>Focus on Hover: Hovering the cursor over a window brings it into focus. Focus is maintained if the cursor is moved to the desktop.</li><li>Secondary-Click: Hovering the cursor over a window brings it into focus. Focus is not maintained if the cursor is moved to the desktop.</li><li>Raise Windows When Focused: The focused window is brought to the front. This option can be enabled when either `Focus on Hover` or `Secondary-Click` is chosen. |
+| Resize with Secondary-Click | Maximize or returne a window to its previous size by double-clicking the primary mouse button. |
+| Window Action Key | Drag windows freely by holding this key, left-clicking anywhere in the window, and dragging with the mouse. Resize windows by holding this key, right-clicking anywhere in a window, and dragging the mouse. |
+| Window Focus | Set the action that brings a window into focus: <ul><li>Click to Focus: Click a window to bring it into focus.</li><li>Focus on Hover: Hover the cursor over a window to bring it into focus. Focus is maintained if the cursor is moved to the desktop.</li><li>Secondary-Click: Hover the cursor over a window to bring it into focus. Focus is not maintained if the cursor is moved to the desktop.</li><li>Raise Windows When Focused: Focus a window to bring it to the front. This option is available when either `Focus on Hover` or `Secondary-Click` are chosen. |
 
 ## GNOME Shell Extensions
 
@@ -179,7 +179,7 @@ Launch the Extension Manager application. Select `Browse` at the top of the wind
 
 ### Extension Settings
 
-Extensions can be managed from the `User-Installed Extensions` list.
+Extensions are managed from the `User-Installed Extensions` list.
 
 ![User Installed](/images/gnome-tweaks-extensions/user-installed-extensions.png)
 

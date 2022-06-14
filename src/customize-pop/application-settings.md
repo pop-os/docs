@@ -1,59 +1,57 @@
 # Application Settings
 
-The Applications Settings tab includes options to designate specific applications for handling certain file types, change the behavior and content for application notifications, and control application access to services and resources.
-
-- [The `Applications` tab](/customize-pop/application-settings.md#applications) provides settings to manage application permissions, allow system integration features, specify default handlers, and view disk space usage per app. The availability of these settings depends on the functions and access required by the application.
-- [The `Notifications`](/customize-pop/application-settings.md#default-applications) tab provides more fine-tuning of application behavior by providing additional control over which applications display notifications, what notifications are displayed, and where they are displayed.
-- [The `Default Applications`](/customize-pop/application-settings.md#default-applications) tab provides a simplified menu for specifying an app that should always open a certain file type.
+- [`Applications` settings](/customize-pop/application-settings.md#applications): Manage application permissions, allow system integration features, specify default handlers, and view disk space usage per app. These settings may not be available for all applications, depending on the functionality or access required by the application.
+- [`Notifications` settings](/customize-pop/application-settings.md#default-applications): Control which applications display notifications, what notifications are displayed, and where they are displayed.
+- [`Default Applications` settomgs](/customize-pop/application-settings.md#default-applications) Specify applications that should always open certain file types.
 
 ---
 
 ## Applications
 
-Control application access to system features and resources in `Settings` ➞ `Applications`.
+Options to control application access to system features and resources are located in the `Settings` ➞ `Applications` tab.
 
 ![Application Settings](/images/application-settings/application-settings.png)
 
-| Setting | Description |
+| Option | Function |
 |---------|----------|
-| Permissions & Access | These settings display the data and system services requested or required by an application. Permissions can include access to system devices, using the system's network connection, reading and writing to the file system, and the ability to change settings. Many applications will include built-in permissions that cannot be modified by the user. You can view permission granted to an application by clicking the `Built-in Permissions` button. |
-| Integration | These settings list system-wide features used by an application. These features include the ability to appear in search, display notification, and running in the background. |
+| Permissions & Access | View the data and system services requested or required by an application. Permissions can include access to system devices, using the system's network connection, reading and writing to the file system, and the ability to change settings. Many applications include built-in permissions that cannot be modified by the user. View permission granted to an application by clicking the `Built-in Permissions` button. |
+| Integration | Disable or enable system-wide features used by an application. These features include the ability to appear in search, display notification, and running in the background. |
 | Default Handlers | This determines which file types are associated with an application. Click an entry to display more information about the file types assigned to the application. Multiple programs can be associated with the same file types. See the [Default Applications](/customize-pop/application-settings.md#default-applications) to specify an application that should always open a certain media type. |
-| Usage | The `Usage` section displays the disk usage used by the application. Click on the `Storage` button to view space used by the application itself, data created by the application, and temporary data cached by the application. You can clear cache data by clicking `Clear Cache`.
+| Usage | Display an application's disk usage. Click on the `Storage` button to view space used by the application itself, data created by the application, and temporary data cached by the application. Click `Clear Cache` to clear an application's locally stored data.
 
 ## Notifications
 
-Application notifications appear in the upper center of the screen. Click the date and time to view recent notifications.
-
-![Recent Notifications](/images/application-settings/recent-notifications.png)
-
-Control application notification behavior in `Settings` ➞ `Notifications`. App-specific notifications are configured in this menu.
+Settings to control application notification behavior are located in the `Settings` ➞ `Notifications` tab.
 
 ![Notifications Settings](/images/application-settings/notifications-settings.png)
 
 | Option | Function |
 |--------|----------|
-| Do Not Disturb | This setting applies globally and disables all application notifications. |
-| Lock Screen Notifications | This setting applies globally and allows toggling `Lock Screen Notifications` and `Show Message Content on Lock Screen` for an individual application. |
+| Do Not Disturb | Disable all application notifications globally. |
+| Lock Screen Notifications | Enable setting toggling for the `Lock Screen Notifications` and `Show Message Content on Lock Screen` options. |
+
+Application notifications appear in the upper center of the screen. Click the date and time to view recent notifications.
+
+![Recent Notifications](/images/application-settings/recent-notifications.png)
 
 ### Configure Notification Behavior for a Single Application
 
-Select an applications from the list to configure its notification behavior.
+Select an application from the list to configure its notification behavior.
 
 ![Single App Options](/images/application-settings/single-app-options.png)
 
 | Option | Function |
 |--------|----------|
-| Notifications | Toggle notifications on or off for this app. |
-| Sound Alerts | Toggle sound alerts that will accompany a notification for this app. |
-| Notification Popups | Toggle notification Popups to `On` to enable them on the desktop; notifications will continue to appear in the notification list. |
-| Show Message Content in Popups | The popup will include the notification's written content. |
-| Lock Screen Notifications | Turning this on will display app notifications at the login screen when the computer is locked. These settings cannot be enabled unless Lock Screen Notifications is enabled. |
-| Show Message Content on Lock Screen | Displays the app's notification message content in the login screen when the computer is locked. |
+| Notifications | Toggle an application's notifications on or off. |
+| Sound Alerts | Toggle sound alerts that will accompany notifications for this application. |
+| Notification Popups | Enable notification popups on the desktop; notifications will continue to appear in the notification list. |
+| Show Message Content in Popups | Include the notification's written content in the popup. |
+| Lock Screen Notifications | Display application notifications at the login screen when the computer is locked. These settings cannot be enabled unless the Lock Screen Notifications setting is enabled. |
+| Show Message Content on Lock Screen | Displays an application's written notification content in the login screen when the computer is locked. |
 
 ## Default Applications
 
-Choose default applications for Web browsing, Email, Calendars, Music, Videos, and Photos in `Settings` ➞ `Default Applications`.
+Options to choose default applications for Web browsing, Email, Calendars, Music, Videos, and Photos are located in `Settings` ➞ `Default Applications`.
 
 ![Default Applications](/images/application-settings/default-applications.png)
 
@@ -62,4 +60,4 @@ Designate an application as the default by selecting it from the dropdown menu. 
 ![Select Default](/images/application-settings/select-default.png)
 
 > **Default Applications vs. Default Handlers**:
-> Multiple applications can be designated as default handlers for file types. The `Default Applications` menu allows you to specify which application should **always** launch when handling a specific media type, even if other appropriate applications are installed on the system.
+> Multiple applications can be designated as default handlers for file types. Use the `Default Applications` menu to specify which application should **always** launch when handling a specific media type, even if other appropriate applications are installed on the system.
