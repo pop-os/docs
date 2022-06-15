@@ -59,17 +59,15 @@ Alternatively, right-click the image and choose `Set as Wallpaper` from within t
 
 Pop!\_OS includes two default themes: Light and Dark. These themes apply to all system and application windows across the operating system. Selecting a theme also assigns a default desktop background. The Light and Dark theme options are located in the `Appearance` tab.
 
-**Light Theme**
-
-![Light Theme](/images/customize-desktop/light-theme.png)
-
-**Dark Theme**
-
-![Dark Theme](/images/customize-desktop/dark-theme.png)
-
->**Note**: Custom themes may cuase graphical glitches, but they can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
-
 ![Change Theme](/images/customize-desktop/change-theme.png)
+
+- **Pop Light theme example:**
+    ![Light Theme](/images/customize-desktop/light-theme.png)
+
+- **Pop Dark theme example:**
+    ![Dark Theme](/images/customize-desktop/dark-theme.png)
+
+    >**Note**: Custom themes may cause graphical glitches, but they can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
 
 ## Dock
 
