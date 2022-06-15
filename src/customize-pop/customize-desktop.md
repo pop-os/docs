@@ -4,9 +4,9 @@ Options to change the look and feel of Pop!\_OS are located in `Settings` ➞ `D
 
 - [`Desktop Options`](/customize-pop/customize-desktop.md#desktop-options): Modify the `SUPER` key's function, enable the Hot Corner, and add or position top bar elements.
 - [`Background` settings](/customize-pop/customize-desktop.md#background): Set pre-installed wallpaper or user images as the background image.
-- [`Appearance` settings](/customize-pop/customize-desktop.md#appearance) Choose a dark or light theme that applies across the entire desktop environment.
+- [`Appearance` settings](/customize-pop/customize-desktop.md#appearance): Choose a dark or light theme that applies across the entire desktop environment.
 - [`Dock` settings](/customize-pop/customize-desktop.md#dock): Modify the Dock's visibility, placement, size, and displayed icons.
-- [`Workspaces` settings](/customize-pop/customize-desktop.md#workspaces) includes options to configure workspace positioning and behavior.
+- [`Workspaces` settings](/customize-pop/customize-desktop.md#workspaces): Configure workspace positioning and behavior.
 
 ---
 
@@ -20,8 +20,8 @@ Settings to customize desktop elements are available in the `Desktop Options` ta
 |----------|----------|
 | Super Key Action | Assign the `SUPER` key to start the Launcher, display workspace navigation, or view installed applications. |
 | Hot Corner | Display workspace navigation when the user moves the mouse cursor to the upper left corner of the screen. |
-| Top Bar | Display or hide items along the top bar. |
-| Window Controls | Enable or disable the minimize and maximize buttons in windows. |
+| Top Bar | Display or hide the workspaces or applications buttons on the top bar, and set the date, time, and notifications to left, right, or center. |
+| Window Controls | Enable or disable the minimize and maximize buttons in window titlebars. |
 
 ## Background
 
@@ -83,7 +83,7 @@ Settings for modifying Dock visibility behavior and Dock icons are located in th
 | Dock Options | <ul><li>Extend dock to edges of the screen: Lengthen the Dock's edges so that it appears as a panel that extends to the screen edges.</li><li>Show Launcher Icon in Dock: Display an icon that starts the Launcher when clicked.</li><li>Show Workspaces Icon in Dock: Display an icon that activates the workspaces and windows view when clicked.</li><li>Show Applications Icon in Dock: Display an icon that launches the Application menu when clicked.</li><li>Show Mounted Drives: Display an icon for each mounted drive.</li><li>Icon Click Action: Specify behavior when an application icon is clicked. See examples of Icon Click Action behavior in [Navigate Between Running Applications](/navigate-pop/switching-apps.md#using-the-dock). <ul><li>Launch or Cycle Windows: A running application is focused when its icon is clicked. Additional clicks cycle through instances of that application.</li><li>Launch or Minimize Windows: A running application is focused or minimized when its icon is clicked.</li><li>Launch, Minimize, or Preview Windows: When clicked, if a running application has multiple windows open, a menu displays wih a preview of each window and focus applied to the selected window. Otherwise, a running application is focused or minimized. |
 | Dock Visibility | **Visibility options**<ul><li>Always visible: The Dock remains static with no hiding behavior.</li><li>Always hide: The Dock always hides unless actively being revealed by the mouse.</li><li>Intelligently hide: The Dock hides when any window covers the dock area.</ul>**Additional settings**<ul><li>Show Dock on Display: Display the Dock on all displays or only the primary display.|
 | Dock Size | The Dock size is set to Small (36px), Medium (48px), Large (60px), or specify a custom size.|
-| Position on the Desktop | Display the Dock horizontally along the bottom of the screen, or vertically on the left or right sides of the screen. |
+| Position on the Desktop | Display the Dock horizontally along the bottom of the screen, or vertically on the left or right sides. |
 
 ## Workspaces
 
