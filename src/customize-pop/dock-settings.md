@@ -18,7 +18,7 @@ Disable or enable the Dock's visibility.
 
 ## Dock Options
 
-Dock options include settings to enable specific utility icons, configure focusing behavior when an application's Dock icon is clicked, and enabling visual characteristics of the Dock.
+Dock options include settings to enable icons for utilities (such as the Launcher, Applications menu, and viewing workspaces), configure focusing behavior when an application's Dock icon is clicked, and enabling visual characteristics of the Dock.
 
 ![Dock Options](/images/customize-desktop/dock-options.png)
 
@@ -79,6 +79,14 @@ Set Dock hiding behavior.
 #### Show Dock on Display
 
 Display the Dock on all displays or only the primary display.
+
+**Dock on primary display only**
+
+![Dock on Primary](/images/customize-desktop/dock-on-primary.png)
+
+**Dock on both displays**
+
+![Dock on Both](/images/customize-desktop/dock-on-both.png)
 
 ### Dock Size
 

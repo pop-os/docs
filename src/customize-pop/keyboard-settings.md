@@ -31,6 +31,12 @@ Display keyboard layouts by clicking the three vertical dots on the right and cl
 
 ![View Keyboard Layout](/images/keyboard-settings/view-keyboard-layout.png)
 
+Type while viewing the keyboard layout to verify accurate key registration.
+
+<video autoplay loop>
+    <source src="/images/keyboard-settings/view-layout.webm" />
+</video>
+<!--Link to info about keyboard configurator? https://system76.com/accessories/launch/download-->
 ## Customizing Keyboard Shortcuts
 
 Pop!\_OS includes default shortcuts to provide intuitive and efficient navigation throughout the system. See [Navigate Pop!\_OS](/navigate-pop/navigate-pop.md) to learn about default window manipulation and navigation shortcuts in Pop!\_OS. Customize existing shortcuts and add new shortcuts in the `Keyboard Shortcuts` section.

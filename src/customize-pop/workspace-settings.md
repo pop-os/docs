@@ -22,22 +22,24 @@ Specify a static number of workspaces.
 
 ### Multi-monitor Behavior
 
-#### Workspaces Span Displays
+#### Workspaces Span Displays (Default)
 
-Include all connected displays in workspaces.
+All connected displays are treated as one desktop. Windows/Applications can be moved between displays without being moved to another workspace. Switching to a workspace above or below switches all monitors to the next workspace.
 
-![need image]()
+<video autoplay loop>
+    <source src="/images/customize-desktop/span-displays.webm" />
+</video>
 
 #### Workspaces on Primary Displays Only
 
-Only include windows from the primary display in workspaces.
+Workspace navigation only affects the monitor set as the primary display. Switching workspaces leaves applications/windows on secondary displays in view.
 
-![need image]()
+<video autoplay loop>
+    <source src="/images/customize-desktop/primary-display-only.webm" />
+</video>
 
 ### Placement of the Workspace Picker
 
 Specify whether the workspace picker appears along the left or right side of the screen.
-
-**Example of the workspace picker positioned along the right edge of the screen**
 
 ![Workspace Picker](/images/customize-desktop/workspace-picker.png)
