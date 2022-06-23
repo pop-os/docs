@@ -6,7 +6,7 @@ This section describes settings located in the `Dock` tab for modifying Dock vis
 
 ## Enable Dock
 
-Disable or enable the Dock's visibility.
+Disable or enable the Dock.
 
 **Dock Enabled**
 
@@ -18,7 +18,7 @@ Disable or enable the Dock's visibility.
 
 ## Dock Options
 
-Dock options include settings to enable icons for utilities (such as the Launcher, Applications menu, and viewing workspaces), configure focusing behavior when an application's Dock icon is clicked, and enabling visual characteristics of the Dock.
+Dock options include settings to enable icons for utilities (such as the Launcher, Applications menu, and Workspaces menu), configure focusing behavior when an application's Dock icon is clicked, and enable visual characteristics of the Dock.
 
 ![Dock Options](/images/customize-desktop/dock-options.png)
 
@@ -42,7 +42,7 @@ Display an icon that activates the workspaces and windows view when clicked.
 
 ### Show Applications Icon in Dock
 
-Display an icon that launches the Application menu when clicked.
+Display an icon that launches the Applications menu when clicked.
 
 ![Applications Icon](/images/customize-desktop/applications-icon.png)
 
@@ -61,7 +61,7 @@ Specify what action should occur when an application's Dock icon is clicked. See
 | Option | Function |
 |:----------|:----------|
 | Launch or Cycle Windows (Default) | Focus a running application when its icon is clicked. Additional clicks cycle through instances of that application. |
-| Launch or Minimize Windows | Focus or minimize a running application when its icon is clicked. |
+| Launch or Minimize Windows | Focus or minimize a running application when its icon is clicked. This option does not allow focusing a specific window if an application is running multiple windows. |
 | Launch, Minimize, or Preview Windows | When clicked, if a running application has multiple windows open, a menu displays wih a preview of each window and focus is applied to the selected window. Otherwise, a running application is focused or minimized. |
 
 ### Dock Visibility

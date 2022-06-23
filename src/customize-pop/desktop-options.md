@@ -18,7 +18,7 @@ Display workspace navigation when the user moves the mouse cursor to the upper l
 
 ## Top Bar
 
-Display or hide the (1) workspaces or (2) applications buttons on the top bar, and set the (3) date, time, and notifications to left, right, or center.
+Display or hide the (1) Workspaces or (2) Applications buttons on the top bar, and set the (3) date, time, and notifications to left, right, or center.
 
 ![Top Bar](/images/customize-desktop/top-bar.png)
 

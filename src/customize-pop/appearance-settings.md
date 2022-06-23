@@ -1,6 +1,6 @@
 # Appearance Settings
 
-This section describes the Light and Dark theme options located in the `Appearance` tab. These themes apply to all windows across the operating system. Selecting a theme also assigns a default desktop background.
+This section describes the Light and Dark theme options located in the `Appearance` tab. These themes apply to all windows across the operating system. Each theme also includes a default desktop background, unless a background was already assigned by the user while using that theme.
 
 ![Change Theme](/images/customize-desktop/change-theme.png)
 

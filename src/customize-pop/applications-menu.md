@@ -26,6 +26,6 @@ To set a default application for a large number of similar file types, such as i
 
 ## Usage
 
-Display an application's disk usage. Click on the `Storage` button to view space used by the application itself, data created by the application, and temporary data cached by the application. Click `Clear Cache` to clear an application's locally stored data.
+Display an application's disk usage. Click on the `Storage` button to view space used by the application itself, data created by the application, and temporary data cached by the application. Click `Clear Cache` to clear an application's temporary data.
 
 ![App Storage Usage](/images/application-settings/app-storage-usage.png)

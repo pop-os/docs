@@ -30,7 +30,7 @@ All connected displays are treated as one desktop. Windows/Applications can be m
     <source src="/images/customize-desktop/span-displays.webm" />
 </video>
 
-#### Workspaces on Primary Displays Only
+#### Workspaces on Primary Display Only
 
 Workspace navigation only affects the monitor set as the primary display. Switching workspaces leaves applications/windows on secondary displays in view.
 

@@ -20,7 +20,7 @@ Click the `Open With` tab and choose the appropriate program from the list.
 
 ## Set Default Applications Using the Terminal
 
-### Modify the Mimeapps.list File
+### Modify the MIME Apps List File
 
 The `mimeapps.list` file contains entries associating applications with specific links and MIME file types. Application names listed in this file will be appended with `.desktop`.
 
@@ -30,9 +30,9 @@ The `mimeapps.list` file contains entries associating applications with specific
     ls /usr/share/applications
     ```
 
-This command will provide output similar to the below image. Take note of your desired default application's .desktop name, or leave this Terminal window open and start a new Terminal session to complete the next steps.
+Take note of your desired default application's .desktop name, or leave this Terminal window open and start a new Terminal session to complete the next steps.
 
-![Output]()
+>**Note**: The `/usr/share/applications` directory will show most system-wide apps installed, but it won't show user-local apps; apps can be placed in any of the directories you see in the output of echo $XDG_DATA_DIRS. For example, Flatpak apps are installed to ~/.local/share/flatpak/exports/share/applications/ by default.
 
 2. Open the `mimeapps.list` file using this command:
 
@@ -40,26 +40,26 @@ This command will provide output similar to the below image. Take note of your d
     nano ~/.config/mimeapps.list
     ```
 
-4. Locate the file MIME type entry and edit it using the .desktop application name. For example, this entry requires that all .webm files are opened with VLC media player:
+4. Locate the file MIME type entry and edit it using the .desktop application name. For example, this entry specifies that all .webm files are opened with VLC media player by default:
 
     ```bash
     video/webm=vlc.desktop;
     ```
 
-If a file's MIME type is not listed in `mimeapps.list`, you can determine a file's MIME type by navigating to the file's location and using the `mimetypo` command:
+If a file's MIME type is not listed in `mimeapps.list`, you can determine a file's MIME type by navigating to the file's location and using the `mimetype` command:
 
-    ```bash
-    mimetype my-image.png
-    my-image.png: image/png
-    ```
+```bash
+mimetype my-image.png
+my-image.png: image/png
+```
 
 Then create an entry in the `[Added Associations]` section of the `mimeapps.list` file:
 
-    ```bash
-    image/png=deepin-image-viewer.desktop;
-    ```
+```bash
+image/png=deepin-image-viewer.desktop;
+```
 
-### Using the Mimeopen Command
+### Using the `mimeopen` Command
 
 Launch a Terminal session, navigate to your file, and type this command:
 
@@ -69,7 +69,7 @@ mimeopen -d my-image.png
 
 Enter a number to correspond with a listing in the output:
 
-```bash
+```
 Please choose a default application for files of type image/png
 
 	1) Deepin Image Viewer  (deepin-image-viewer)
