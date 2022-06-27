@@ -18,6 +18,8 @@ Options to configure color profiles for displays are found in `Settings` ➞ `Co
 
     ![Enabled Profile](/images/color-profiles/enabled-profile.png)
 
+## Switching between Existing Color Profiles
+
 Enable a different profile from the list by selecting it and clicking `Enable`.
 
 ![Enable Alt Profile](/images/color-profiles/enable-alt-profile.png)

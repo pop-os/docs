@@ -1,6 +1,6 @@
 # Keyboard Settings
 
-Option to set input Sources, input source switching, special character entry options, and keyboard shortcuts are located in `Settings` ➞ `Keyboard`.
+Options to set input sources, input source switching, special character entry methods, and keyboard shortcuts are located in `Settings` ➞ `Keyboard`.
 
 ![Keyboard Settings](/images/keyboard-settings/keyboard-settings.png)
 
@@ -13,7 +13,7 @@ Option to set input Sources, input source switching, special character entry opt
 
 ## Adding an Input Source
 
-1. Click the `+` to display available input sources. Select an input source from the list, or click the three vertical dots to perform a keyword search.
+1. Click the `+` to display available input sources.
 
     ![Display Sources](/images/keyboard-settings/display-sources.png)
 
@@ -23,31 +23,30 @@ Option to set input Sources, input source switching, special character entry opt
 
 3. Select a keyboard layout and click `Add`.
 
-> **Keyboard Layout vs. Keyboard Input Language**: A keyboard language refers to the available keys required to input the required characters and symbols for a given language. A keyboard layout is the physical organization of those keys.
+    ![Select Layout](/images/keyboard-settings/select-layout.png)
 
-![Select Layout](/images/keyboard-settings/select-layout.png)
+    Display keyboard layouts by clicking the three vertical dots on the right and clicking `View Keyboard Layout`.
 
-Display keyboard layouts by clicking the three vertical dots on the right and clicking `View Keyboard Layout`
+    ![View Keyboard Layout](/images/keyboard-settings/view-keyboard-layout.png)
 
-![View Keyboard Layout](/images/keyboard-settings/view-keyboard-layout.png)
+    Type while viewing the keyboard layout to verify accurate key recognition.
 
-Type while viewing the keyboard layout to verify accurate key registration.
+    <video autoplay loop>
+        <source src="/images/keyboard-settings/view-layout.webm" />
+    </video>
+    <!--Link to info about keyboard configurator? https://system76.com/accessories/launch/download-->
 
-<video autoplay loop>
-    <source src="/images/keyboard-settings/view-layout.webm" />
-</video>
-<!--Link to info about keyboard configurator? https://system76.com/accessories/launch/download-->
 ## Customizing Keyboard Shortcuts
 
-Pop!\_OS includes default shortcuts to provide intuitive and efficient navigation throughout the system. See [Navigate Pop!\_OS](/navigate-pop/navigate-pop.md) to learn about default window manipulation and navigation shortcuts in Pop!\_OS. Customize existing shortcuts and add new shortcuts in the `Keyboard Shortcuts` section.
+Pop!\_OS includes default shortcuts that execute commands to perform navigational actions or launch programs. Use the `Keyboard Shortcuts` section to modify shortcuts for existing commands, or create shortcuts to execute custom commands. See [Navigate Pop!\_OS](/navigate-pop/navigate-pop.md) to learn about default window manipulation and navigation shortcuts in Pop!\_OS.
 
-### Customize an Existing Shortcut
+### Customize Shortcuts for an Existing Command
 
-1. Click `Customize Shortcuts` to view all keyboard shortcuts.
+1. Click `View and Customize Shortcuts` to view all keyboard shortcuts.
 
     ![Customize Shortcuts](/images/keyboard-settings/customize-shortcuts.png)
 
-2. To add an additional key combination to an existing shortcut, click the three dots to the left and choose `Add another shortcut`.
+2. To add an additional shortcut to an existing command, click the three dots to the right and choose `Add another shortcut`.
 
     ![Add Shortcut](/images/keyboard-settings/add-shortcut.png)
 
@@ -55,9 +54,9 @@ Pop!\_OS includes default shortcuts to provide intuitive and efficient navigatio
 
     ![Enter Shortcut](/images/keyboard-settings/enter-shortcut.png)
 
-### Add a New Custom Shortcut
+### Create a Shortcut to Perform a New Command
 
-1. Click `Custom Shortcuts` to add an additional shortcut.
+1. Click `Custom Shortcuts`.
 
     ![Custom Shortcuts](/images/keyboard-settings/custom-shortcuts.png)
 
