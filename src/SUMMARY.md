@@ -41,3 +41,4 @@
         - [Typing](customize-pop/accessibility-typing.md)
         - [Pointing & Clicking](customize-pop/pointing-clicking.md)
     - [Manage GNOME Tweaks & Extensions](customize-pop/gnome-tweaks-extensions.md)
+

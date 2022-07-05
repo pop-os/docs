@@ -6,12 +6,8 @@ Options to configure accessibility settings are located in `Settings` ➞ `Acces
 
 ## Always Show Accessibility Menu
 
-When the `Always Show Accessibility Menu` is enabled, accessibility options can be toggled using an icon in the upper right corner.
+When `Always Show Accessibility Menu` is enabled, accessibility options can be toggled using a the gear icon in the upper right corner.
+
+![Always Show Menu](/images/accessibility-settings/always-show-menu.png)
 
 ![Menu in Tray](/images/accessibility-settings/menu-in-tray.png)
-
-**Click image to enlarge**
-
-<a href="/images/accessibility-settings/always-show-menu.png" target="blank">
-    <img src="/images/accessibility-settings/always-show-menu.png" width="758px" height="428px">
-</a>

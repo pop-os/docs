@@ -2,25 +2,19 @@
 
 `Seeing` settings provide visual enhancements to help visually impaired users navigate the operating system's user interface.
 
+---
+
 ## High Contrast
 
 Enabling `High Contrast` applies a high contrast theme to windows and icons.
 
 ### High Contrast Mode Off
 
-**Click image to enlarge**
-
-<a href="/images/accessibility-settings/contrast-mode-off.png" target="blank">
-    <img src="/images/accessibility-settings/contrast-mode-off.png" width="733px" height="456px">
-</a>
+<img src="/images/accessibility-settings/contrast-mode-off.png" alt="High contrast mode off" class="thumbnail" height="456" width="733" /> 
 
 ### High Contrast Mode On
 
-**Click image to enlarge**
-
-<a href="/images/accessibility-settings/contrast-mode-on.png" target="blank">
-    <img src="/images/accessibility-settings/contrast-mode-on.png" width="733px" height="456px">
-</a>
+<img src="/images/accessibility-settings/contrast-mode-on.png" alt="High contrast mode on" class="thumbnail" width="733px" height="456px">
 
 ## Large Text
 
@@ -28,19 +22,11 @@ Enabling `Large Text` increases the size of text across system windows and suppo
 
 ### Large Text Disabled
 
-**Click image to enlarge**
-
-<a href="/images/accessibility-settings/before-lt.png" target="blank">
-    <img src="/images/accessibility-settings/before-lt.png" width="733px" height="456px">
-</a>
+<img src="/images/accessibility-settings/before-lt.png" alt="Large text disabled" class="thumbnail" width="733px" height="456px">
 
 ### Large Text Enabled
 
-**Click image to enlarge**
-
-<a href="/images/accessibility-settings/after-lt.png" target="blank">
-    <img src="/images/accessibility-settings/after-lt.png" width="733px" height="456px">
-</a>
+<img src="/images/accessibility-settings/after-lt.png" alt="Large text enabled" class="thumbnail" width="733px" height="456px">
 
 ## Enable or Disable Animations
 
@@ -66,13 +52,9 @@ Animations appear when minimizing and maximizing windows. Disabling animations m
 
 ## Zoom
 
-The `Zoom` setting designates all or a part of the screen to display magnified content. This feature can be further customized to render the zoomed area specific portions of the screen, increase or decrease the zoom magnification, add a crosshair, and add color effects to the zoomed area.
+The `Zoom` setting designates all or a part of the screen to display magnified content. This feature can be further customized to render the zoomed area to specific portions of the screen, increase or decrease the zoom magnification, add a crosshair, and add color effects to the zoomed area.
 
-**Click image to enlarge**
-
-<a href="/images/accessibility-settings/zoom-options.png" target="blank">
-    <img src="/images/accessibility-settings/zoom-options.png" width="733px" height="456px">
-</a>
+<img src="/images/accessibility-settings/zoom-options.png" alt="zoom options" class="thumbnail" width="733px" height="456px">
 
 ### Magnification
 
@@ -82,7 +64,7 @@ This option determines the magnification of the zoom effect. Values range from 1
 
 ### Follow Mouse Cursor & Screen Part
 
-If `Full Screen` is selected under `Screen part` and the `Follow mouse cursor` radio button is selected, the magnification affect is rendered to the entire display area.
+If `Full Screen` is selected under `Screen part` and the `Follow mouse cursor` radio button is selected, the magnification effect is rendered to the entire display area.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/full-zoom.webm" />
@@ -90,7 +72,7 @@ If `Full Screen` is selected under `Screen part` and the `Follow mouse cursor` r
 
 ### Follow Mouse Cursor & Half Screen Zoom
 
-Select a portion of the screen to display the rendered zoom effect. If `Follow mouse cursor` remains selected, the `Top Half` and `Bottom Half` options will render the zoom effect to an unfixed narrow band of the screen. The `Left Half` and `Right Half` options will render the zoom effect to an unfixed rectangular portion of the screen.
+Select a portion of the screen to display the rendered zoom effect. If `Follow mouse cursor` remains selected, the `Top Half` and `Bottom Half` options will render the zoom effect to an unfixed horizontal band of the screen. The `Left Half` and `Right Half` options will render the zoom effect to an unfixed vertical band of the screen.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/half-zoom.webm" />
@@ -146,7 +128,7 @@ Magnified content moves with the mouse, but the mouse does not remain in a fixed
 
 #### Crosshairs
 
-Crosshairs help useres locate their mouse while navigating zoomed content.
+Crosshairs help users locate their mouse while navigating zoomed content.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/crosshairs.webm" />
@@ -154,7 +136,7 @@ Crosshairs help useres locate their mouse while navigating zoomed content.
 
 | Option | Function |
 |---------|----------|
-| Overlaps mouse cursor | Check this setting to layer the crosshairs over the cursor. Uncheck this setting end the crosshair lines before they reach the cursor. |
+| Overlaps mouse cursor | Check this setting to layer the crosshairs over the cursor. Uncheck this setting to end the crosshair lines before they reach the cursor. |
 | Thickness | Adjust the thickness of the crosshair's lines between 1 and 100 pixels. |
 | Length | Set the length of the visible crosshair. |
 | Color | Launch a color picker to customize the crosshair's color and transparency. |
@@ -170,7 +152,7 @@ Color effects modify the color of zoomed content. These settings assist users wi
 | Option | Function |
 |--------|----------|
 | White on black | Toggle on to invert white and black colors: White becomes black, black becomes white, dark grays become lighter, lighter colors and grays become darker. Color hues do not change. |
-| Brightness | Adjust the overall brightness of the zoomed content. `Low` and `High` are reversed when `White on black` is toggled to the on position. |
+| Brightness | Adjust the overall brightness of the zoomed content. `Low` and `High` are reversed when `White on black` is enabled. |
 | Contrast | Adjust the contrast of the zoomed content. `Low` decreases contrast, while `High` increases contrast. |
 | Color | Adjust the color saturation of zoomed content. Setting this to `None` will convert zoomed content to grayscale. |
 
