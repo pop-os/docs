@@ -10,11 +10,11 @@ Enabling `High Contrast` applies a high contrast theme to windows and icons.
 
 ### High Contrast Mode Off
 
-<img src="/images/accessibility-settings/contrast-mode-off.png" alt="High contrast mode off" class="thumbnail" height="456" width="733" /> 
+<img src="/images/accessibility-settings/contrast-mode-off.png" alt="High contrast mode off" class="thumbnail" />
 
 ### High Contrast Mode On
 
-<img src="/images/accessibility-settings/contrast-mode-on.png" alt="High contrast mode on" class="thumbnail" width="733px" height="456px">
+<img src="/images/accessibility-settings/contrast-mode-on.png" alt="High contrast mode on" class="thumbnail" />
 
 ## Large Text
 
@@ -22,11 +22,11 @@ Enabling `Large Text` increases the size of text across system windows and suppo
 
 ### Large Text Disabled
 
-<img src="/images/accessibility-settings/before-lt.png" alt="Large text disabled" class="thumbnail" width="733px" height="456px">
+<img src="/images/accessibility-settings/before-lt.png" alt="Large text disabled" class="thumbnail" />
 
 ### Large Text Enabled
 
-<img src="/images/accessibility-settings/after-lt.png" alt="Large text enabled" class="thumbnail" width="733px" height="456px">
+<img src="/images/accessibility-settings/after-lt.png" alt="Large text enabled" class="thumbnail" />
 
 ## Enable or Disable Animations
 
@@ -54,7 +54,7 @@ Animations appear when minimizing and maximizing windows. Disabling animations m
 
 The `Zoom` setting designates all or a part of the screen to display magnified content. This feature can be further customized to render the zoomed area to specific portions of the screen, increase or decrease the zoom magnification, add a crosshair, and add color effects to the zoomed area.
 
-<img src="/images/accessibility-settings/zoom-options.png" alt="zoom options" class="thumbnail" width="733px" height="456px">
+<img src="/images/accessibility-settings/zoom-options.png" alt="zoom options" class="thumbnail" >
 
 ### Magnification
 

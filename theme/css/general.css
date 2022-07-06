@@ -204,6 +204,8 @@ li > p > img {
     } 
     
     /*change the number below to scale to the appropriate size*/ 
+@media screen and (min-width: 1450px) and (min-height: 790px) {
     .thumbnail:hover { 
-    transform: scale(1.75); 
+    transform: scale(1.5); 
     }
+}
