@@ -2,7 +2,7 @@
 
 This section describes settings to change the desktop background located in the `Background` tab. Alternatively, this option is available by right-clicking anywhere on the desktop and selecting `Change Background...`.
 
->**Note**: Background modes such as centered, scaled, spanned, stretched, tiled, and zoomed can be set using the GNOME Tweaks application: [GNOME Tweaks Appearance Settings](gnome-tweaks-extensions.md#appearance)
+>**Note**: Background modes such as centered, scaled, spanned, stretched, tiled, and zoomed can be set using the GNOME Tweaks application: [GNOME Tweaks Appearance Settings](gnome-tweaks-extensions/gnome-tweaks-appearance.md#appearance)
 
 ![Background Tab](/images/customize-desktop/background-tab.png)
 

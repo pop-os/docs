@@ -14,7 +14,7 @@ Desktop configuration options are located in the `Settings` application. The GNO
 - [Assign Color Profiles](/customize-pop/color-profiles.md) - Activate or upload color profiles for individual displays and users.
 - [Customize Region and Language Settings](/customize-pop/region-language.md) - Manage installed languages and formatting for numbers, dates, times, and currencies.
 - [Configure Accessibility Settings](/customize-pop/accessibility-settings.md) - Enable features that provide input and output sensory assistance to users.
-- [Use GNOME Tweaks and Extensions](/customize-pop/gnome-tweaks-extensions.md) - Install and manage additional features.
+- [Use GNOME Tweaks and Extensions](/customize-pop/gnome-tweaks-extensions/gnome-tweaks-extensions.md) - Install and manage additional features.
 
 ## Accessing System Settings
 

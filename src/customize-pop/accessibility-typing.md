@@ -12,7 +12,7 @@ Enabling `Screen Keyboard` will display an interactive keyboard wherever text en
 
 ## Repeat Keys
 
-Enabling `Repeat Keys` causes key inputs to repeat when a key is held down. Users can configure the delay before this actions occurs, and the repeat speed once the action occurs. Disabling `Repeat Keys` causes every key press to render as a single input.
+The default `Repeat Keys` feature allows key inputs to repeat when a key is held down. Users can configure the delay before this actions occurs, and the repeat speed once the action occurs. Disabling `Repeat Keys` prevents keys from repeating when held down.
 
 <video autoplay loop>
     <source src="/images/accessibility-settings/repeat-keys.webm" />
