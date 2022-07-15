@@ -1,6 +1,6 @@
 # Window Titlebars
 
-These settings allow you to control window placement using different type of clicks on the titlebar. You can also choose available titlebar buttons and their placement.
+These settings allow you to control window placement using different types of clicks on the titlebar. You can also choose available titlebar buttons and their placement.
 
 >**Note**: Some applications, like Firefox, will ignore changes to button placement.
 

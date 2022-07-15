@@ -10,7 +10,7 @@
 |--------|----------|
 | Show Extended Input Sources | Display additional input layouts on the Keyboard page of the Settings application. |
 | Emacs Input | Apply Emacs-style keybindings throughout the operating system. |
-| Overview Shortcut | Choose whether the left or right `SUPER` key activates the [Super Key Action](desktop-options.md#super-key-action). |
+| Overview Shortcut | Choose whether the left or right `SUPER` key activates the [Super Key Action](/customize-pop/desktop-options.md#super-key-action). |
 
 ## Mouse
 

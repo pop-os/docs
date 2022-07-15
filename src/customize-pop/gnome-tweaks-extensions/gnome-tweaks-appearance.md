@@ -14,7 +14,7 @@
 | Icons | Choose an icon set that displays custom icons for system tools and applications. |
 | Shell | Select or upload a shell theme. Using this option requires [enabling `User Themes`](user-themes.md) in GNOME Extensions. |
 | Sound | Modify system feedback and notification sounds. |
-| Legacy Applications | Select the theme that will be applied to application windows. This setting may not apply to windows depending on the toolkit used; Libadwaita applications will ignore this setting, and Electron applications may not be affected, aside from their window title bars.  |
+| Legacy Applications (GTK theme) | Select the theme that will be applied to application windows. This setting may not apply to windows depending on the toolkit used; Libadwaita applications will ignore this setting, and Electron applications may not be affected, aside from their window title bars.  |
 
 ## Background Options
 

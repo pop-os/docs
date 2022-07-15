@@ -2,6 +2,8 @@
 
 Typing accessibility features enhance keyboard input behavior.
 
+---
+
 ## Screen Keyboard
 
 Enabling `Screen Keyboard` will display an interactive keyboard wherever text entry is possible.

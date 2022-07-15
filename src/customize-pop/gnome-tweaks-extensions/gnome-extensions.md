@@ -1,9 +1,9 @@
 # GNOME Shell Extensions
 
-GNOME shell extensions are features written by third party developers that build upon the GNOME Shell. Extensions are similar to Chrome Extensions or Firefox Addons.
+GNOME Shell extensions are features written by third party developers that build upon the GNOME Shell. Extensions are similar to Chrome Extensions or Firefox Addons.
 
-- **GNOME Extensions** is an application for managing these extensions.
-- **Extension Manager** is a utility for browsing and installing extensions.
+- **GNOME Extensions** is an official GNOME application for managing these extensions.
+- **Extension Manager** is a utility for browsing and installing extensions. While this is not an official GNOME application, it is [supported by the GNOME team](https://gitlab.gnome.org/GNOME/gnome-shell/-/merge_requests/2358).
 
 Both applications provide menus for configuring, disabling, or removing installed extensions.
 
@@ -11,7 +11,7 @@ Both applications provide menus for configuring, disabling, or removing installe
 
 ## Installing the GNOME Extensions & Extension Manager Apps
 
-Launch the Pop!\_Shop and type `extensions` then click `Install` for each application.
+GNOME Extensions is installed by default in Pop!\_OS, but if it is removed it can be reinstalled using the Pop!\_Shop. The GNOME Extension Manager is not installed by default. To install either of these applications, launch the Pop!\_Shop and type `extensions` then click `Install` for each application.
 
 ![Install Extensions App](/images/gnome-tweaks-extensions/install-extensions-app.png)
 
@@ -27,7 +27,8 @@ These features comprise the Computer Operating System Main Interface Components 
 |-----------|-------------|
 | [Cosmic Dock](https://github.com/pop-os/cosmic-dock) | A modified version of Dash to Dock with different defaults. |
 | [Cosmic Workspaces](https://github.com/pop-os/cosmic-workspaces) | Pop!\_OS's workspaces feature with vertical stacking. |
-| [Pop COSMIC](https://github.com/pop-os/cosmic) | The collection of unique components that comprise the Pop!\_OS experience: Customized Dash-to-Dock, vertical workspaces, and additional configuration options in Settings. |
+| [Desktop Icons NG (DING)](https://gitlab.com/rastersoft/desktop-icons-ng) | A fork from the official desktop icons project, with several enhancements like Drag'n'Drop. |
+| [Pop COSMIC](https://github.com/pop-os/cosmic) | This provides the standalone Applications menu, in addition to tying other Built-in extensions together with small tweaks. |
 | [Pop Shell](https://github.com/pop-os/shell) | A keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. |
 | [System76 Power](https://github.com/pop-os/gnome-shell-extension-system76-power) | A GNOME Shell extension that adds graphical integration to the system76-power daemon. |
 

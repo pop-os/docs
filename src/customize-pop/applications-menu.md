@@ -20,7 +20,7 @@ Configure specific file MIME types and links handled by the application. Click a
 
 ![Default Handlers](/images/application-settings/default-handlers.png)
 
-Clicking `Unset` will remove the file type association with the application. These associations can be restored using the [File Manager](default-applications.md#set-default-applications-using-the-file-manager) or a [command-line procedure](default-applications.md#modify-the-mimeappslist-file).
+Clicking `Unset` will remove the file type association with the application. These associations can be restored using the [File Manager](default-applications.md#set-default-applications-using-the-file-manager) or a [command-line procedure](default-applications.md#set-default-applications-using-the-terminal).
 
 To set a default application for a large number of similar file types, such as images, see the [Default Applications](default-applications.md) section.
 

@@ -10,4 +10,4 @@ This section describes the Light and Dark theme options located in the `Appearan
 - **Pop Dark theme example:**
     ![Dark Theme](/images/customize-desktop/dark-theme.png)
 
-    >**Note**: Custom themes may cause graphical glitches, but they can be applied using [GNOME Tweaks](gnome-tweaks-extensions.md).
+    >**Note**: Custom themes may cause graphical glitches, but they can be applied using [GNOME Tweaks](gnome-tweaks-extensions/user-themes.md).
