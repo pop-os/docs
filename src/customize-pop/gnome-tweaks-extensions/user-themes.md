@@ -58,7 +58,7 @@ You can reset user themes to the Pop!\_OS defaults using GNOME Tweaks and Extens
 
 Launch GNOME Tweaks, then select the `Appearance` tab and select Pop options for all available theme settings. You should also disable any additional extensions you have installed if you want to fully restore the default COSMIC experience.
 
->**Note**: Navigating to [Appearance settings](/customize-pop/appearance-settings.md) in the Settings application and selecting a Pop!\_OS theme will also reset the shell theme.
+>**Note**: Navigating to [Appearance settings](/customize-pop/appearance-settings.md) in the Settings application and selecting a Pop!\_OS theme will also reset the themes to default.
 
 ![Select Theme from Appearance Tab](/images/user-themes/reset-theme.png)
 
