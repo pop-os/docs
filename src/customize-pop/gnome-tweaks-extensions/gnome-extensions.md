@@ -11,7 +11,7 @@ Both applications provide menus for configuring, disabling, or removing installe
 
 ## Installing the GNOME Extensions & Extension Manager Apps
 
-GNOME Extensions is installed by default in Pop!\_OS, but if it is removed it can be reinstalled using the Pop!\_Shop. The GNOME Extension Manager is not installed by default. To install either of these applications, launch the Pop!\_Shop and type `extensions` then click `Install` for each application.
+GNOME Extensions is installed by default in Pop!\_OS, but if it is removed it can be reinstalled using the Pop!\_Shop. The GNOME Extension Manager is not installed by default. To install either of these applications, launch the Pop!\_Shop and type `extensions`, then click `Install` for each application.
 
 ![Install Extensions App](/images/gnome-tweaks-extensions/install-extensions-app.png)
 
