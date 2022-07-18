@@ -36,7 +36,7 @@ Follow the instructions on the theme's page to add it to your system; these are 
 
 ![Theme Installation Instructions](/images/user-themes/installation-instructions.png)
 
-Installation methods will vary, but the process will usually involve extracting a tar.gz file to either */usr/share/themes* requiring `sudo`, or to *~/.themes*. In the example below, a theme called `example-theme.tar.xz` is extracted to *~/.themes*.
+Installation methods will vary, but the process will usually involve extracting a tar.gz file to either `/usr/share/themes/` (requiring `sudo`), or to `~/.themes/`. In the example below, a theme called `example-theme.tar.xz` is extracted to `~/.themes/`.
 
 ```bash
 tar -xf example-theme.tar.xz -C ~/.themes
