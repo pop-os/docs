@@ -48,7 +48,7 @@ Launch [GNOME Tweaks](/customize-pop/gnome-tweaks-extensions/gnome-tweaks.md), t
 
 ![Select Theme from Appearance Tab](/images/user-themes/select-theme.png)
 
-You may need to restart GNOME Tweaks if it was open when extracting the theme to your local directory. Additionally, you may also need to restart GNOME Shell by pressing `Alt` + `F2`, then typing `r` and hitting `Enter`.
+If GNOME Tweaks was already open when extracting the theme to your local directory, you may need to restart GNOME Tweaks for the new theme to show up in the drop-down. Additionally, for a theme to apply after it's selected, you may need to restart GNOME Shell by pressing `Alt` + `F2`, then typing `r` and hitting `Enter`.
 
 ## Resetting the User Theme to Default
 
