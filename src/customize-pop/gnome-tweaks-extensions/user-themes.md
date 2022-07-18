@@ -2,7 +2,7 @@
 
 User themes include changes to window animations, desktop color schemes, window designs, icons, and workspaces. You can install custom GNOME Themes from [Gnome-look.org](https://www.gnome-look.org/browse/), or other similar web sites. The Pop!\_OS default themes can be re-applied using GNOME Tweaks or the by using Terminal commands.
 
->**Note**: Applying custom GNOME theming options may cause system instability or glitchy behavior. Additionally, custom themes are not subject to testing by by Pop!\_OS or application developers.
+>**Note**: Applying custom GNOME theming options may cause system instability or glitchy behavior. Additionally, custom themes are not subject to testing by Pop!\_OS or application developers.
 
 ## Enabling User Themes
 
