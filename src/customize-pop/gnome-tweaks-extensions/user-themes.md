@@ -44,7 +44,7 @@ tar -xf example-theme.tar.xz -C ~/.themes
 
 ### Applying a Custom Theme
 
-Launch GNOME Tweaks, then select the `Appearance` tab and choose a theme from the `Shell` dropdown menu.
+Launch [GNOME Tweaks](/customize-pop/gnome-tweaks-extensions/gnome-tweaks.md), then select the `Appearance` tab and choose a theme from the `Shell` dropdown menu for GNOME Shell themes, or the `Legacy Applicaions` drop-down menu for GTK themes.
 
 ![Select Theme from Appearance Tab](/images/user-themes/select-theme.png)
 
