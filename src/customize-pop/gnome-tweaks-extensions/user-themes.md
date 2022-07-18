@@ -20,7 +20,7 @@ User themes include changes to window animations, desktop color schemes, window 
 
 ## Adding a Custom User Theme
 
-> **Note**: Themes in Pop!\_OS 22.04 must support GTK 4. Additionally, it may be necessary to disable [Pop!\_OS components](gnome-extensions.md#built-in-extensions) from GNOME Extensions.
+> **Note**: Themes in Pop!\_OS 22.04 must support GTK 4. Additionally, it may be necessary to disable some [COSMIC components](gnome-extensions.md#built-in-extensions) from GNOME Extensions for certain themes to work properly.
 
 ### Downloading a Custom Theme
 
