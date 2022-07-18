@@ -25,12 +25,12 @@ These features comprise the Computer Operating System Main Interface Components 
 
 | Extension | Description |
 |-----------|-------------|
-| [Cosmic Dock](https://github.com/pop-os/cosmic-dock) | A modified version of Dash to Dock with different defaults. |
-| [Cosmic Workspaces](https://github.com/pop-os/cosmic-workspaces) | Pop!\_OS's workspaces feature with vertical stacking. |
-| [Desktop Icons NG (DING)](https://gitlab.com/rastersoft/desktop-icons-ng) | A fork from the official desktop icons project, with several enhancements like Drag'n'Drop. |
-| [Pop COSMIC](https://github.com/pop-os/cosmic) | This provides the standalone Applications menu, in addition to tying other Built-in extensions together with small tweaks. |
-| [Pop Shell](https://github.com/pop-os/shell) | A keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. |
-| [System76 Power](https://github.com/pop-os/gnome-shell-extension-system76-power) | A GNOME Shell extension that adds graphical integration to the system76-power daemon. |
+| [Cosmic Dock](https://github.com/pop-os/cosmic-dock) | Provides a [customizable dock](/customize-pop/dock-settings.md) for launching and switching applications. |
+| [Cosmic Workspaces](https://github.com/pop-os/cosmic-workspaces) | Provides a vertically-stacked [workspace switcher](/navigate-pop/using-workspaces.md). |
+| [Desktop Icons NG (DING)](https://gitlab.com/rastersoft/desktop-icons-ng) | Provides desktop icons with drag-and-drop functionality. |
+| [Pop COSMIC](https://github.com/pop-os/cosmic) | Provides the standalone Applications menu, and ties other COSMIC extensions together with small tweaks. |
+| [Pop Shell](https://github.com/pop-os/shell) | Provides quick and sensible navigation and management of windows with [tiling](/navigate-pop/tiling-stacking-windows.md). |
+| [System76 Power](https://github.com/pop-os/gnome-shell-extension-system76-power) | Provides graphical tools for managing the graphics mode on switchable-graphics systems. |
 
 ## Installing Additional Extensions
 
