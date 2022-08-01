@@ -191,3 +191,22 @@ blockquote {
 li > p > img {
     margin-top: 5px;
 }
+
+/*This class is used in accessibility-seeing.md to provide a zoom-on-hover effect for specific images.*/
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.9s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    
+/*This media query prevents the images from scaling outside of the browser. Changing the number in scale modifies the zoom power.*/ 
+@media screen and (min-width: 1450px) and (min-height: 790px) {
+    .thumbnail:hover { 
+    transform: scale(1.5); 
+    }
+}
