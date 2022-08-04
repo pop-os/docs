@@ -6,7 +6,7 @@ The Pop!\_Shop does not include all applications available for installation in P
 
 ## Installing Deb Packages with Eddy
 
-Eddy is an [open-source](https://github.com/donadigo/eddy) deb package installer that comes pre-packaged with Pop!\_OS.
+[Eddy](https://github.com/pop-os/eddy) is an open-source Debian package installer that comes pre-installed with Pop!\_OS.
 
 1. Download the application's deb file. When given file options, choose the version that matches your CPU architecture.
 

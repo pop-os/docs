@@ -1,8 +1,26 @@
-# The Pop!\_Shop 
+# The Pop!\_Shop
 
-Pop!\_OS includes a GUI applications called the Pop!\_Shop for easy installation and management of open-source applications.
+Pop!\_OS includes a GUI application called the Pop!\_Shop for easy installation and management of open-source and proprietary applications. Packages in the Pop!\_Shop are downloaded from System76's worldwide CDN, which mirrors Ubuntu's repositories to provide a selection of vetted software packages.
 
 ---
+
+## Pop!\_Picks
+
+Pop!\_Picks is a curated list of applications that System76 recommends to developers and general users.
+
+![Pop Picks](/images/using-pop-shop/pop-picks.png)
+
+## Recently Updated
+
+Find applications with recent developer support.
+
+![Recently Updated](/images/using-pop-shop/recently-updated.png)
+
+## Categories
+
+Find the appropriate application by category.
+
+![Application Categories](/images/using-pop-shop/application-categories.png)
 
 ## Installing Applications through the Pop!\_Shop
 

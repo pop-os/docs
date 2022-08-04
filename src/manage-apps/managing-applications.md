@@ -2,10 +2,10 @@
 
 Users can install, update, and remove application packages using GUI and CLI options in Pop!\_OS.
 
-- [Manage applications with Pop!_OS's built-in app store](using-pop-shop.md) - Find, install, update and remove software packages using the Pop!\_Shop.
-- [Download and install applications from a publisher's web site](using-eddy.md) - Download debian packages from the internet and install them using a simple GUI utility called Eddy.
+- [Manage applications with Pop!_OS's built-in app store](using-pop-shop.md) - Find, install, update, and remove software packages using the Pop!\_Shop.
+- [Download and install applications from a publisher's web site](using-eddy.md) - Download Debian packages from the internet and install them using a simple GUI utility called Eddy.
 - [Download and immediately run your applications without installing](using-appimages.md) - Quickly add applications using self-contained AppImages.
-- [Install, update, and remove applications using typed commands](using-terminal.md) - Use the apt package manger or Flatpak to install applications using the Terminal.
+- [Install, update, and remove applications using typed commands](using-terminal.md) - Use apt (Advanced Package Tool) or Flatpak to install applications using the Terminal.
 - [Manage repositories with Repoman](manage-repos.md) - Install packages even if they're not available in commonly used repositories.
 
 ---
@@ -16,7 +16,7 @@ In Linux, applications can share libraries of code in order to streamline softwa
 
 Pop!\_OS comes pre-packaged with several tools for installing software applications.
 
-- [Using the Pop!\_Shop](using-pop-shop.md) - Manage applications using a GUI interface that references a repository of packages vetted and hosted by System76.
+- [Using the Pop!\_Shop](using-pop-shop.md) - Manage applications using a GUI interface that references [AppStream data](https://en.wikipedia.org/wiki/AppStream) for packages vetted by Ubuntu.
 - [Using Eddy](using-eddy.md) - Install .deb packages downloaded from the web.
 - [Using the Terminal](using-terminal.md) - Manage applications packaged as .deb files and Flatpaks using typed commands.
 
@@ -24,8 +24,8 @@ Pop!\_OS comes pre-packaged with several tools for installing software applicati
 
 Different formats use different strategies to ensure all dependencies are present. Some methods are more convenient and include all dependencies, while others provide efficiency by checking to see if any of the required dependencies are already on your computer.
 
-- **Flatpaks** - Flatpaks install a “containerized” version of the software. This means the software runs in its own sandbox and the installation will include all dependencies and libraries required by the application. Flatpaks pull all dependencies from flathub.org.
-- **Deb Packages** - Deb is the package format used by Debian distributions. This is the package type that the `apt` package manager will handle when installing applications via the Terminal. You can also download .deb packages online and install them with Eddy.
+- **Flatpaks** - Flatpaks install a “containerized” version of the software. This means the software runs in its own sandbox and the installation will include all dependencies and libraries required by the application. By default, Flatpaks pull all dependencies from [FlatHub.org](https://flathub.org/home). Additional Flatpak repositories can be configured using [Repoman](manage-repos.md#managing-flatpak-repositories-with-repoman).
+- **Deb Packages** - Deb is the package format used by Debian distributions. This is the package type that `apt` will handle when installing applications via the Terminal. You can also download .deb packages online and install them with Eddy.
 - **AppImage** - An AppImage is a completely self-contained single file that includes all required dependencies. Users only need to download the file to their local storage and provide it with execute privileges.
 
 <!--define open source?-->

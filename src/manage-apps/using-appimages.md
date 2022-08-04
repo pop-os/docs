@@ -1,6 +1,6 @@
 # AppImages
 
-The AppImage format packages an application in a single, self-contained file. This format allows for a simplified installation process. Appimage.github.io provides links to download hundreds of applications as AppImages. Once downloaded, an AppImage must be given execute permissions in order to launch.
+The AppImage format packages an application in a single, self-contained file. This format allows for a simplified installation process. [Appimage.github.io](https://appimage.github.io/) provides links to download hundreds of applications as AppImages. Once downloaded, an AppImage must be given execute permissions in order to launch.
 
 ---
 
@@ -10,7 +10,7 @@ The AppImage format packages an application in a single, self-contained file. Th
 
     ![Click Download](/images/using-appimages/click-download.png)
 
-2. The link may take you to the application's github repository. Download the latest stable version of the AppImage. Make sure you download the compatible version for your 32-bit (i386) or 64-bit (x86-64) CPU architecture. All modern personal computers will have a 64-bit CPU.
+2. The link may take you to the application's GitHub repository. Download the latest stable version of the AppImage. Make sure you download the compatible version for your 32-bit (i386) or 64-bit (x86-64) CPU architecture. All modern personal computers will have a 64-bit CPU.
 
     ![Download AppImage](/images/using-appimages/download-appimage.png)
 
@@ -22,21 +22,25 @@ The AppImage format packages an application in a single, self-contained file. Th
 
     ![Execute Permissions](/images/using-appimages/execute-permissions.png)
 
+5. Close the `Properties` window and double-click the AppImage to launch it, or right click the AppImage and select `Run`.
+
+    ![Launch AppImage](/images/using-appimages/launch-appimage.png)
+
 ## Updating an AppImage
 
-The [AppImageUpdate](https://github.com/AppImage/AppImageUpdate) project provides a method for keeping AppImage applications up-to-date.
+AppImages are easily updated by downloading the latest version to replace the currently downloaded AppImage. Alternatively, the [AppImageUpdate](https://github.com/AppImage/AppImageUpdate) project provides a method for keeping AppImage applications up-to-date.
 
-## Installing AppImageUpdate
+### Installing AppImageUpdate
 
-Download the latest AppImageUpdate version of [its Github repository](https://github.com/AppImage/AppImageUpdate/releases/continuous). Again, Make sure you download the compatible version for your CPU architecture.
+Download the latest AppImageUpdate version from [its Github repository](https://github.com/AppImage/AppImageUpdate/releases/continuous). Again, make sure you download the compatible version for your CPU architecture.
 
 ![Download AppImageUpdate](/images/using-appimages/download-appimageupdate.png)
 
-Navigate to the file and right-click it. Select `Properties` and click `Permission` tab. Check the box next to `Execute`.
+Navigate to the file and right-click it. Select `Properties` and click the `Permissions` tab. Check the box next to `Execute`.
 
 ![Execute Permissions-2](/images/using-appimages/execute-permissions2.png)
 
-## Updating an AppImage with AppImage Update
+### Updating an AppImage with AppImageUpdate
 
 Launch AppImageUpdate by double-clicking its .AppImage file, navigate to the location of the AppImage application that you wish to update, and then select it and click `Open`.
 
