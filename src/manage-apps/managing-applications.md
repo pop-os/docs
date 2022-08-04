@@ -16,7 +16,7 @@ In Linux, applications can share libraries of code in order to streamline softwa
 
 Pop!\_OS comes pre-packaged with several tools for installing software applications.
 
-- [Using the Pop!\_Shop](using-pop-shop.md) - Manage applications using a GUI interface that references [AppStream data](https://en.wikipedia.org/wiki/AppStream) for packages vetted by Ubuntu.
+- [Using the Pop!\_Shop](using-pop-shop.md) - Manage applications using a GUI interface. Applications in the Pop!\_Shop are downloaded from System76's worldwide CDN which mirror's Ubuntu's repositories.
 - [Using Eddy](using-eddy.md) - Install .deb packages downloaded from the web.
 - [Using the Terminal](using-terminal.md) - Manage applications packaged as .deb files and Flatpaks using typed commands.
 
