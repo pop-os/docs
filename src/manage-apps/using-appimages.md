@@ -28,7 +28,7 @@ The AppImage format packages an application in a single, self-contained file. Th
 
 ## Updating an AppImage
 
-AppImages are easily updated by downloading the latest version to replace the currently downloaded AppImage. Alternatively, the [AppImageUpdate](https://github.com/AppImage/AppImageUpdate) project provides a method for keeping AppImage applications up-to-date.
+AppImages are easily updated by downloading the latest version to replace the currently downloaded AppImage. The [AppImageUpdate](https://github.com/AppImage/AppImageUpdate) project provides a method for doing this automatically.
 
 ### Installing AppImageUpdate
 

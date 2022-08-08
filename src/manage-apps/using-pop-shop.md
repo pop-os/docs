@@ -1,6 +1,10 @@
 # The Pop!\_Shop
 
-Pop!\_OS includes a GUI application called the Pop!\_Shop for easy installation and management of open-source and proprietary applications. Packages in the Pop!\_Shop are downloaded from System76's worldwide CDN, which mirrors Ubuntu's repositories to provide a selection of vetted software packages.
+Pop!\_OS includes a GUI application called the Pop!\_Shop for easy installation and management of open-source and proprietary applications. Packages listed in the Pop!\_Shop reference several sources:
+
+- .Deb Packages - Debian packages from default sources are referenced from System76's worldwide CDN. This CDN combines mirrored Ubuntu repositories with applications packaged specifically for Pop!\_OS. This dedicated CDN also provides Pop!\_OS users with improved bandwidth and resource up-time.
+- Flatpak Applications - The Pop!\_Shop also references Flathub applications hosted on [FlatHub.org](https://flathub.org/home).
+- AppStream Data from Third-party Repositories - Applications will appear in the Pop!\_Shop if the user configures third-party repositories in Repoman, and the application provides AppStream metadata to the Pop!\_Shop.
 
 ---
 
@@ -40,13 +44,15 @@ Find the appropriate application by category.
 
 ## Updating Applications through the Pop!\_Shop
 
-1. Click `Installed` in the top middle of the window.
+Click `Installed` in the top middle of the window.
 
-    ![Click Installed](/images/using-pop-shop/click-installed.png)
+![Click Installed](/images/using-pop-shop/click-installed.png)
 
-2. Click `Update` next to an app to update an individual application. To apply all updates, select `Update All`.
+Click `Update` next to an app to update an individual application. To apply all updates, select `Update All`.
 
-    ![Select Update](/images/using-pop-shop/select-update.png)
+![Select Update](/images/using-pop-shop/select-update.png)
+
+>**Note**: If you experience errors updating packages using the Pop!\_Shop, it's possible these can be easily resolved by [running simple maintenance](fix-packages.md) commands that clean up `apt` and Flatpak packages.
 
 ## Removing Applications through the Pop!\_Shop
 

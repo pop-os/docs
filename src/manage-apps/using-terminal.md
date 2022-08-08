@@ -6,13 +6,20 @@ The Terminal provides more flexibility and efficiency when installing applicatio
 
 ## Understanding Package Managers
 
-### Apt
+A package manager is an application that keeps track of packages' files on your computer. A package manager can also verify and retrieve dependencies for any program the user wishes to install.
 
-Pop!\_OS comes preinstalled with the **apt**. Apt is a package manager; an application that verifies and retrieves dependencies for any program the user wishes to install. Apt accomplishes this by referencing its own database of packages, called a repository.
+### The Advanced Packaging Tool (Apt)
+
+Pop!\_OS comes preinstalled with the Advanced Packaging Tool (`apt`). `Apt` is a package manager that lies on top of another package manager called `dpkg`.  `Apt` accomplishes this by referencing its own database of packages, called a repository.
+
+- `Apt`: Handles dependency resolution and update checking
+- `Dpkg`: Handles installing and removing the files within a package and running its pre-install and post-install configuration scripts
+
+`Dpkg` can also download and install applications. However, `dpkg` does not have `apt`'s functionality for automatically checking for and installing dependencies. `Dpkg` still remains a useful tool for troubleshooting package issues.
 
 ### Flatpak
 
-A **Flatpak** is a package format that installs a “containerized” version of the software. This means the software runs in its own sandbox, and the installation will include all dependencies and libraries required by the application. Flatpaks pull all dependencies from flathub.org. Flatpak's also do not require installing using super user privileges.
+**Flatpak** is a package format that installs a “containerized” version of the software. This means the software runs in its own sandbox, and the installation will include all dependencies and libraries required by the application. In Flatpak, dependencies are grouped into "runtimes" which are compatible with any Linux distribution. Flatpaks pull all runtimes and libraries from [Flathub.org](https://flathub.org/home) by default. Flatpaks also do not require installing using super user privileges (`sudo`).
 
 ## Launching the Terminal
 
@@ -24,9 +31,9 @@ You can launch the Terminal using one of these methods:
 - Press `SUPER` + `T`.
 - Press `SUPER` to bring up the launcher, and then type "terminal" and hit `Enter`.
 
-**Using Sudo**
+### Using Sudo
 
-Commands beginning with `sudo` tell the Terminal that the command should be run with super user privileges. These privileges are required when installing applications or making other modifications to the operating system. The first time you run `sudo` in a command prompt, you will need to provide your password.
+Commands beginning with `sudo` tell the Terminal that the command should be run with super user (root) privileges. These privileges are required when installing applications or making other modifications to the operating system. The first time you run `sudo` in a command prompt, you will need to provide your password.
 
 ## Managing Applications with Apt
 
@@ -61,22 +68,20 @@ sudo apt --only-upgrade install [packagename]
 Run this command to update the entire system, including all installed applications:
 
 ```bash
-sudo apt upgrade
+sudo apt full-upgrade
 ```
+
+>**Note**: The `full-upgrade` option will downgrade or remove dependencies as necessary when upgrading packages. The `upgrade` option will not perform these tasks. Running the `full-upgrade` option will avoid many dependency and package-related issues that may occur when updating Pop!\_OS.
 
 ### Removing Applications with Apt
 
-Run this command to remove a single application:
+Uninstall an application using the `remove` command.
 
 ```bash
 sudo apt remove [packagename]
 ```
 
-The `remove` command will remove the application, but may leave behind a small number of configuration files. The `purge` command will completely remove all trace of an application, including residual configuration files.
-
-```bash
-sudo apt purge [packagename]
-```
+>**Note**: The `remove` command removes a single application. However, it may leave behind a small number of configuration files. The `purge` command will completely remove all trace of an application, including residual configuration files. To completely and securely remove a package, [see instructions](fix-packages.md#purge) for using the `autoremove` command with the `--purge` option.
 
 ## Managing Applications with Flatpak
 
@@ -93,7 +98,8 @@ Run this command to update a single application using Flatpak:
 ```bash
 flatpak update [packagename]
 ```
-Run this command to update all Flatpak applications on your computer: 
+
+Run this command to update all Flatpak applications on your computer:
 
 ```bash
 flatpak update
@@ -104,5 +110,5 @@ flatpak update
 Run this command to remove a single Flatpak application:
 
 ```bash
-Flatpak uninstall [packagename]
+flatpak uninstall [packagename]
 ```

@@ -57,3 +57,4 @@
         - [Using AppImages](manage-apps/using-appimages.md)
         - [Using the Terminal](manage-apps/using-terminal.md)
         - [Manage Repositories with Repoman](manage-apps/manage-repos.md)
+        - [Cleaning Up Packages](manage-apps/fix-packages.md)
