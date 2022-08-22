@@ -8,14 +8,16 @@ The Terminal provides more flexibility and efficiency when installing applicatio
 
 A package manager is an application that keeps track of packages' files on your computer. A package manager can also verify and retrieve dependencies for any program the user wishes to install.
 
-### The Advanced Packaging Tool (Apt)
+### The Advanced Packaging Tool (apt)
 
-Pop!\_OS comes preinstalled with the Advanced Packaging Tool (`apt`). `Apt` is a package manager that lies on top of another package manager called `dpkg`.  `Apt` accomplishes this by referencing its own database of packages, called a repository.
+Pop!\_OS comes preinstalled with the Advanced Packaging Tool (`apt`). `apt` is a package manager that lies on top of another package manager called `dpkg`. When a user wants to update their system or a single application, `apt` checks for its dependencies, downloads the the application and its dependencies, and installs them. `apt`  accomplishes this by referencing its own database of packages, called a repository.
 
-- `Apt`: Handles dependency resolution and update checking
-- `Dpkg`: Handles installing and removing the files within a package and running its pre-install and post-install configuration scripts
+| Tool | Functionality | Use Cases |
+|------|---------------|-----------|
+| apt  | <ul><li>Handle dependency resolution and update checking (keeps track of packages' files on your system).</li></ul> | Install, update, or remove applications or the entire system. |
+| dpkg | <ul><li>Install and remove files within a package.</li><li>Run application pre-install and post-install configuration scripts.</li><li>Download and install applications (without dependency resolution).</li></ul> | Advanced troubleshooting for package issues. |
 
-`Dpkg` can also download and install applications. However, `dpkg` does not have `apt`'s functionality for automatically checking for and installing dependencies. `Dpkg` still remains a useful tool for troubleshooting package issues.
+`dpkg` can also download and install applications. However, `dpkg` does not have `apt`'s functionality for automatically checking for and installing dependencies. `dpkg` still remains a useful tool for troubleshooting package issues.
 
 ### Flatpak
 

@@ -56,5 +56,7 @@
         - [Using Eddy](manage-apps/using-eddy.md)
         - [Using AppImages](manage-apps/using-appimages.md)
         - [Using the Terminal](manage-apps/using-terminal.md)
-        - [Manage Repositories with Repoman](manage-apps/manage-repos.md)
+        - [Manage Repositories](manage-apps/manage-repos.md)
+            - [Using Repoman (GUI)](manage-apps/manage-repos-repoman.md)
+            - [Using the Terminal (CLI)](manage-apps/manage-repos-terminal.md)
         - [Cleaning Up Packages](manage-apps/fix-packages.md)

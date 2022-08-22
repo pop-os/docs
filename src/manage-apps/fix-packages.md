@@ -18,9 +18,10 @@ sudo apt autoremove --purge
 - `apt clean` - The `clean` command clears out the local repository of retrieved package files.
 - `apt update -m` - The `-m` option ignores corrupted package files during a package update.
 - `dpkg --configure -a` - The `--configure -a` command configures any unpacked but not yet configured packages.
-- `apt install -f` - attempts to correct a system with broken dependencies
-- `apt full-upgrade` - In addition to fetching package updates, `full-upgrade` downgrades or removes dependencies as necessary when upgrading packages.
-- `apt autoremove --purge` - In addition to removing a package, `autoremove` will remove dependencies no longer required by any installed application. Combining with `purge` will remove any residual configuration files related to the package.
+- `apt install -f` - The `-f` option attempts to correct broken dependencies
+- `apt full-upgrade` - In addition to downloading and installing package updates, `full-upgrade` downgrades or removes dependencies as necessary when upgrading packages.
+- `apt autoremove --purge [packagename]` - In addition to removing a package, `autoremove` will remove dependencies no longer required by any installed application. Combining with `purge` will remove any residual configuration files related to the package.
+- `apt autoremove --purge` - Running this command with no specified package will remove any packages that were previously dependencies for other installed packages but are no longer required (either because the dependent package was removed, or because the package was updated to no longer depend on certain packages.)
 
 ## Fixing Individual Apt Packages
 
@@ -36,9 +37,9 @@ sudo apt install --reinstall [packagename]
 
 ### The Purge Option
 
->**Note**: Be careful when using `purge` and `autoremove`. Verify the terminal output to confirm the command will only affect the packages you are trying to fix. If the output only lists a few packages, it's probably safe to run. If a large number of unrecognized packages are removed, run `sudo apt install pop-desktop` and reboot to ensure those critical Pop!\_OS components are reinstalled.
+>**Note**: Be careful when using `purge` and `autoremove`. Verify the terminal output to confirm the command will only affect the packages you are trying to fix. If unrecognized packages are removed causing unexpected changes, run `sudo apt install pop-desktop` and reboot to ensure those critical Pop!\_OS components are reinstalled.
 
-This command will remove a package and its system-wide configuration files. Use it to remove a package that is causing issues, and reinstall it with this command:
+This command will remove a package and its system-wide configuration files. Use it to remove a package that is causing issues:
 
 ```bash
 sudo apt purge [packagename]

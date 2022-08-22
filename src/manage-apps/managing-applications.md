@@ -6,7 +6,7 @@ Users can install, update, and remove application packages using GUI and CLI opt
 - [Download and install applications from a publisher's web site](using-eddy.md) - Download Debian packages from the internet and install them using a simple GUI utility called Eddy.
 - [Download and immediately run your applications without installing](using-appimages.md) - Quickly add applications using self-contained AppImages.
 - [Install, update, and remove applications using typed commands](using-terminal.md) - Use apt (Advanced Package Tool) or Flatpak to install applications using the Terminal.
-- [Manage repositories with Repoman](manage-repos.md) - Install packages even if they're not available in commonly used repositories.
+- [Manage repositories](manage-repos.md) - Install packages even if they're not available in commonly-used repositories by adding new sources with Repoman or the Terminal.
 - [Resolve package issues](fix-packages.md) - Use Terminal commands to securely remove packages and fix common package errors for `apt` and Flatpak packages.
 
 ---
@@ -25,7 +25,7 @@ Pop!\_OS comes pre-packaged with several tools for installing software applicati
 
 Different formats use different strategies to ensure all dependencies are present. Some methods are more convenient and include all dependencies, while others provide efficiency by checking to see if any of the required dependencies are already on your computer.
 
-- **Flatpaks** - Flatpaks install a “containerized” version of the software. This means the software runs in its own sandbox and the installation will include all dependencies (called [runtimes](https://docs.flatpak.org/en/latest/basic-concepts.html#runtimes)) and libraries required by the application. By default, Flatpaks pull all dependencies from [FlatHub.org](https://flathub.org/home). Additional Flatpak repositories can be configured using [Repoman](manage-repos.md#managing-flatpak-repositories-with-repoman).
+- **Flatpaks** - Flatpaks install a “containerized” version of the software. This means the software runs in its own sandbox and the installation will include all dependencies (called [runtimes](https://docs.flatpak.org/en/latest/basic-concepts.html#runtimes)) and libraries required by the application. By default, Flatpaks pull all dependencies from [FlatHub.org](https://flathub.org/home). Additional Flatpak repositories can be configured using [Repoman](manage-repos-repoman.md#managing-flatpak-repositories-with-repoman).
 - **Deb Packages** - Deb is the package format used by Debian distributions. This is the package type that `apt` will handle when installing applications via the Terminal. You can also download .deb packages online and install them with Eddy.
 - **AppImage** - An AppImage is a completely self-contained single file that includes all required dependencies. Users only need to download the file to their local storage and provide it with execute privileges.
 
