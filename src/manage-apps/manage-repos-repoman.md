@@ -13,6 +13,12 @@ Access Repoman by launching the Pop!\_Shop, clicking the three lines, and then c
 
 This section lists System76's official Pop!\_OS mirror. This mirror includes installation files and updates for all applications included in a default Pop!\_OS installation. This is also where installation files for many applications in the Pop!\_Shop reside. Making changes to this list is not recommended.
 
+The toggle switches enable or disable software components based on licensing and support:
+
+- Restricted - Proprietary drivers and components that are not open source
+- Universe - Free and open-source software that is community maintained
+- Multiverse - Software restricted by copy write or legal reasons
+
 ![Official Sources Tab](/images/manage-repos/official-sources-tab.png)
 
 ## Managing Debian Repositories with Repoman
