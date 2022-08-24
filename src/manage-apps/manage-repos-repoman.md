@@ -17,7 +17,7 @@ The toggle switches enable or disable software components based on licensing and
 
 - **Restricted** - Proprietary drivers and components that are not open source
 - **Universe** - Free and open-source software that is community maintained
-- **Multiverse** - Software restricted by copy write or legal reasons
+- **Multiverse** - Software restricted by copyright or legal reasons
 
 ![Official Sources Tab](/images/manage-repos/official-sources-tab.png)
 
