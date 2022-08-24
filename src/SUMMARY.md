@@ -59,4 +59,5 @@
         - [Manage Repositories](manage-apps/manage-repos.md)
             - [Using Repoman (GUI)](manage-apps/manage-repos-repoman.md)
             - [Using the Terminal (CLI)](manage-apps/manage-repos-terminal.md)
+            - [Using Text Files](manage-apps/manage-repos-manually.md)
         - [Cleaning Up Packages](manage-apps/fix-packages.md)

@@ -2,15 +2,15 @@
 
 Pop!\_OS includes a GUI application called the Pop!\_Shop for easy installation and management of open-source and proprietary applications. Packages listed in the Pop!\_Shop reference several sources:
 
-- .Deb Packages - Debian packages from default sources are referenced from System76's worldwide CDN. This CDN combines mirrored Ubuntu repositories with applications packaged specifically for Pop!\_OS. This dedicated CDN also provides Pop!\_OS users with improved bandwidth and resource up-time.
-- Flatpak Applications - The Pop!\_Shop also references Flathub applications hosted on [FlatHub.org](https://flathub.org/home).
-- AppStream Data from Third-party Repositories - Applications will appear in the Pop!\_Shop if the user configures third-party repositories in Repoman, and the application provides AppStream metadata to the Pop!\_Shop.
+- **Debian (.deb) Packages** - Debian packages from default sources are referenced from System76's worldwide CDN. This CDN combines mirrored Ubuntu repositories with applications packaged specifically for Pop!\_OS. This dedicated CDN also provides Pop!\_OS users with improved bandwidth and resource up-time.
+- **Flatpak Applications** - The Pop!\_Shop also references Flathub applications hosted on [FlatHub.org](https://flathub.org/home).
+- **AppStream Data from Third-party Repositories** - Applications will appear in the Pop!\_Shop if the user configures third-party repositories in Repoman, and the application provides AppStream metadata to the Pop!\_Shop.
 
 ---
 
 ## Pop!\_Picks
 
-Pop!\_Picks is a curated list of applications that System76 recommends to developers and general users.
+Pop!\_Picks offers a curated list of applications that System76 recommends to developers and general users.
 
 ![Pop Picks](/images/using-pop-shop/pop-picks.png)
 

@@ -6,18 +6,18 @@ Access Repoman by launching the Pop!\_Shop, clicking the three lines, and then c
 
 ![Access Repoman](/images/manage-repos/access-repoman.png)
 
->**Caution**: Adding PPA’s and additional Flatpak repositories allows installation of software that has not been validated by System76 or other trusted Linux repositories. Software available via 3rd-party Debian and Flatpak repositories may not be vetted against packages that introduce security vulnerabilities. Users should take caution and only add external repositories that they trust.
+>**Caution**: Adding 3rd-party Debian or Flatpak repositories allows installation of software that has not been validated by System76 or other trusted Linux communities. Software available via 3rd-party Debian and Flatpak repositories may not be vetted against packages that introduce security vulnerabilities. Users should take caution and only add external repositories that they trust.
 ---
 
 ## Official Sources
 
-This section lists System76's official Pop!\_OS mirror. This mirror includes installation files and updates for all applications included in a default Pop!\_OS installation. This is also where installation files for many applications in the Pop!\_Shop reside. Making changes to this list is not recommended.
+This section lists System76's official Pop!\_OS mirror. This mirror includes installation files and updates for all applications included in a default Pop!\_OS installation. This is also where installation files for many applications in the Pop!\_Shop reside. Changing this mirror is not necessary since Pop!\_OS will automatically download updates from the fastest source using System76's worldwide CDN.
 
 The toggle switches enable or disable software components based on licensing and support:
 
-- Restricted - Proprietary drivers and components that are not open source
-- Universe - Free and open-source software that is community maintained
-- Multiverse - Software restricted by copy write or legal reasons
+- **Restricted** - Proprietary drivers and components that are not open source
+- **Universe** - Free and open-source software that is community maintained
+- **Multiverse** - Software restricted by copy write or legal reasons
 
 ![Official Sources Tab](/images/manage-repos/official-sources-tab.png)
 
@@ -27,11 +27,11 @@ Debian archives (including PPAs), are created by developers to distribute softwa
 
 ### Viewing Extra Sources
 
-Click on the `Extra Sources` tab. This tab displays repositories used by third party applications.
+Click on the `Extra Sources` tab to display repositories used by 3rd-party applications.
 
 ![Extra Sources](/images/manage-repos/extra-sources.png)
 
->**Note:** While this page is generally used to add sources for 3rd-party Debian repositories, sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's user experience and should not be removed.
+>**Note:** While this page is generally used to add sources for 3rd-party Debian repositories, sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed.
 
 ### Adding a Debian Repository
 

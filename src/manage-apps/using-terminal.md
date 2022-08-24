@@ -37,7 +37,7 @@ You can launch the Terminal using one of these methods:
 
 Commands beginning with `sudo` tell the Terminal that the command should be run with super user (root) privileges. These privileges are required when installing applications or making other modifications to the operating system. The first time you run `sudo` in a command prompt, you will need to provide your password.
 
-## Managing Applications with Apt
+## Managing Applications with apt
 
 It is best practice to run `sudo apt update` before installing any packages with apt. This command fetches the most up-to-date index of all repositories that apt manages.
 
@@ -45,7 +45,7 @@ It is best practice to run `sudo apt update` before installing any packages with
 sudo apt update
 ```
 
-### Installing with Apt
+### Installing with apt
 
 To install an application, run the command below and substitute [packagename] with the desired application (do not include brackets in the command).
 
@@ -53,7 +53,7 @@ To install an application, run the command below and substitute [packagename] wi
 apt install [packagename]
 ```
 
-### Updating Applications with Apt
+### Updating Applications with apt
 
 Update apt's index:
 
@@ -75,7 +75,7 @@ sudo apt full-upgrade
 
 >**Note**: The `full-upgrade` option will downgrade or remove dependencies as necessary when upgrading packages. The `upgrade` option will not perform these tasks. Running the `full-upgrade` option will avoid many dependency and package-related issues that may occur when updating Pop!\_OS.
 
-### Removing Applications with Apt
+### Removing Applications with apt
 
 Uninstall an application using the `remove` command.
 
