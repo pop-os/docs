@@ -6,7 +6,7 @@ ___
 
 ## General Fixes for Apt Packages
 
-These commands perform general cleanup that can resolve many of `apt`'s errors. These commands should be run one at a time.
+These commands perform general cleanup that can resolve many of `apt`'s errors and should be run one at a time.
 
 ```bash
 sudo apt clean
