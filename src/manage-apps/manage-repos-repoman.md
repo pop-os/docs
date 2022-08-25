@@ -1,12 +1,12 @@
 # Managing Repositories with Repoman
 
-Add, remove, and edit repositories using Repoman. Repoman allows users to add Debian repositories, including Personal Package Archives (PPAs), and Flatpak repositories. Users may want to add a Debian repository or additional Flatpak repository if their software is not included in the Pop!\_Shop, or they may want to remove PPA’s after uninstalling a package.
+Add, remove, and edit repositories using Repoman. Repoman allows users to add apt and Flatpak repositories. Users may want to add an apt repository or additional Flatpak repository if their software is not included in the Pop!\_Shop, or they may want to remove an unneeded repository after uninstalling the only application that required it.
 
 Access Repoman by launching the Pop!\_Shop, clicking the three lines, and then clicking `System Software Sources...`.
 
 ![Access Repoman](/images/manage-repos/access-repoman.png)
 
->**Caution**: Adding 3rd-party Debian or Flatpak repositories allows installation of software that has not been validated by System76 or other trusted Linux communities. Software available via 3rd-party Debian and Flatpak repositories may not be vetted against packages that introduce security vulnerabilities. Users should take caution and only add external repositories that they trust.
+>**Caution**: Adding 3rd-party apt or Flatpak repositories allows installation of software that has not been validated by System76 or other trusted Linux communities. Software available via 3rd-party apt and Flatpak repositories may not be vetted against packages that introduce security vulnerabilities. Users should take caution and only add external repositories that they trust.
 ---
 
 ## Official Sources
@@ -21,9 +21,9 @@ The toggle switches enable or disable software components based on licensing and
 
 ![Official Sources Tab](/images/manage-repos/official-sources-tab.png)
 
-## Managing Debian Repositories with Repoman
+## Managing apt Repositories with Repoman
 
-Debian archives (including PPAs), are created by developers to distribute software not included in default Debian repositories.
+Apt archives (including [PPAs](manage-repos.md#ppas)) are created by developers to distribute software not included in default Ubuntu or Pop!\_OS repositories.
 
 ### Viewing Extra Sources
 
@@ -31,9 +31,9 @@ Click on the `Extra Sources` tab to display repositories used by 3rd-party appli
 
 ![Extra Sources](/images/manage-repos/extra-sources.png)
 
->**Note:** While this page is generally used to add sources for 3rd-party Debian repositories, sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed.
+>**Note:** While this page is generally used to add sources for 3rd-party apt repositories, most sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed. [See this page](https://apt-origin.pop-os.org/) for more information about Pop!\_OS's apt sources.
 
-### Adding a Debian Repository
+### Adding an apt Repository
 
 Click the `+` button.
 
@@ -47,7 +47,7 @@ The repository will appear in the `Extra Sources` list.
 
 ![View Repo](/images/manage-repos/view-repo.png)
 
-### Removing a Debian Repository
+### Removing an apt Repository
 
 Select a repository from the list and then click on the trash can icon to delete the repository.
 

@@ -1,8 +1,8 @@
 # Directly Editing Repository Configuration Files
 
-Add and remove repositories by directly editing text files located in `/etc/apt/sources.list.d/` (Debian repositories) or `~/.local/share/flatpak/repo/` (Flatpak repositories).
+Add and remove repositories by directly editing text files located in `/etc/apt/sources.list.d/` (apt repositories) or `~/.local/share/flatpak/repo/` (Flatpak repositories).
 
-## Manually Adding Debian Debian Repositories
+## Manually Adding apt Repositories
 
 In order to manually create a text file for a repository, it's important to understand the deb822 format. This format organizes a repository's attributes into human-readable fields.
 
@@ -10,10 +10,10 @@ In order to manually create a text file for a repository, it's important to unde
 |-------|----------|
 | X-Repolib-Name | Define the name of the source. This is used by Repoman in the `Source` column of the `Extra Sources` tab.|
 | Enabled | Enable or disables the repository.|
-| Types | Define the source file or code used to install packages.|
+| Types | Define whether the repository hosts binary packages, source files, or both.|
 | URIs | Provide the repository's address.|
 | Suites | Add the sources used to update packages. This field corresponds with the toggle switches in the `Updates` tab in Repoman.|
-| Components | Specify if the source should include software that is open-source, closed-source, officially supported by canonical, or community-maintained. This option corresponds with the toggle switches in the `Settings` tab in Repoman.|
+| Components | Specify if the source should include software that is open-source, closed-source, officially supported by Canonical, or community-maintained. This option corresponds with the toggle switches in the `Settings` tab in Repoman.|
 
 For example, here is the deb822-formatted file for Pop!\_OS's 22.04 proprietary application repository:
 
@@ -26,7 +26,7 @@ Suites: jammy
 Components: main
 ```
 
-To manually create a Debian source, open the Terminal and navigate to `/etc/apt/sources.list.d/`:
+To manually create an apt source, open the Terminal and navigate to `/etc/apt/sources.list.d/`:
 
 ```bash
 cd /etc/apt/sources.list.d/
@@ -42,7 +42,7 @@ Define the fields for your source:
 
 ![Define Source Fields in Text Editor](/images/manage-repos/define-debian-source-fields.png)
 
-Save your text file. Use the `apt-manage` tool with the `list` option to verify the Debian source has been added:
+Save your text file. Use the `apt-manage` tool with the `list` option to verify the apt source has been added:
 
 ```bash
 apt-manage list
@@ -50,7 +50,7 @@ apt-manage list
 
 ![Verify Manually Added Source with Apt-Manage](/images/manage-repos/verify-manually-added-debian-source.png)
 
-## Manually Removing Debian Repositories
+## Manually Removing apt Repositories
 
 Open the Terminal and navigate to `/etc/apt/sources.list.d/`.
 
@@ -58,7 +58,7 @@ Open the Terminal and navigate to `/etc/apt/sources.list.d/`.
 cd /etc/apt/sources.list.d/
 ```
 
-Use the `rm` command with the source's filename to remove a Debian source.
+Use the `rm` command with the source's filename to remove an apt source.
 
 ```bash
 sudo rm [SourceFileName]

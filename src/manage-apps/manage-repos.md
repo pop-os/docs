@@ -5,3 +5,33 @@ Pop!\_OS repositories can be managed using Repoman (GUI) or the `apt-manage` com
 - [Manage Repositories with Repoman](manage-repos-repoman.md) - Access the Repoman tool through the Pop!\_Shop to add and remove repositories.
 - [Manage Repositories with the Terminal](manage-repos-terminal.md) - Use the `apt-manage` or `flatpak` command line tools to add, modify, and remove repositories.  
 - [Manually Add and Remove Repositories](manage-repos-manually.md) - Directly modify the `/etc/apt/sources.list.d/` and `~/.local/share/flatpak/repo/` text files that control package sources.
+
+___________
+
+## Understanding Repositories
+
+A repository is developer-maintained online resource that hosts applications' packages. When you use apt or Flatpak, the tool handles requests to download necessary files from a repository for an application. Distributions will have default, or "official" repositories that they use to maintain the applications that a developer chooses to include in the distribution. A repository may also be referred to as a source, repo, or remote (for Flatpak).
+
+Pop!\_OS includes these built-in repositories:
+
+- **http://apt.pop-os.org/ubuntu/** - This is System76's Ubuntu mirror, which is available globally via System76's CDN.
+- **https://apt.pop-os.org/release** - This repository provides the released versions of Pop!_OS packages.
+- **https://apt.pop-os.org/proprietary** - This repository contains a number of applications not packaged by Ubuntu, or that are out of date on Ubuntu.
+
+[See this page](https://apt-origin.pop-os.org/) to add these apt repositories.
+
+## Understanding the Use-Case for 3rd-party Repositories
+
+Pop!\_OS's official sources listed in Repoman's `Settings` and `Extra Sources` tabs will provide all package resources required for Pop!\_OS's out-of-the-box functionality. This includes all applications included in the default installation and available in the Pop!\_Shop. A 3rd-party repository is required if a desired application's files are not hosted in these official repositories.
+
+### PPAs
+
+A Personal Package Archive is a type of 3rd-party apt repository that is hosted on Canonical's Launchpad platform. A PPA allows an application to install and update from unofficial sources. Users should exercise caution when installing PPAs, as their packages are often not examined by community developers. You should only install a PPA from sources you trust.
+
+### Why Use 3rd-Party Hosting?
+
+Developers may choose to host their application's files outside of a distribution's official repositories for a number of reasons:
+
+- To provide easy and quick access for new and experimental versions of their software.
+- To quickly apply bug fixes and updates.
+- To provide convenient access to their application to users across Linux distributions.

@@ -1,10 +1,10 @@
 # Managing Repositories with the Terminal
 
-Use the `apt-manage` tool to add and remove Debian repositories in the `/etc/apt/sources.list.d/` directory. Use the `flatpak` tool to add and remove Flatpak repositories from the `~/.local/share/flatpak/repo/` directory.
+Use the `apt-manage` tool to add and remove apt repositories in the `/etc/apt/sources.list.d/` directory. Use the `flatpak` tool to add and remove Flatpak repositories from the `~/.local/share/flatpak/repo/` directory.
 
 ## Using the apt-manage Command
 
-The `apt-manage` command is unique to Pop!\_OS and comes from `repolib` the same library that Repoman is built upon. All options for the `apt-manage` command can be viewed by opening a Terminal and entering:
+The `apt-manage` command is unique to Pop!\_OS and comes from `repolib`, the same library that Repoman is built upon. All options for the `apt-manage` command can be viewed by opening a Terminal and entering:
 
 ```bash
 apt-manage -h
@@ -12,13 +12,13 @@ apt-manage -h
 
 ### Add a Repository Using apt-manage
 
-The `add` option will create an entry in the text file located in `/etc/apt/sources.list.d/` (Debian repositories). Enter this command and enter your password when prompted.
+The `add` option will create an entry in the text file located in `/etc/apt/sources.list.d/`. Enter this command and enter your password when prompted.
 
 ```bash
 apt-manage add [RepositoryURI]
 ```
 
-In this example the Debian repository for the ProtonVPN CLI tool is added:
+In this example, the apt repository for the ProtonVPN CLI tool is added:
 
 ![Add Repo with apt-manage](/images/manage-repos/apt-manage-add-repo.png)
 
