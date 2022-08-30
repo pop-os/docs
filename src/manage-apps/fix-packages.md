@@ -10,7 +10,7 @@ These commands perform general cleanup that can resolve many of `apt`'s errors a
 
 ```bash
 sudo apt clean
-sudo apt update -m
+sudo apt update
 sudo dpkg --configure -a
 sudo apt install -f
 sudo apt full-upgrade
@@ -18,7 +18,7 @@ sudo apt autoremove --purge
 ```
 
 - `apt clean` - The `clean` command clears out the local repository of retrieved package files.
-- `apt update -m` - The `-m` option allows the `apt-update` process to continue fetching indexes, even if errors are detected.
+- `apt update` - the `update` option fetches indexes from all configured sources. These indexes are used by other apt options to determine which packages can be upgraded or installed.
 - `dpkg --configure -a` - The `--configure -a` command configures any unpacked but not yet configured packages.
 - `apt install -f` - The `-f` option attempts to correct broken dependencies
 - `apt full-upgrade` - In addition to downloading and installing package updates, `full-upgrade` downgrades or removes dependencies as necessary when upgrading packages.
