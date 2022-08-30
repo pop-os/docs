@@ -18,7 +18,7 @@ sudo apt autoremove --purge
 ```
 
 - `apt clean` - The `clean` command clears out the local repository of retrieved package files.
-- `apt update` - the `update` option fetches indexes from all configured sources. These indexes are used by other apt options to determine which packages can be upgraded or installed.
+- `apt update` - the `update` command fetches indexes from all configured sources. These indexes are used by other apt commands to determine which packages can be upgraded or installed.
 - `dpkg --configure -a` - The `--configure -a` command configures any unpacked but not yet configured packages.
 - `apt install -f` - The `-f` option attempts to correct broken dependencies
 - `apt full-upgrade` - In addition to downloading and installing package updates, `full-upgrade` downgrades or removes dependencies as necessary when upgrading packages.
