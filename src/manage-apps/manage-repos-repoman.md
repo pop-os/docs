@@ -1,17 +1,17 @@
 # Managing Repositories with Repoman
 
-Add, remove, and edit repositories using Repoman. Repoman allows users to add apt and Flatpak repositories. Users may want to add an apt repository or additional Flatpak repository if their software is not included in the Pop!\_Shop, or they may want to remove an unneeded repository after uninstalling the only application that required it.
+Repoman allows users to add apt and Flatpak repositories. Users may want to add an apt repository or additional Flatpak repository if their software is not included in the Pop!\_Shop, or they may want to remove an unneeded repository after uninstalling the only application that required it.
 
 Access Repoman by launching the Pop!\_Shop, clicking the three lines, and then clicking `System Software Sources...`.
 
 ![Access Repoman](/images/manage-repos/access-repoman.png)
 
->**Caution**: Adding 3rd-party apt or Flatpak repositories allows installation of software that has not been validated by System76 or other trusted Linux communities. Software available via 3rd-party apt and Flatpak repositories may not be vetted against packages that introduce security vulnerabilities. Users should take caution and only add external repositories that they trust.
+>**Caution**: Adding third-party apt or Flatpak repositories allows installation of software that has not been validated by System76 or other trusted Linux communities. Software available via third-party apt and Flatpak repositories may not be vetted against packages that introduce security vulnerabilities. Users should take caution and only add external repositories that they trust.
 ---
 
 ## Official Sources
 
-This section lists System76's official Pop!\_OS mirror. This mirror includes installation files and updates for all applications included in a default Pop!\_OS installation. This is also where installation files for many applications in the Pop!\_Shop reside. Changing this mirror is not necessary since Pop!\_OS will automatically download updates from the fastest source using System76's worldwide CDN.
+This section lists System76's Ubuntu mirror. This mirror includes Pop!\_OS application packages that come from Ubuntu (additional packages that make Pop!\_OS are added on top via the `apt.pop-os.org/release` repo found in the `Extra Sources` tab). This is also where installation files for many applications in the Pop!\_Shop reside. Changing this mirror is not necessary since Pop!\_OS will automatically download updates from the fastest source using System76's worldwide CDN.
 
 The toggle switches enable or disable software components based on licensing and support:
 
@@ -27,11 +27,11 @@ Apt archives (including [PPAs](manage-repos.md#ppas)) are created by developers 
 
 ### Viewing Extra Sources
 
-Click on the `Extra Sources` tab to display repositories used by 3rd-party applications.
+Click on the `Extra Sources` tab to display repositories used by third-party applications.
 
 ![Extra Sources](/images/manage-repos/extra-sources.png)
 
->**Note:** While this page is generally used to add sources for 3rd-party apt repositories, most sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed. [See this page](https://apt-origin.pop-os.org/) for more information about Pop!\_OS's apt sources.
+>**Note:** While this page is generally used to add sources for third-party apt repositories, most sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed. [See this page](https://apt-origin.pop-os.org/) for more information about Pop!\_OS's apt sources.
 
 ### Adding an apt Repository
 

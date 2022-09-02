@@ -6,22 +6,22 @@ The Terminal provides more flexibility and efficiency when installing applicatio
 
 ## Understanding Package Managers
 
-A package manager is an application that keeps track of packages' files on your computer. A package manager can also verify and retrieve dependencies for any program the user wishes to install.
+A package manager is an application that keeps track of packages' files on your computer. A package manager can also verify and retrieve dependencies for any program the user wishes to install, and check for updates for currently installed programs.
 
 ### The Advanced Packaging Tool (apt)
 
-Pop!\_OS comes preinstalled with the Advanced Packaging Tool (`apt`). `apt` is a package manager that lies on top of another package manager called `dpkg`. When a user wants to update their system or a single application, `apt` checks for its dependencies, downloads the the application and its dependencies, and installs them. `apt`  accomplishes this by referencing its own database of packages, called a repository.
+Pop!\_OS comes preinstalled with the Advanced Packaging Tool (`apt`). `apt` is a package manager that lies on top of another package manager called `dpkg`. When a user wants to update their system or a single application, `apt` checks for its dependencies, downloads the the application and its dependencies, and installs them. `apt`  accomplishes this by referencing online package databases called repositories.
 
 | Tool | Functionality | Use Cases |
 |------|---------------|-----------|
-| apt  | <ul><li>Handle dependency resolution and update checking (keeps track of packages' files on your system).</li></ul> | Install, update, or remove applications or the entire system. |
-| dpkg | <ul><li>Install and remove files within a package.</li><li>Run application pre-install and post-install configuration scripts.</li><li>Download and install applications (without dependency resolution).</li></ul> | Advanced troubleshooting for package issues. |
+| apt  | <ul><li>Handle dependency resolution and update checking.</li><li>Download packages from online repositories. | Install, update, or remove applications or the entire system. |
+| dpkg | <ul><li>Install and remove files within a package.</li><li>Run application pre-install and post-install configuration scripts.</li><li>Keep track of packages' files on the system.</li><li>Install downloaded applications (without dependency resolution).</li></ul> | Advanced troubleshooting for package issues. |
 
-`dpkg` can also download and install applications. However, `dpkg` does not have `apt`'s functionality for automatically checking for and installing dependencies. `dpkg` still remains a useful tool for troubleshooting package issues.
+`dpkg` can install applications downloaded in the .deb format. However, `dpkg` does not have `apt`'s functionality for downloading applications, or automatically checking for and installing dependencies. `dpkg` commands remain a useful tool for troubleshooting package issues.
 
 ### Flatpak
 
-**Flatpak** is a package format that installs a “containerized” version of the software. This means the software runs in its own sandbox, and the installation will include all dependencies and libraries required by the application. In Flatpak, dependencies are grouped into "runtimes" which are compatible with any Linux distribution. Flatpaks pull all runtimes and libraries from [Flathub.org](https://flathub.org/home) by default. Flatpaks also do not require installing using super user privileges (`sudo`).
+**Flatpak** is a package format that installs a “containerized” version of the software. This means the software runs in its own sandbox, and the installation will include all dependencies and libraries required by the application. In Flatpak, dependencies are grouped into "runtimes" that are compatible with any Linux distribution. Flatpaks pull all runtimes and libraries from [Flathub.org](https://flathub.org/home) by default. Flatpaks also do not require installing using super user privileges (`sudo`).
 
 ## Launching the Terminal
 
@@ -61,7 +61,7 @@ Update apt's index:
 sudo apt update
 ```
 
-Run this commend to update a single application:
+Run this command to update a single application:
 
 ```bash
 sudo apt --only-upgrade install [packagename]
@@ -83,7 +83,7 @@ Uninstall an application using the `remove` command.
 sudo apt remove [packagename]
 ```
 
->**Note**: The `remove` command removes a single application. However, it may leave behind a small number of configuration files. The `purge` command will completely remove all trace of an application, including residual configuration files. To completely and securely remove a package, [see instructions](fix-packages.md#purge) for using the `autoremove` command with the `--purge` option.
+>**Note**: The `remove` command removes a single application. However, it may leave behind a small number of configuration files. The `purge` command will completely remove all trace of an application, including residual configuration files. To completely remove a package, [see instructions](fix-packages.md#purge) for using the `autoremove` command with the `--purge` option.
 
 ## Managing Applications with Flatpak
 

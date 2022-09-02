@@ -14,21 +14,21 @@ A repository is developer-maintained online resource that hosts applications' pa
 
 Pop!\_OS includes these built-in repositories:
 
-- **http://apt.pop-os.org/ubuntu/** - This is System76's Ubuntu mirror, which is available globally via System76's CDN.
+- **http://apt.pop-os.org/ubuntu/** - This is System76's Ubuntu mirror, which is available via a global CDN.
 - **https://apt.pop-os.org/release** - This repository provides the released versions of Pop!_OS packages.
 - **https://apt.pop-os.org/proprietary** - This repository contains a number of applications not packaged by Ubuntu, or that are out of date on Ubuntu.
 
-[See this page](https://apt-origin.pop-os.org/) to add these apt repositories.
+[See this page](https://apt-origin.pop-os.org/) to add these default apt repositories if they are somehow removed.
 
-## Understanding the Use-Case for 3rd-party Repositories
+## Understanding the Use Case for Third-Party Repositories
 
-Pop!\_OS's official sources listed in Repoman's `Settings` and `Extra Sources` tabs will provide all package resources required for Pop!\_OS's out-of-the-box functionality. This includes all applications included in the default installation and available in the Pop!\_Shop. A 3rd-party repository is required if a desired application's files are not hosted in these official repositories.
+Pop!\_OS's official sources listed in Repoman's `Settings` and `Extra Sources` tabs will provide all package resources required for Pop!\_OS's out-of-the-box functionality. This includes all applications included in the default installation and available in the Pop!\_Shop. A third-party repository is required if a desired application's files are not hosted in these official repositories.
 
-### PPAs
+### Third-Party Repositories and PPA's
 
-A Personal Package Archive is a type of 3rd-party apt repository that is hosted on Canonical's Launchpad platform. A PPA allows an application to install and update from unofficial sources. Users should exercise caution when installing PPAs, as their packages are often not examined by community developers. You should only install a PPA from sources you trust.
+A Personal Package Archive is a type of third-party apt repository that is hosted on Canonical's Launchpad platform. PPAs and third-party repositories allow an application to install and update from unofficial sources. Users should exercise caution when installing these, as their packages are often not examined by community developers. You should only install a PPA or third-party repository from sources you trust.
 
-### Why Use 3rd-Party Hosting?
+### Why Use Third-Party Hosting?
 
 Developers may choose to host their application's files outside of a distribution's official repositories for a number of reasons:
 
