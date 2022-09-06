@@ -18,7 +18,7 @@ Pop!\_OS includes these built-in repositories:
 - **https://apt.pop-os.org/release** - This repository provides the released versions of Pop!_OS packages.
 - **https://apt.pop-os.org/proprietary** - This repository contains a number of applications not packaged by Ubuntu, or that are out of date on Ubuntu.
 
-[See this page](https://apt-origin.pop-os.org/) to add these default apt repositories if they are somehow removed.
+If any of these repositories have been removed from a system, they can be added back using the information on [this page](https://apt-origin.pop-os.org/).
 
 ## Understanding the Use Case for Third-Party Repositories
 
