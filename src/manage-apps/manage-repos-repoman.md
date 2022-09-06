@@ -59,7 +59,7 @@ Click `Remove` to confirm removal of the PPA.
 
 ## Managing Flatpak Repositories with Repoman
 
-Flatpak uses [FlatHub.org](https://flathub.org/home) by default, but developers may choose to host their own Flatpak repository to offer the latest, potentially unstable, versions of their software.
+Flatpak uses [Flathub.org](https://flathub.org/home) by default, but developers may choose to host their own Flatpak repository to offer the latest, potentially unstable, versions of their software.
 
 ### Viewing Flatpak Repositories
 
