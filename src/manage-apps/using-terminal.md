@@ -17,7 +17,7 @@ Pop!\_OS comes preinstalled with the Advanced Packaging Tool (`apt`). `apt` is a
 | apt  | <ul><li>Handle dependency resolution and update checking.</li><li>Download packages from online repositories. | Install, update, or remove applications or the entire system. |
 | dpkg | <ul><li>Install and remove files within a package.</li><li>Run application pre-install and post-install configuration scripts.</li><li>Keep track of packages' files on the system.</li><li>Install downloaded applications (without dependency resolution).</li></ul> | Advanced troubleshooting for package issues. |
 
-`dpkg` can install applications downloaded in the .deb format. However, `dpkg` does not have `apt`'s functionality for downloading applications, or automatically checking for and installing dependencies. `dpkg` commands remain a useful tool for troubleshooting package issues.
+`dpkg` can install applications downloaded in the .deb format. However, `dpkg` does not have `apt`'s functionality for downloading applications, or for automatically fetching and installing dependencies. `dpkg` commands remain a useful tool for troubleshooting package issues.
 
 ### Flatpak
 
