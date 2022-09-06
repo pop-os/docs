@@ -31,7 +31,7 @@ Click on the `Extra Sources` tab to display repositories used by third-party app
 
 ![Extra Sources](/images/manage-repos/extra-sources.png)
 
->**Note:** While this page is generally used to add sources for third-party apt repositories, most sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed. [See this page](https://apt-origin.pop-os.org/) for more information about Pop!\_OS's apt sources.
+>**Note:** While this page is generally used to add sources for third-party apt repositories, most sources with a URI containing `http://apt.pop-os.org` are critical to Pop!\_OS's desktop functionality and should not be removed. [See this page](https://apt.pop-os.org/) for more information about Pop!\_OS's apt sources.
 
 ### Adding an apt Repository
 
