@@ -24,9 +24,11 @@ If any of these repositories have been removed from a system, they can be added 
 
 Pop!\_OS's official sources listed in Repoman's `Settings` and `Extra Sources` tabs will provide all package resources required for Pop!\_OS's out-of-the-box functionality. This includes all applications included in the default installation and available in the Pop!\_Shop. A third-party repository is required if a desired application's files are not hosted in these official repositories.
 
-### Third-Party Repositories and PPA's
+### Third-Party Repositories and PPAs
 
-A Personal Package Archive is a type of third-party apt repository that is hosted on Canonical's Launchpad platform. PPAs and third-party repositories allow an application to install and update from unofficial sources. Users should exercise caution when installing these, as their packages are often not examined by community developers. You should only install a PPA or third-party repository from sources you trust.
+Third-party repositories (including PPAs) allow users to install and update applications from unofficial sources. Users should exercise caution when installing these, as their packages are not typically examined by Pop!_OS or Ubuntu developers. You should only install third-party repositories from sources you trust.
+
+A Personal Package Archive (PPA) is a type of third-party apt repository that is hosted on Canonical's Launchpad platform. The URL for a PPA begins with `ppa.launchpad.net`. From a user's perspective, PPAs work the same as other third-party repositories.
 
 ### Why Use Third-Party Hosting?
 
