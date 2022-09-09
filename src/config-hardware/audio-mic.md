@@ -6,9 +6,9 @@ Pop!\_OS 22.04 uses the [PipeWire](https://github.com/pop-os/pipewire) server to
 
 ---
 
-## Understanding Sound Servers in Linux
+## PipeWire
 
-Explain what sound servers are and how they work.
+Pop!\_OS 22.04 and above uses the PipeWire sound server. A sound server is a low-level service that controls communication of audio streams between the software and hardware.
 
 ## Setting Volume Levels
 

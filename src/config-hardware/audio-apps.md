@@ -2,6 +2,8 @@
 
 These applications provide control and customization settings for audio devices beyond the `Settings` menu.
 
+---
+
 ## EasyEffects
 
 [EasyEffects](https://github.com/wwmm/easyeffects) is a third-party application that can apply audio effects and filters to audio input and output streams. You can download and install EasyEffects from the Pop!\_Shop.
@@ -14,7 +16,7 @@ These applications provide control and customization settings for audio devices 
 
 ![Audio Output Switcher](/images/audio-mic/output-switcher.png)
 
-## Using Alsamixer
+## Alsamixer
 
 Alsamixer is a graphical command-line program that directly interfaces with the Advanced Linux Sound Architecture (ALSA) framework. Alsamixer provides more advanced audio configuration options, like selecting sound cards and viewing all system audio devices. Alsamixer comes preloaded in Pop!_OS and does not require installation.
 
@@ -27,6 +29,8 @@ Open the Terminal and type `alsamixer` to launch the program.
 ### Alsamixer Controls
 
 Many Alsamixer functions are controlled using keyboard commands. Press `F1` to view all Alsamixer controls.
+
+![Alsamixer Keyboard Controls](/images/audio-mic/alsamixer-controls.png)
 
 ### Selecting a Soundcard
 

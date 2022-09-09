@@ -1,6 +1,6 @@
 # Handling Removable Media
 
-screenshot of Settings menu with brief summary of what's possible.
+Choose what should happen when you insert a CD or DVD. To configure default media handlers, see the [Default Applications](/customize-pop/default-applications.md) section.
 
 ## Configuring Removable Media Options
 

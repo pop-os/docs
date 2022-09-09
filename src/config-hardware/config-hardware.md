@@ -1,10 +1,10 @@
-# Configuring Peripherals & Hardware Devices
+# Connecting & Configuring Hardware Devices
 
-Options to configure peripherals and hardware devices are located in the `Settings` application.
+Configure peripherals and hardware devices in the `Settings` application.
 
-- [Tune sound settings]() - 
-- [Adjust mouse and touchpad settings]()
-- [Connect and test webcams]()
-- [Configure displays]() - 
-- [Setup a printer]() - 
-- [Connect removable devices]()
+- [Configure audio input and output devices](audio-mic.md) - Adjust volume, select speakers and microphones, install third-party applications for advanced  features, and use Terminal commands to display diagnostic information or restart daemons that control audio streams.
+- [Adjust mouse and touchpad settings](mouse-touchpad.md) - Choose a primary mouse button, adjust scroll wheel behavior and speed, and enable or disable mouse features like mouse acceleration and disabling the touch pad while typing.
+- [Connect and test webcams]() - Install Cheese from the Pop!\_Shop to test plug-and-play webcams.
+- [Configure displays](displays.md) - Set orientation and scaling, and enable or disable features like HiDPI, Nightlight, and fractional scaling.
+- [Setup a printer](printers.md) - Connect and configure printers, and install manufacturer-specific software to configure more advanced settings.
+- [Connect removable devices](removable-media.md) - Choose what happens when a DVD or CD is inserted, photos are opened, or software is launched.

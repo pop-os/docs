@@ -1,6 +1,8 @@
 # Useful Audio Commands
 
-Add intro<!--https://support.system76.com/articles/audio/-->
+Use Terminal commands to restart daemons and drivers that control audio streams.
+
+---
 
 ## ALSA Commands
 
