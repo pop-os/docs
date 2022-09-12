@@ -7,4 +7,3 @@ Configure peripherals and hardware devices in the `Settings` application.
 - [Connect and test webcams]() - Install Cheese from the Pop!\_Shop to test plug-and-play webcams.
 - [Configure displays](displays.md) - Set orientation and scaling, and enable or disable features like HiDPI, Nightlight, and fractional scaling.
 - [Setup a printer](printers.md) - Connect and configure printers, and install manufacturer-specific software to configure more advanced settings.
-- [Connect removable devices](removable-media.md) - Choose what happens when a DVD or CD is inserted, photos are opened, or software is launched.

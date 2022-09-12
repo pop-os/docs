@@ -4,6 +4,8 @@ Most printers are plug-and-play in Pop!\_OS. Add a network or USB connected prin
 
 ![Printer Settings Screen](/images/printers/printer-settings.png)
 
+---
+
 ## CUPS and Printer Compatibility
 
 Pop!\_OS uses the Common Unix Printing System (CUPS) print server to manage print jobs, print queues, and recognizes connected printers. While CUPS recognizes a wide range of printer models, printer functionality may vary. Check if your printer is compatible using [OpenPrinter.com](https://www.openprinting.org/printers).

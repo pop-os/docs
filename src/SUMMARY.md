@@ -69,4 +69,3 @@
     - [Webcams](config-hardware/webcams.md)
     - [Displays](config-hardware/displays.md)
     - [Printers](config-hardware/printers.md)
-    - [Removable Media](config-hardware/removable-media.md)

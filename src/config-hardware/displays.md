@@ -4,6 +4,8 @@ Navigate to `Settings` ➞ `Displays` to adjust multi-monitor placement, resolut
 
 ![Display Settings Menu](/images/config-displays/display-settings.png)
 
+---
+
 ## Nightlight
 
 Nightlight prevents eye strain and sleeplessness by reducing exposure to blue light.
