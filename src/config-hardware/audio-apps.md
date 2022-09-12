@@ -12,7 +12,7 @@ These applications provide control and customization settings for audio devices 
 
 ## Audio Output Switcher
 
-[Audio Output Switcher](https://extensions.gnome.org/extension/751/audio-output-switcher/) is a GNOME extension that adds selectable audio input/output devices to the System menu. See [this section] for more information about installing GNOME Extensions.
+[Audio Output Switcher](https://extensions.gnome.org/extension/751/audio-output-switcher/) is a GNOME extension that adds selectable audio input/output devices to the System menu. See [this section](/customize-pop/gnome-tweaks-extensions/gnome-extensions.md) for more information about installing GNOME Extensions.
 
 ![Audio Output Switcher](/images/audio-mic/output-switcher.png)
 
