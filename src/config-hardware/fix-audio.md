@@ -20,9 +20,9 @@ View all recording devices detected by ALSA:
 arecord -l
 ```
 
-Reload sound driver modules: 
+Reload sound driver modules:
 
-```bash 
+```bash
 sudo alsa force-reload
 ```
 
@@ -32,9 +32,11 @@ The `alsa-info` command gathers a number of outputs, including some of the above
 alsa-info
 ```
 
+Press `y` and hit `Enter` to upload this information too alsa-project.org. Once uploaded, you will receive a link that you can use to share your audio information with a community or support team.
+
 ## Additional Audio Commands
 
-### List Detected Sound Cards
+### Listing Detected Sound Cards
 
 If ALSA doesn't list a sound card, it may not be physically detected by the system at all. If the Linux kernel sees a sound card, it will show up in your `lspci` output. This command will list every sound card your system detects, and show the driver being used for each one:
 
@@ -42,36 +44,57 @@ If ALSA doesn't list a sound card, it may not be physically detected by the syst
 lspci -v | grep -A6 Audio
 ```
 
-### Check PipeWire's Status
+### Checking PipeWire's Status
 
-This command will check the status of PipeWire and show any errors if automatic restarts raised any errors:
+This command will check the status of PipeWire and show any error messages or automatic restart logs:
 
 ```bash
 systemctl --user status pipewire
 ```
 
-### Reset PipeWire to Defaults
+### Viewing PipeWire Logs
 
-Clearing the current settings for Pipewire  may allow the defaults to be used again. To revert to defaults and clear any current saved settings run the following commands:
+Use this command to view log history for `pipewire.service` (add `-b 0` to restrict log output to the current boot session):
+
+```bash
+journalctl -u pipewire --user
+```
+
+Note that `pipewire.service` is not the only PipeWire service. There is also:
+
+- pipewire.socket
+- pipewire-session-manager.service
+- pipewire-media-session.service
+- pipewire-pulse.service
+- pipewire-pulse.socket
+
+You can view all of these logs at once by running this command (add `-b 0` to restrict log output to the current boot session):
+
+```bash
+journalctl -u pipewire.service -u pipewire.socket -u pipewire-session-manager.service -u pipewire-media-session.service -u pipewire-pulse.service -u pipewire-pulse.socket --user
+```
+
+### Resetting PipeWire to Defaults
+
+Clearing the current user's settings for PipeWire reverts PipeWire to its default settings:
 
 ```bash
 rm -r ~/.local/state/wireplumber/*
 ```
 
-### Reinstall PipeWire
+Additionally `~/.config/pipewire/` and `~/.config/wireplumber/` can contain user settings but are not present by default:
 
 ```bash
-sudo apt reinstall libpipewire-0.3-0 libpipewire-0.3-common libpipewire-0.3-modules pipewire pipewire-audio-client-libraries pipewire-bin pipewire-pulse
+rm -r ~/.config/pipewire/
+rm -r ~/.config/wireplumber/
 ```
 
-### Restart the PipeWire Daemon
+>**Note**: These commands will not reset system-wide settings that may have been altered, such as settings saved in the `/etc` folder.
 
-This set of commands first restarts the sound daemon and removes the user's configuration for PulseAudio. On systems still using PulseAudio as a server, it restarts the PulseAudio server, which will create new default audio configuration files.
+### Restarting the PipeWire Daemon
+
+This set of commands first restarts the sound daemon and removes the user's configuration for PulseAudio:
 
 ```bash
 systemctl --user restart wireplumber pipewire pipewire-pulse
-```
-
-```bash
-rm -r ~/.config/pulse
 ```

@@ -62,7 +62,7 @@
             - [Using Text Files](manage-apps/manage-repos-manually.md)
         - [Package Manager Maintenance](manage-apps/fix-packages.md)
 - [Configure Hardware Devices](config-hardware/config-hardware.md)
-    - [Audio & Microphones](config-hardware/audio-mic.md)
+    - [Speaker & Audio](config-hardware/audio-mic.md)
         - [Audio Applications](config-hardware/audio-apps.md)
         - [Audio Commands](config-hardware/fix-audio.md)
     - [Mouse & Touchpad](config-hardware/mouse-touchpad.md)
