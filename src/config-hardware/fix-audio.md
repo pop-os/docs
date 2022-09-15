@@ -82,7 +82,7 @@ Clearing the current user's settings for PipeWire reverts PipeWire to its defaul
 rm -r ~/.local/state/wireplumber/*
 ```
 
-Additionally `~/.config/pipewire/` and `~/.config/wireplumber/` can contain user settings but are not present by default:
+Additionally, `~/.config/pipewire/` and `~/.config/wireplumber/` can contain user settings, but are not present by default:
 
 ```bash
 rm -r ~/.config/pipewire/
