@@ -4,9 +4,9 @@ Configure Mouse and Touchpad settings in `Settings` ➞ `Mouse & Touchpad`.
 
 ![Mouse & Touchpad Settings](/images/config-mouse-touchpad/mouse-touchpad-settings.png)
 
-Mouse settings include Mouse Speed, Mouse Acceleration and Natural Scrolling.
+Mouse settings include Mouse Speed, Mouse Acceleration, and Natural Scrolling.
 
-Touchpad settings include enabling or disabling the touchpad entirely, Natural Scrolling, Touchpad Speed, Tap to Click, Two-finger scrolling, Edge Scrolling and Disable while typing. Users can also set the Right or Left mouse button as the primary button.
+Touchpad settings include enabling or disabling the touchpad entirely, Natural Scrolling, Touchpad Speed, Tap to Click, Two-finger scrolling, Edge Scrolling, and Disable while typing. Users can also set the Right or Left mouse button as the primary button.
 
 ---
 
