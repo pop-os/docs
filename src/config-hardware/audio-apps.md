@@ -68,7 +68,7 @@ Many AlsaMixer functions are controlled using keyboard commands. Press `F1` to v
 
 ![Alsamixer Keyboard Controls](/images/audio-mic/alsamixer-controls.png)
 
-AlsaMixer communicates directly with system-level audio processes, which makes it useful for muting or unmuting audio streams at a low level. Use the `🠐` `🠒` keys to navigate between sources, and press `m` to mute or unmute a source.
+ALSA controls device volumes at a lower level than PipeWire. It's recommended to control the volume using PipeWire, but if a sound device becomes muted in ALSA, `alsamixer` can be used to unmute it. Use the `🠐` `🠒` keys to navigate between sources, and press `m` to mute or unmute a source.
 
 ### Selecting a Sound Card
 

@@ -4,9 +4,7 @@ Configure Mouse and Touchpad settings in `Settings` ➞ `Mouse & Touchpad`.
 
 ![Mouse & Touchpad Settings](/images/config-mouse-touchpad/mouse-touchpad-settings.png)
 
-Mouse settings include Mouse Speed, Mouse Acceleration, and Natural Scrolling.
-
-Touchpad settings include enabling or disabling the touchpad entirely, Natural Scrolling, Touchpad Speed, Tap to Click, Two-finger scrolling, Edge Scrolling, and Disable while typing. Users can also set the Right or Left mouse button as the primary button.
+>**Note**: This menu will only display options relevant to your detected hardware. For example, if you are on a desktop using a standard mouse, touchpad settings will not be available.
 
 ---
 
@@ -38,7 +36,7 @@ The Primary Button performs primary actions in a graphical user interface (GUI).
 |--------|----------|
 | Mouse Speed | Adjust the speed of mouse cursor movement across the display when using a mouse. |
 | Mouse Acceleration | Enable or disable mouse speed increasing with sustained motion in any given direction. This allows less physical movement to reach further corners of the display. |
-| Natural Scrolling | Invert the direction content scrolls in response to the mouse wheel. When enabled, scrolling up on the mouse wheel pushes content toward the top of the window, moving the user's view to content lower on the page.
+| Natural Scrolling | Invert the direction content scrolls in response to the mouse wheel. When enabled, scrolling up on the mouse wheel pushes content toward the top of the window, moving the user's view to content lower on the page. This is similar to the movement behavior when using a touch screen. |
 
 ## Touchpad
 
@@ -46,7 +44,7 @@ The Primary Button performs primary actions in a graphical user interface (GUI).
 |--------|----------|
 | Touchpad | Enable or disable the touchpad. |
 | Touchpad Speed | Adjust the speed of mouse cursor movement across the display when using the touchpad. |
-| Disable while typing | Disable the touch pad when keyboard input is detected. |
+| Disable while typing | Disable the touchpad when keyboard input is detected. |
 
 ## Touchpad Click Options
 
@@ -58,7 +56,9 @@ The Primary Button performs primary actions in a graphical user interface (GUI).
 
 | Option | Function |
 |--------|----------|
-| Natural Scrolling | When enabled, content is dragged in the direction of the input on the touch pad (similar to the behavior of the touch screen). |
+| Natural Scrolling | When enabled, content is dragged in the direction of the input on the touchpad (similar to the behavior of the touch screen). |
+| Two-finger Scrolling | Scroll through content by dragging two fingers along the touchpad. |
+| Edge Scrolling | Scroll through content by dragging a finger along the far right edge of the touchpad. |
 
 ## Additional Mouse Settings
 

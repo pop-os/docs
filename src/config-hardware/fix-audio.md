@@ -93,7 +93,7 @@ rm -r ~/.config/wireplumber/
 
 ### Restarting the PipeWire Daemon
 
-This set of commands first restarts the sound daemon and removes the user's configuration for PulseAudio:
+This command restarts the WirePlumber session manager, PipeWire sound daemon, and pipewire-pulse sound daemon:
 
 ```bash
 systemctl --user restart wireplumber pipewire pipewire-pulse
