@@ -34,25 +34,25 @@ Use the slider to adjust the Nightlight intensity.
 
 The `Join Displays` option allows spanning content across connected displays.
 
-![Joined Displays]()
+![Joined Displays](/images/config-displays/join-displays.png)
 
 #### Mirror
 
 The `Mirror` option displays the same content to all displays. When this option is selected, you can select the orientation, resolution, and scale that will apply to both displays. Some resolution options may not be available if your displays have different resolutions.
 
-![Mirrored Displays]()
+![Mirrored Displays](/images/config-displays/mirror-displays.png)
 
 #### Single Display
 
 The `Single Display` option displays content to the display tab selected when enabling this option. All other displays are disabled.
 
-![Single Display]()
+![Single Display](/images/config-displays/single-display.png)
 
 ### Positioning Displays
 
 Click and drag the display rectangles to position the displays so that they match their physical placement.
 
-![Position Displays]()
+![Position Displays](/images/config-displays/position-displays.png)
 
 ## Display Options
 
