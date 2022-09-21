@@ -38,7 +38,7 @@ The status window will show current print jobs, detected printers, and other inf
 
 ### Adding Users to the lpadmin Group
 
-CUPS allows you to manage printers using Terminal commands. Configuring printers requires that the user is a part of the `lpadmin` group. You can confirm you are a part of this group with the following command:
+CUPS allows you to manage printers using Terminal commands. A user must be a part of the `lpadmin` group to use these commands. You can confirm you are a part of this group with the following command:
 
 ```bash
 groups
@@ -138,5 +138,5 @@ sudo apt --reinstall cups cups-client
 Reinstall the system control panel in case printer settings are not available.
 
 ```bash
-sudo apt install --reinstall system-config-printer
+sudo apt --reinstall system-config-printer
 ```
