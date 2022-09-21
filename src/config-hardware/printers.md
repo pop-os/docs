@@ -1,36 +1,22 @@
 # Setting up Printers
 
-Most printers are plug-and-play in Pop!\_OS. Add a network or USB connected printers in `Settings` ➞ `Printers`. Clicking `Add a Printer` will automatically search for any connected printers. Printers can also be added manually by clicking `Additional Printer Settings`.
+Most printers are plug-and-play in Pop!\_OS. Add a network or USB-connected printer in `Settings` ➞ `Printers`. Click `Add a Printer` to automatically search for any connected printers. Add a printer manually by clicking `Additional Printer Settings`.
 
 ![Printer Settings Screen](/images/printers/printer-settings.png)
 
+Pop!\_OS uses the Common Unix Printing System (CUPS) print server to manage print jobs, manage print queues, and recognize connected printers. While CUPS recognizes a wide range of printer models, printer functionality may vary. Check if your printer is compatible using <a href="https://www.openprinting.org/printers" target="_blank">OpenPrinter.com</a>.
+
 ---
 
-## CUPS and Printer Compatibility
-
-Pop!\_OS uses the Common Unix Printing System (CUPS) print server to manage print jobs, print queues, and recognizes connected printers. While CUPS recognizes a wide range of printer models, printer functionality may vary. Check if your printer is compatible using [OpenPrinter.com](https://www.openprinting.org/printers).
-
-## Checking Printer Status in CUPS
-
-Open this web page to look at the CUPS (Common Unix Printing System) configuration and status window:
-
-[localhost:631](http://localhost:631)
-
-The status window will show current print jobs, detected printers, and other information about the printing system. If you would like to share this printer with others on your local network, click on the 'Admin' link, under Server, click on the "Share printers connected to this system" and save the changes. Other computers on your network should than see that printer. When there is a prompt for your username and password, use your user name, and password used to login.
-
-![CUPS Status Window](/images/printers/cups-settings.png)
-
-CUPS allows you to manage printers using Terminal commands. See the [CUPS documentation](https://www.cups.org/doc/admin.html) for more information.
-
-## Adding a Printer
+## Adding a Printer in the Settings Application
 
 Most printers will be automatically added to the computer. If a printer is not automatically added, you can manually add printers in `Settings` ➞ `Printers`.
 
-1. Press the `Super` key and type the word Printers.
+1. Press the `Super` key and type the word "Printers".
 
-2. Choose the `Printers` application in the search box.
+2. Choose the `Printers` result the search box.
 
-3. In the `Printers Application`, click the `Add a Printer...` button and a box will pop up with different options.
+3. In the `Printers` settings panel, click the `Add a Printer...` button to search for locally connected printers.
 
     ![Click Add a Printer](/images/printers/add-a-printer.png)
 
@@ -39,6 +25,42 @@ Most printers will be automatically added to the computer. If a printer is not a
 5. Select your printer and click `Add`.
 
     ![Click Add](/images/printers/click-add.png)
+
+## Checking Printer Status in CUPS
+
+CUPS can be managed directly using a web browser by navigating to the following local URL:
+
+<a href="http://localhost:631" target="_blank">localhost:631</a>
+
+The status window will show current print jobs, detected printers, and other information about the printing system.
+
+![CUPS Status Window](/images/printers/cups-settings.png)
+
+### Adding Users to the lpadmin Group
+
+CUPS allows you to manage printers using Terminal commands. Configuring printers requires that the user is a part of the `lpadmin` group. You can confirm you are a part of this group with the following command:
+
+```bash
+groups
+```
+
+You can add yourself to this group using the below command:
+
+```bash
+sudo usermod -aG lpadmin $USER
+```
+
+If you prefer to manage printers in Terminal, See the [CUPS documentation](https://www.cups.org/doc/admin.html) for full documentation.
+
+### Sharing a Printer to the Local Network
+
+Share a printer with the local network by clicking the `Administration` tab.
+
+![CUPS Administration Tab](/images/printers/admin-tab.png)
+
+Check the box for `Share printers connected to this system`.
+
+Locally shared printers are visible in the `Printers` tab in the `Settings` application. Users with the appropriate group assignments can now select the printer and enter their username and password to gain access to the network printer. If a user is unable to see the printer, see the above section to confirm the user is in the `lpadmin` group, and to add the user to the group.
 
 ## HP Printers
 
@@ -64,15 +86,17 @@ Then run `hp-setup` to start the HP Device Manager.
 
 Brother provides a driver installation tool for Linux users. Install the appropriate driver for your Brother printer by downloading this tool and running the installer with your printer model appended to the command.
 
-1. Click [this link](https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl) to download Brother's Driver Install Tool for Linux while searching for the appropriate printer.
+1. Click <a href="https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl" target="_blank">this link</a> to search for the appropriate printer.
 
-2. Click the `Click here to download the tool` link on the Brother download page.
+2. Once you've located your printer, select `Linux (deb)` for your "OS Version", then click `OK`.
 
-3. Select Linux (deb) for your "OS Version", then click `OK`.
+3. Select the `Linux (deb)` radio button.
+
+    ![Select deb File](/images/printers/select-deb-file.png)
 
 4. Click `Agree to the EULA and Download`.
 
-5. Choose the `Save File` option when prompted.
+5. Choose the `Save File` option if prompted.
 
 6. Press `Super` + `T` to launch the Terminal application.
 
@@ -85,39 +109,33 @@ Brother provides a driver installation tool for Linux users. Install the appropr
 
 8. Run the installer by typing the unzipped installer name into the terminal.
 
-    > **Note**: Your installer version may differ from this guide. Type the first portion of the installer name as shown below, and then hit <kbd>TAB</kbd> to complete the installer name. Place your exact printer model where we wrote PRINTERNAME below.
+    > **Note**: Your installer version may differ from this guide. Type the first portion of the installer name as shown below, and then hit `TAB` to complete the installer name. Substitute PRINTERNAME with your exact printer model name.
 
    ```
    sudo bash linux-brprinter-installer PRINTERNAME
    ```
   
-    > **Note**: If prompted for a "DeviceURI", you can find that by opening up Settings > Printers > Additional Printer Settings, then right click your printer and click Properties. In the resulting window, you'll be able to find your Device URI, as shown in the screenshot below.
+ 9. If prompted for a `DeviceURI`, you can find that by navigating to `Settings` ➞ `Printers` ➞ `Additional Printer Settings`, then right-clicking your printer and selecting `Properties`.
 
     ![Printer Properties](/images/printers/printer-properties.png)
 
 ## Epson Printers
 
-Epson printer drivers are in the `printer-driver-escpr` package and is also installed by default. You may need to install the lsb package for some printer versions:
+Epson printer drivers are in the `printer-driver-escpr` package, which is also installed by default. You may need to install the lsb package for some printer versions:
 
 ```bash
 sudo apt install lsb printer-driver-escpr
 ```
 
-Automatically installed printers will work fine, but if you need to make changes to the configuration of the printers, you will need to add your user to the `lpadmin` group. To do that run the following command:
-
-```bash
-sudo usermod -aG lpadmin $USER
-```
-
 ## Useful Printer Commands
 
-This command reinstalls CUPS:
+Reinstall CUPS:
 
 ```bash
-sudo apt install --reinstall cups cups-client
+sudo apt --reinstall cups cups-client
 ```
 
-This command reinstalls the system control panel if the settings are not available.
+Reinstall the system control panel in case printer settings are not available.
 
 ```bash
 sudo apt install --reinstall system-config-printer

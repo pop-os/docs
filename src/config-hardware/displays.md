@@ -6,7 +6,7 @@ Navigate to `Settings` ➞ `Displays` to adjust multi-monitor placement, resolut
 
 ---
 
-## Nightlight
+## Night Light
 
 Nightlight prevents eye strain and sleeplessness by reducing exposure to blue light.
 
@@ -26,7 +26,39 @@ Use the slider to adjust the Nightlight intensity.
     <source src="/images/config-displays/nightlight-adjust.webm" />
 </video>
 
+## Multi-Monitor Display Options
+
+### Display Mode
+
+#### Join Displays
+
+The `Join Displays` option allows spanning content across connected displays.
+
+![Joined Displays]()
+
+#### Mirror
+
+The `Mirror` option displays the same content to all displays. When this option is selected, you can select the orientation, resolution, and scale that will apply to both displays. Some resolution options may not be available if your displays have different resolutions.
+
+![Mirrored Displays]()
+
+#### Single Display
+
+The `Single Display` option displays content to the display tab selected when enabling this option. All other displays are disabled.
+
+![Single Display]()
+
+### Positioning Displays
+
+Click and drag the display rectangles to position the displays so that they match their physical placement.
+
+![Position Displays]()
+
 ## Display Options
+
+If you are using a multi-monitor setup, you can assign the below settings to a specific monitor by selecting the tab with the desired monitor's label.
+
+![Multi-monitor tabs in Display Settings]()
 
 ### Orientation
 
@@ -50,11 +82,11 @@ Landscape (Flipped)
 
 ### Resolution
 
-Resolution is the number of length-by-width pixels used to render content on a display. Higher resolution values provide finer image detail. The options available for this setting are dependant on the resolutions supported by your display. A display's native resolution is the actual number of pixels available on the display, and will provide the clearest possible image.
+Resolution is the number of length-by-width pixels used to render content on a display. Higher resolution values provide finer image detail. The options available for this setting are dependant on the resolutions supported by your display. A display's native resolution (usually the maximum possible setting) is the actual number of pixels available on the display, and will provide the clearest possible image.
 
 ### Refresh Rate
 
-Refresh rate refers to the number of times per second that the image is updated on the display. A higher refresh rate will make the motion of objects on the screen appear smoother. The available refresh rate options depend on the refresh rates supported by your display.
+Refresh rate refers to the number of times per second that the image is updated on the display. A higher refresh rate will make the motion of objects on the screen appear smoother. The available refresh rate options depend on the refresh rates supported by your display.Some displays or connectors support different refresh rates for different resolutions (e.g. a higher refresh rate can be achieved with a lower resolution.)
 
 ### Scale
 
@@ -72,6 +104,6 @@ Example of a display at 200% scale:
 
 ### Fractional Scaling
 
-Enable `Fractional Scaling` to access scaling options that do not multiply object scaling by whole numbers.
+Enable `Fractional Scaling` to access scaling options that do not multiply object scaling by whole numbers. This option is also necessary when setting different scale settings per display in a multi-display configuration.
 
 ![Fractional Scaling Options](/images/config-displays/fractional-scaling-options.png)

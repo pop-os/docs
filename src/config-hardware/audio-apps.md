@@ -42,7 +42,7 @@ In this example, a background noise cancellation filter is added to the micropho
 
     ![Add Effect](/images/audio-mic/add-effect.png)
 
-4. To test the effect, click the button the lower right corner to send the input stream to the output stream. Use the sliders to increase the `Input` (microphone) or `Output` (speakers).
+3. To test the effect, click the button the lower right corner to send the input stream to the output stream. Use the sliders to increase the `Input` (microphone) or `Output` (speakers).
 
     ![Testing Effects](/images/audio-mic/test-effect.png)
 
