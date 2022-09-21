@@ -90,9 +90,9 @@ Brother provides a driver installation tool for Linux users. Install the appropr
 
 2. Once you've located your printer, select `Linux (deb)` for your "OS Version", then click `OK`.
 
-3. Select the `Linux (deb)` radio button.
-
     ![Select deb File](/images/printers/select-deb-file.png)
+
+3. Select the `Driver Install Tool` at the top of the list.
 
 4. Click `Agree to the EULA and Download`.
 
