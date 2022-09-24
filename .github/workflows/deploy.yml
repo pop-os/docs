@@ -1,4 +1,4 @@
-name: Deploy mdBook to GitHub Pages
+name: Deploy Pop!_OS Documentation to GitHub Pages
 
 on:
   push:
@@ -6,40 +6,21 @@ on:
       - main
 
 jobs:
-
-  Build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
-
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1
-        with:
-          mdbook-version: '0.4.15'
+        uses: actions/checkout@v3
 
       - name: Build Docs
         run: mdbook build
-
-  Deploy:
-    runs-on: ubuntu-latest
-    needs:
-      - Build
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-
+      
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
-          mdbook-version: '0.4.15'
-
-      - name: Build Docs
-        run: mdbook build
-
-      - name: Deploy to gh-pages  
-        uses: JamesIves/github-pages-deploy-action@4.1.7
+          mdbook-version: 'latest'
+        
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: dist # The folder the action should deploy.
+          folder: dist
