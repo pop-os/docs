@@ -132,11 +132,11 @@ sudo apt install lsb printer-driver-escpr
 Reinstall CUPS:
 
 ```bash
-sudo apt --reinstall cups cups-client
+sudo apt reinstall cups cups-client
 ```
 
 Reinstall the system control panel in case printer settings are not available.
 
 ```bash
-sudo apt --reinstall system-config-printer
+sudo apt reinstall system-config-printer
 ```
