@@ -1,8 +1,10 @@
-# Speaker & Audio Settings
+# Speaker & Microphone Settings
 
 The system sound settings located in `Settings` ➞ `Sound` allow the selection and configuration of audio input and output devices.
 
 ---
+
+# Speaker Settings
 
 ## System Volume
 
@@ -45,6 +47,8 @@ The volume meter underneath the drop-down will show if the computer is sending a
 The `Balance` setting underneath the output device can make one side of the audio louder than the other; this can be useful if you're using physical speakers and one is farther away than the other.
 
 ---
+
+# Microphone Settings
 
 ## Input Device Selection
 
