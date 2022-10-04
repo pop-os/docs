@@ -51,27 +51,3 @@ In this example, a background noise cancellation filter is added to the micropho
 [Audio Output Switcher](https://extensions.gnome.org/extension/751/audio-output-switcher/) is a GNOME extension that adds selectable audio input/output devices to the System menu. See [this section](/customize-pop/gnome-tweaks-extensions/gnome-extensions.md) for more information about installing GNOME Extensions.
 
 ![Audio Output Switcher](/images/audio-mic/output-switcher.png)
-
-## AlsaMixer
-
-AlsaMixer is a graphical command-line program that directly interfaces with the Advanced Linux Sound Architecture (ALSA) framework. AlsaMixer provides more advanced audio configuration options, like selecting sound cards and viewing all system audio devices. AlsaMixer comes preloaded in Pop!_OS and does not require installation.
-
-### Launching AlsaMixer
-
-Open the Terminal and type `alsamixer` to launch the program.
-
-![Launch Alsamixer](/images/audio-mic/launch-alsamixer.png)
-
-### AlsaMixer Controls
-
-Many AlsaMixer functions are controlled using keyboard commands. Press `F1` to view all AlsaMixer controls.
-
-![Alsamixer Keyboard Controls](/images/audio-mic/alsamixer-controls.png)
-
-ALSA controls device volumes at a lower level than PipeWire. It's recommended to control the volume using PipeWire, but if a sound device becomes muted in ALSA, `alsamixer` can be used to unmute it. Use the `🠐` `🠒` keys to navigate between sources, and press `m` to mute or unmute a source.
-
-### Selecting a Sound Card
-
-Press `F6` and use the arrow keys to highlight a sound card. Press `Enter` to select the sound card.
-
-![Select Sound Card](/images/audio-mic/select-sound-card.png)
