@@ -1,4 +1,4 @@
-# POP!_OS Documentation
+# Pop!_OS Documentation
 
 https://pop-os.github.io/docs
 
