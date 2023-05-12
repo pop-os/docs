@@ -1,6 +1,6 @@
 # Keyboard & Mouse
 
-`Keyboard & Mouse` settings extend customization of keyboard and mouse input behavior.
+`Keyboard & Mouse` settings extend customization of keyboard and mouse input behavior. Basic mouse settings are available in the [`Mouse & Touchpad` section](/config-hardware/mouse-touchpad.md) of the `Settings` application.
 
 ![Keyboard Mouse Tweaks](/images/gnome-tweaks-extensions/keyboard-mouse-tweaks.png)
 

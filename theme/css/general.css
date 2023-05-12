@@ -41,7 +41,8 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 .hide-boring .boring { display: none; }
 .hidden { display: none !important; }
 
-h2, h3 { margin-top: 2.5em; }
+h1 { text-align: center; }
+h2, h3 { margin-top: 1em; text-align: center; }
 h4, h5 { margin-top: 2em; }
 
 .header + .header h3,
@@ -209,4 +210,11 @@ li > p > img {
     .thumbnail:hover { 
     transform: scale(1.5); 
     }
+}
+
+/* Make horizontal rules a little bigger. */
+hr {
+    width: 110%;
+    margin-left: -5%;
+    margin-top: 2em;
 }
