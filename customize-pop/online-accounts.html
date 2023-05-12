@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Connect an Online Account - Pop!_OS Documentation</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="The Pop!_OS documentation website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/css/fonts.css">
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../introduction/what-is-pop.html"><strong aria-hidden="true">2.</strong> What is Pop!_OS?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../introduction/cosmic-shell-intro.html"><strong aria-hidden="true">2.1.</strong> Introduction to COSMIC & the Pop!_Shell</a></li><li class="chapter-item expanded "><a href="../introduction/pop-development-roadmap.html"><strong aria-hidden="true">2.2.</strong> Pop!_OS Development Roadmap</a></li><li class="chapter-item expanded "><a href="../introduction/contribute-to-pop.html"><strong aria-hidden="true">2.3.</strong> Contribute to Pop!_OS</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.4.</strong> Use Pop!_OS In a Virtual Machine</div></li></ol></li><li class="chapter-item expanded "><a href="../getting-started/getting-started.html"><strong aria-hidden="true">3.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../getting-started/create-bootable-media/create-bootable-usb.html"><strong aria-hidden="true">3.1.</strong> Create a Bootable Pop!_OS USB Device</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../getting-started/create-bootable-media/bootable-usb-using-linux.html"><strong aria-hidden="true">3.1.1.</strong> Using Linux</a></li><li class="chapter-item expanded "><a href="../getting-started/create-bootable-media/bootable-usb-using-windows.html"><strong aria-hidden="true">3.1.2.</strong> Using Windows</a></li><li class="chapter-item expanded "><a href="../getting-started/create-bootable-media/bootable-usb-using-macos.html"><strong aria-hidden="true">3.1.3.</strong> Using macOS</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.2.</strong> Demo Pop!_OS Before Installing</div></li><li class="chapter-item expanded "><a href="../getting-started/installation/installation.html"><strong aria-hidden="true">3.3.</strong> Install Pop!_OS</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.1.</strong> Custom (Advanced) Installation</div></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../navigate-pop/navigate-pop.html"><strong aria-hidden="true">4.</strong> Navigate Pop!_OS</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../navigate-pop/launching-applications.html"><strong aria-hidden="true">4.1.</strong> Locate & Launch Applications</a></li><li class="chapter-item expanded "><a href="../navigate-pop/switching-apps.html"><strong aria-hidden="true">4.2.</strong> Switch Application Windows</a></li><li class="chapter-item expanded "><a href="../navigate-pop/using-workspaces.html"><strong aria-hidden="true">4.3.</strong> Navigate with Workspaces</a></li><li class="chapter-item expanded "><a href="../navigate-pop/tiling-stacking-windows.html"><strong aria-hidden="true">4.4.</strong> Tile, Stack, & Resize Windows</a></li><li class="chapter-item expanded "><a href="../navigate-pop/navigate-files-folders.html"><strong aria-hidden="true">4.5.</strong> Navigate Files & Folders</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../navigate-pop/viewing-sorting-options.html"><strong aria-hidden="true">4.5.1.</strong> Viewing & Sorting Options</a></li><li class="chapter-item expanded "><a href="../navigate-pop/bookmarks-starred-items.html"><strong aria-hidden="true">4.5.2.</strong> Bookmarks & Starred Items</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../customize-pop/customize-pop.html"><strong aria-hidden="true">5.</strong> Customize Pop!_OS</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../customize-pop/customize-desktop.html"><strong aria-hidden="true">5.1.</strong> Customize the Desktop</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../customize-pop/desktop-options.html"><strong aria-hidden="true">5.1.1.</strong> Desktop Options</a></li><li class="chapter-item expanded "><a href="../customize-pop/background-settings.html"><strong aria-hidden="true">5.1.2.</strong> Background Settings</a></li><li class="chapter-item expanded "><a href="../customize-pop/appearance-settings.html"><strong aria-hidden="true">5.1.3.</strong> Appearance Settings</a></li><li class="chapter-item expanded "><a href="../customize-pop/dock-settings.html"><strong aria-hidden="true">5.1.4.</strong> Dock Settings</a></li><li class="chapter-item expanded "><a href="../customize-pop/workspace-settings.html"><strong aria-hidden="true">5.1.5.</strong> Workspaces Settings</a></li></ol></li><li class="chapter-item expanded "><a href="../customize-pop/application-settings.html"><strong aria-hidden="true">5.2.</strong> Configure Application Settings</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../customize-pop/applications-menu.html"><strong aria-hidden="true">5.2.1.</strong> Applications Settings</a></li><li class="chapter-item expanded "><a href="../customize-pop/application-notifications.html"><strong aria-hidden="true">5.2.2.</strong> Application Notifications</a></li><li class="chapter-item expanded "><a href="../customize-pop/default-applications.html"><strong aria-hidden="true">5.2.3.</strong> Default Applications</a></li></ol></li><li class="chapter-item expanded "><a href="../customize-pop/keyboard-settings.html"><strong aria-hidden="true">5.3.</strong> Manage Keyboard Languages, Layouts, & Shortcuts</a></li><li class="chapter-item expanded "><a href="../customize-pop/online-accounts.html" class="active"><strong aria-hidden="true">5.4.</strong> Connect an Online Account</a></li><li class="chapter-item expanded "><a href="../customize-pop/color-profiles.html"><strong aria-hidden="true">5.5.</strong> Manage Color Profiles</a></li><li class="chapter-item expanded "><a href="../customize-pop/region-language.html"><strong aria-hidden="true">5.6.</strong> Configure Region & Language</a></li><li class="chapter-item expanded "><a href="../customize-pop/accessibility-settings.html"><strong aria-hidden="true">5.7.</strong> Enable Accessibility Settings</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../customize-pop/accessibility-seeing.html"><strong aria-hidden="true">5.7.1.</strong> Seeing</a></li><li class="chapter-item expanded "><a href="../customize-pop/accessibility-hearing.html"><strong aria-hidden="true">5.7.2.</strong> Hearing</a></li><li class="chapter-item expanded "><a href="../customize-pop/accessibility-typing.html"><strong aria-hidden="true">5.7.3.</strong> Typing</a></li><li class="chapter-item expanded "><a href="../customize-pop/pointing-clicking.html"><strong aria-hidden="true">5.7.4.</strong> Pointing & Clicking</a></li></ol></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-extensions.html"><strong aria-hidden="true">5.8.</strong> Manage GNOME Tweaks & Extensions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks.html"><strong aria-hidden="true">5.8.1.</strong> GNOME Tweaks</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-appearance.html"><strong aria-hidden="true">5.8.1.1.</strong> Appearance</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-fonts.html"><strong aria-hidden="true">5.8.1.2.</strong> Fonts</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-keyboard-mouse.html"><strong aria-hidden="true">5.8.1.3.</strong> Keyboard & Mouse</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-startup-applications.html"><strong aria-hidden="true">5.8.1.4.</strong> Startup Applications</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-topbar.html"><strong aria-hidden="true">5.8.1.5.</strong> Top Bar</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-window-titlebars.html"><strong aria-hidden="true">5.8.1.6.</strong> Window Titlebars</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-tweaks-windows.html"><strong aria-hidden="true">5.8.1.7.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/gnome-extensions.html"><strong aria-hidden="true">5.8.2.</strong> GNOME Extensions</a></li><li class="chapter-item expanded "><a href="../customize-pop/gnome-tweaks-extensions/user-themes.html"><strong aria-hidden="true">5.8.3.</strong> Manage User Themes</a></li></ol></li><li class="chapter-item expanded "><a href="../manage-apps/managing-applications.html"><strong aria-hidden="true">5.9.</strong> Manage Applications & Repositories</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../manage-apps/using-pop-shop.html"><strong aria-hidden="true">5.9.1.</strong> Using the Pop!_Shop</a></li><li class="chapter-item expanded "><a href="../manage-apps/using-eddy.html"><strong aria-hidden="true">5.9.2.</strong> Using Eddy</a></li><li class="chapter-item expanded "><a href="../manage-apps/using-appimages.html"><strong aria-hidden="true">5.9.3.</strong> Using AppImages</a></li><li class="chapter-item expanded "><a href="../manage-apps/using-terminal.html"><strong aria-hidden="true">5.9.4.</strong> Using the Terminal</a></li><li class="chapter-item expanded "><a href="../manage-apps/manage-repos.html"><strong aria-hidden="true">5.9.5.</strong> Manage Repositories</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../manage-apps/manage-repos-repoman.html"><strong aria-hidden="true">5.9.5.1.</strong> Using Repoman (GUI)</a></li><li class="chapter-item expanded "><a href="../manage-apps/manage-repos-terminal.html"><strong aria-hidden="true">5.9.5.2.</strong> Using the Terminal (CLI)</a></li><li class="chapter-item expanded "><a href="../manage-apps/manage-repos-manually.html"><strong aria-hidden="true">5.9.5.3.</strong> Using Text Files</a></li></ol></li><li class="chapter-item expanded "><a href="../manage-apps/fix-packages.html"><strong aria-hidden="true">5.9.6.</strong> Package Manager Maintenance</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Pop! Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="dark">Pop! Dark</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Pop!_OS Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/pop-os/docs" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/pop-os/docs/edit/master/src/customize-pop/online-accounts.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="online-accounts"><a class="header" href="#online-accounts">Online Accounts</a></h1>
+<p>Settings to connect online accounts are located in <code>Settings</code> ➞ <code>Online Accounts</code>. These settings provide single sign-on for online providers. Connected accounts can directly access services like Mail, Calendar, Contacts, Maps, Photos, Files, and Music, without requiring sign-on through a web browser.</p>
+<p><img src="/images/online-accounts/online-account-settings.png" alt="Online Account Settings" /></p>
+<h2 id="required-data-access"><a class="header" href="#required-data-access">Required Data Access</a></h2>
+<p>An up-to-date version of this chart can also be found on the <a href="https://wiki.gnome.org/Projects/GnomeOnlineAccounts/Providers">GNOME wiki</a>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Provider</th><th>Mail</th><th>Calendar</th><th>Contacts</th><th>Maps</th><th>Photos</th><th>Files</th><th>Ticketing</th><th>Printers</th><th>Music</th></tr></thead><tbody>
+<tr><td>Facebook</td><td></td><td></td><td></td><td>Yes</td><td>Yes</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Flickr</td><td></td><td></td><td></td><td></td><td>Yes</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Foursquare</td><td></td><td></td><td></td><td>Yes</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Google</td><td>Yes</td><td>Yes</td><td>Yes</td><td></td><td>Yes</td><td>Yes</td><td></td><td>Yes</td><td></td></tr>
+<tr><td>Microsoft</td><td>Yes</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Microsoft Exchange</td><td>Yes</td><td>Yes</td><td>Yes</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Nextcloud</td><td></td><td>Yes</td><td>Yes</td><td></td><td></td><td>Yes</td><td></td><td></td><td></td></tr>
+<tr><td>IMAP &amp; STMP</td><td>Yes</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Kerberos</td><td></td><td></td><td></td><td></td><td></td><td></td><td>Yes</td><td></td><td></td></tr>
+<tr><td>Last.fm</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Yes</td></tr>
+</tbody></table>
+</div>
+<h2 id="connecting-an-online-account"><a class="header" href="#connecting-an-online-account">Connecting an Online Account</a></h2>
+<p>Connecting an account authorizes Pop!_OS to enable system integrations with the account provider. The registration process for each provider will vary.</p>
+<ol>
+<li>
+<p>Select a provider and enter your login information.</p>
+<p><img src="/images/online-accounts/select-provider.png" alt="Select Provider" /></p>
+</li>
+<li>
+<p>Review the account data that will become accessible to GNOME, then click <code>Allow</code>.</p>
+<p><img src="/images/online-accounts/click-allow.png" alt="Click Allow" /></p>
+</li>
+<li>
+<p>Toggle switches to enable or disable specific integrations to the service. Close the window when finished.</p>
+<p><img src="/images/online-accounts/toggle-switches.png" alt="Toggle Switches" /></p>
+</li>
+<li>
+<p>Connected accounts appear above the list of selectable providers.</p>
+<p><img src="/images/online-accounts/connected-account.png" alt="Connected Account" /></p>
+</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../customize-pop/keyboard-settings.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../customize-pop/color-profiles.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../customize-pop/keyboard-settings.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../customize-pop/color-profiles.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
