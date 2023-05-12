@@ -211,3 +211,10 @@ li > p > img {
     transform: scale(1.5); 
     }
 }
+
+/* Make horizontal rules a little bigger. */
+hr {
+    width: 110%;
+    margin-left: -5%;
+    margin-top: 2em;
+}

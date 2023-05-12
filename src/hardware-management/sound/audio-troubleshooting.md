@@ -4,13 +4,23 @@ If your speakers or microphone are not working, you can check various points in 
 
 ---
 
-## Testing Audio
+# Testing Audio
+
+## Testing Output
 
 In `Settings` -> `Sound`, click `Test` to display the speakers in your audio configuration. Click a speaker to play a test sound that states the speaker's position.
 
-![Test Output Device](/images/audio-mic/test-audio-output.png)
+![Testing an Output Device](./img/speaker-test.webp)
+
+## Testing Input
 
 Microphones can be tested using the activity meter in the `Input` section.
+
+![Testing an Input Device](./img/microphone-test.webp)
+
+> **Note:** The live volume meters in the Settings application can sometimes become disconnected. You can also test your microphone using a third-party application such as Audacity.
+
+## Triaging a Failed Test
 
 If a sound device is not working, first steps include:
 
@@ -20,31 +30,31 @@ If a sound device is not working, first steps include:
 
 ---
 
-## AlsaMixer
+# Using AlsaMixer
 
 AlsaMixer is a terminal user interface (TUI) program that directly interfaces with ALSA. Because ALSA works at a lower level than PipeWire, you usually do not need to use AlsaMixer, but it can be useful to troubleshoot a lack of sound or speaker options.
 
 For example, if you find that you do not have any audio even though the Settings application shows that sound is not muted, you can check AlsaMixer to see if the output is muted at a lower leve.
 
-### Launching AlsaMixer
+## Launching AlsaMixer
 
 Open the Terminal and type `alsamixer` to launch the program.
 
 ![Launch Alsamixer](/images/audio-mic/launch-alsamixer.png)
 
-### Selecting a Sound Card
+## Selecting a Sound Card
 
 Press `F6` and use the arrow keys to highlight a sound card. Press `Enter` to select the sound card.
 
 ![Select Sound Card](/images/audio-mic/select-sound-card.png)
 
-### Selecting an Input/Output
+## Selecting an Input/Output
 
 Use the `🠐` and `🠒` arrow keys to navigate between input/output devices. If you see an output labeled `MM`, the output is muted; it can be unmuted by selecting it and pressing `m`. You can also adjust the volume using the up and down arrow keys.
 
 gif
 
-### Exiting AlsaMixer
+## Exiting AlsaMixer
 
 AlsaMixer can be exited by pressing `Esc` until the application closes (pressing `Esc` more than once may be necessary if a menu is open within AlsaMixer.) You can also press `Ctrl` - `C` to immediately exit AlsaMixer.
 
