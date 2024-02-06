@@ -214,7 +214,15 @@ li > p > img {
 
 /* Make horizontal rules a little bigger. */
 hr {
-    width: 110%;
-    margin-left: -5%;
     margin-top: 2em;
+}
+main {
+    container-type: inline-size;
+    container-name: main;
+}
+@container main (min-width: 750px) {
+    hr {
+        width: 110%;
+        margin-left: -5%;
+    }
 }
