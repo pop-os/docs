@@ -58,6 +58,9 @@ Enter a search term; matched items will automatically populate below the search 
 
 Click the down arrow and enter a date in `When` to limit the search to files' creation date. You can also select a relative date range from the list. Choose to apply the date query to `Last Modified`, `Last Used`, or `Created` file attributes.
 
+![Change file path]
+In order to type in a file path like `/etc/` hit the `Ctrl` and `L` key. The search bar will then show the absolute file path and you'll be able to enter a new one.
+
 ![Date Query](/images/navigate-files-folders/date-query.png)
 
 To limit the search to a specific file type, click the down arrow next to the magnifying glass and select an item under `What`. This will limit the search to that specific file type.
